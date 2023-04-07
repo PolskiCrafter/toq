@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 17
+    name = "West Perhalia"
+    value = 9
+    states = {
+        172 190 218 107 260 181 233 281 262
+    }
+}

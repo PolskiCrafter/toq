@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 4
+    name = "foraxx"
+    value = 15
+    states = {
+        94 70 76 2 59 62 5
+    }
+}

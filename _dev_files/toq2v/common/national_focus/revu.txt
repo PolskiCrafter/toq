@@ -1,0 +1,404 @@
+focus_tree = {
+	id = revu
+	continuous_focus_position = { x = -40 y = 1310 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UFH
+		}
+	}
+	#A war effort
+	focus = {
+		id = UFH_a_war_effort
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_nine_hafze  }
+	}
+
+	#No more tyranny!
+	focus = {
+		id = UFH_nomoretyranny
+		icon = GFX_goal_unknown
+		x = 1
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_last_efforts  }
+	}
+
+	#Destroy Fascism!
+	focus = {
+		id = UFH_destroyfascism
+		icon = GFX_goal_unknown
+		x = 5
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_last_efforts  }
+	}
+
+	#Down with Capitalism!
+	focus = {
+		id = UFH_downwithcapitalism
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_last_efforts  }
+	}
+
+	#Our the Red Fleet
+	focus = {
+		id = UFH_our_the_red_fleet
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = UFH_protect_the_inventory_delivery  }
+	}
+
+	#We are the Animals
+	focus = {
+		id = UFH_we_are_the_animals
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#To arms
+	focus = {
+		id = UFH_to_arms
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_we_are_the_animals  }
+	}
+
+	#Animal militia
+	focus = {
+		id = UFH_animal_militia
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_we_are_the_animals  }
+	}
+
+	#Liberating factories
+	focus = {
+		id = UFH_liberating_factories
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_we_are_the_animals  }
+	}
+
+	#Nine Hafze
+	focus = {
+		id = UFH_nine_hafze
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_to_arms  } prerequisite = { focus = UFH_animal_militia  } prerequisite = { focus = UFH_liberating_factories  }
+	}
+
+	#For freedom and equality
+	focus = {
+		id = UFH_for_freedom_and_equality
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_nine_hafze  }
+	}
+
+	#Everyone with us
+	focus = {
+		id = UFH_everyone_with_us
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_nine_hafze  }
+	}
+
+	#Let's remember why we are fighting
+	focus = {
+		id = UFH_letsrememberwhywearefighting
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_for_freedom_and_equality  }
+	}
+
+	#Anti-subversive organization
+	focus = {
+		id = UFH_antisubversive_organization
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_letsrememberwhywearefighting  }
+	}
+
+	#Factory masking
+	focus = {
+		id = UFH_factory_masking
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_a_war_effort  }
+	}
+
+	#Production in the basements
+	focus = {
+		id = UFH_production_in_the_basements
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_factory_masking  }
+	}
+
+	#Remember about everyone
+	focus = {
+		id = UFH_remember_about_everyone
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_everyone_with_us  }
+	}
+
+	#Everyone will eat
+	focus = {
+		id = UFH_everyone_will_eat
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_remember_about_everyone  }
+	}
+
+	#Talks with Democrats
+	focus = {
+		id = UFH_talks_with_democrats
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Solidarity against tyrants
+	focus = {
+		id = UFH_solidarity_against_tyrants
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_talks_with_democrats  }
+	}
+
+	#Last efforts
+	focus = {
+		id = UFH_last_efforts
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_antisubversive_organization  } prerequisite = { focus = UFH_production_in_the_basements  } prerequisite = { focus = UFH_everyone_will_eat  }
+	}
+
+	#Planing the offensiv
+	focus = {
+		id = UFH_planing_the_offensiv
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+	}
+
+	#Democracy at all costs
+	focus = {
+		id = UFH_democracy_at_all_costs
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_planing_the_offensiv  }
+		mutually_exclusive = { focus = UFH_organizationdisciplineandorder  }
+	}
+
+	#Organization, discipline and order
+	focus = {
+		id = UFH_organizationdisciplineandorder
+		icon = GFX_goal_unknown
+		x = 13
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_planing_the_offensiv  }
+	}
+
+	#Protect the inventory delivery
+	focus = {
+		id = UFH_protect_the_inventory_delivery
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_democracy_at_all_costs  focus = UFH_organizationdisciplineandorder  }
+	}
+
+	#Professional training
+	focus = {
+		id = UFH_professional_training
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = UFH_democracy_at_all_costs  focus = UFH_organizationdisciplineandorder  }
+	}
+
+	#Bombs for Tyrants
+	focus = {
+		id = UFH_bombs_for_tyrants
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = UFH_democracy_at_all_costs  focus = UFH_organizationdisciplineandorder  }
+	}
+
+	#Behind enemy lines
+	focus = {
+		id = UFH_behind_enemy_lines
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_professional_training  }
+	}
+
+	#Protectors of Animals
+	focus = {
+		id = UFH_protectors_of_animals
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_bombs_for_tyrants  }
+	}
+
+	#True Army
+	focus = {
+		id = UFH_true_army
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = UFH_our_the_red_fleet  } prerequisite = { focus = UFH_behind_enemy_lines  } prerequisite = { focus = UFH_protectors_of_animals  } prerequisite = { focus = UFH_political_commisars  }
+	}
+
+	#Kramel escapades
+	focus = {
+		id = UFH_kramel_escapades
+		icon = GFX_goal_unknown
+		x = 9
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+	}
+
+	#International Volunteers
+	focus = {
+		id = UFH_international_volunteers
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UFH_democracy_at_all_costs  focus = UFH_organizationdisciplineandorder  }
+	}
+
+	#Political Commisars
+	focus = {
+		id = UFH_political_commisars
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = UFH_international_volunteers  }
+	}
+
+}

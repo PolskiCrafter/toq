@@ -1,0 +1,36 @@
+characters = {	unions_of_all_kind = {
+		name = unions_of_all_kind
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/commune-ideas/unions_of_all_kind-1.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = unions_of_all_kind
+		}
+	}
+	conciuls_of_workes_and_farmers = {
+		name = conciuls_of_workes_and_farmers
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/commune-ideas/conciuls_of_workes_and_farmers-1.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = conciuls_of_workes_and_farmers
+		}
+	}
+	scientific_collectives = {
+		name = scientific_collectives
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/commune-ideas/scientific_collectives-1.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = scientific_collectives
+		}
+	}

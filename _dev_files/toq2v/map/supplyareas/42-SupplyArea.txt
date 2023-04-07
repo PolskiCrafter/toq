@@ -1,0 +1,9 @@
+
+supply_area={
+	id=42
+	name="Errda"
+	value=10
+	states={
+		353 301 307 321 265 266 373 386 361 339 334 
+	}
+}

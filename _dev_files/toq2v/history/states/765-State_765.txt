@@ -1,0 +1,17 @@
+state={
+	id=765
+	name="STATE_765"
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			6612 3
+		}
+	}
+	provinces={
+		358 1708 3195 3798 4532 5042 6612 10201 10241 10327 10389 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

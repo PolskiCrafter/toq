@@ -1,0 +1,13 @@
+state={
+	id=530
+	name="STATE_530"
+	provinces={
+		4869 6196 9251 9267 9315 
+	}
+	history = {
+		owner = VNO
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

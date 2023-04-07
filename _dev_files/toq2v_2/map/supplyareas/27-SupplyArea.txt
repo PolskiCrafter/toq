@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 27
+    name = "Brestie"
+    value = 12
+    states = {
+        548 535 622 511 581 546 530 558
+    }
+}

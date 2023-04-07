@@ -1,0 +1,65 @@
+characters = {	counciul_of_military_theoreticians = {
+		name = counciul_of_military_theoreticians
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/AOK/VDzReoPx-1.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = counciul_of_military_theoreticians
+			allowed = {
+				original_tag = AOK
+			}
+			traits = {}
+		}
+	}
+	counciul_of_military_theoreticians = {
+		name = counciul_of_military_theoreticians
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/AOK/BmoMAXSq-1.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = counciul_of_military_theoreticians
+			allowed = {
+				original_tag = AOK
+			}
+			traits = {}
+		}
+	}
+	counciul_of_military_theoreticians = {
+		name = counciul_of_military_theoreticians
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/AOK/ltGnsjog-1.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = counciul_of_military_theoreticians
+			allowed = {
+				original_tag = AOK
+			}
+			traits = {}
+		}
+	}
+	counciul_of_military_theoreticians = {
+		name = counciul_of_military_theoreticians
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/AOK/dATmNncf-1.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = counciul_of_military_theoreticians
+			allowed = {
+				original_tag = AOK
+			}
+			traits = {council_of_theorists }
+		}
+	}
+}

@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 13
+    name = "Ibengruve"
+    value = 14
+    states = {
+        161 229 193 207 246 197 179 118 291 329 313 267
+    }
+}

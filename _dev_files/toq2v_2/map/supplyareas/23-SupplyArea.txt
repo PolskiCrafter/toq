@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 23
+    name = "Kotkodakia"
+    value = 11
+    states = {
+        599 587 598 608 568 526 569 549 559 574 563 528
+    }
+}

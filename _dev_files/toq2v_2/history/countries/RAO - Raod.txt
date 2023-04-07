@@ -1,0 +1,41 @@
+﻿oob = "RAO_1090"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 1090.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1089.6.24"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	marlianimibrunism = 9
+	gemefraism = 9
+	kollektigleichenism = 9
+	futhdeomism = 9
+	ubestrapanism = 9
+	confamdivism = 9
+	nacinoparinism = 9
+	light = 9
+	darkness = 9
+	aniprimism = 9
+	sociallibrism = 9
+}
+
+

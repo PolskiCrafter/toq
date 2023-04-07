@@ -1,0 +1,13 @@
+state={
+	id=777
+	name="STATE_777"
+	provinces={
+		4554 5141 5424 5678 6702 7538 10283 10296 10379 
+	}
+	history = {
+		owner = ORT
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

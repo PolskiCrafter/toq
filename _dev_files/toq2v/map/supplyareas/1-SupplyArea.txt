@@ -1,0 +1,8 @@
+supply_area = {
+    id = 1
+    name = "Nort est Glibenaht"
+    value = 10
+    states = {
+        158 166 195 199 226
+    }
+}

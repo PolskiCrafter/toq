@@ -1,0 +1,17 @@
+state={
+	id=373
+	name="STATE_373"
+	history = {
+		owner = ERR
+		add_core_of = ERR
+		victory_points = {
+			2336 18
+		}
+	}
+	provinces={
+		1555 2336 8710 8760 8767 8865 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

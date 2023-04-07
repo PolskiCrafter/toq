@@ -1,0 +1,33 @@
+characters = {
+#Create country leader - Kut
+kut = {
+	name = kut
+	portraits = {
+		civilian = {
+			#Custom image for Kut
+			large = "/gfx/leaders/KUT/rJmkMXhT-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = qugtromosyndikatism
+		traits = {  }
+	}
+}
+
+#Create country leader - Kut
+kut = {
+	name = kut
+	portraits = {
+		civilian = {
+			#Custom image for Kut
+			large = "/gfx/leaders/KUT/ZQxJjnDi-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = technoanimilibris
+		traits = {  }
+	}
+}
+}

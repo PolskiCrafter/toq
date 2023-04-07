@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: Silence before the storm
+	SpriteType = { 
+		name = "silence_before_the_storm-1"
+		texturefile = "gfx/interface/bookmarks/silence_before_the_storm-bookmark/silence_before_the_storm-1.dds"
+	}
+

@@ -1,0 +1,28 @@
+TST = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+DVE = {
+	color = rgb { 78 78 78 }
+	color_ui = rgb { 78 78 78 }
+}
+KAT = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+ZAK = {
+	color = rgb { 86 66 66 } 
+	color_ui = rgb { 86 66 66 }
+}
+ORT = {
+	color = rgb { 111 111 111 } 
+	color_ui = rgb { 111 111 111 }
+}
+ESN = {
+	color = rgb { 44 44 44 } 
+	color_ui = rgb { 44 44 44 }
+}
+HBJ = {
+	color = rgb { 137 137 137 } 
+	color_ui = rgb { 137 137 137 }
+}

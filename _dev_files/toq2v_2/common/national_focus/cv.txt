@@ -1,0 +1,93 @@
+focus_tree = {
+	id = cv
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUE
+		}
+	}
+	#All is not yet lost!
+	focus = {
+		id = HUE_allisnotyetlost
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Open Capitol Armory
+	focus = {
+		id = HUE_open_capitol_armory
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_allisnotyetlost  }
+	}
+
+	#Securing the Treasury
+	focus = {
+		id = HUE_securing_the_treasury
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_allisnotyetlost  }
+	}
+
+	#Impirial Guard
+	focus = {
+		id = HUE_impirial_guard
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_open_capitol_armory  } prerequisite = { focus = HUE_securing_the_treasury  }
+	}
+
+	#Loyalist Army
+	focus = {
+		id = HUE_loyalist_army
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_open_capitol_armory  } prerequisite = { focus = HUE_securing_the_treasury  }
+	}
+
+	#For the Empire
+	focus = {
+		id = HUE_for_the_empire
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_open_capitol_armory  } prerequisite = { focus = HUE_securing_the_treasury  }
+	}
+
+	#Protect the Capitol
+	focus = {
+		id = HUE_protect_the_capitol
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

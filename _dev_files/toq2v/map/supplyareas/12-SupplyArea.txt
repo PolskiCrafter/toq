@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 12
+    name = "Ubenkruw"
+    value = 11
+    states = {
+        288 270 215 208 247 220 185 175 234 213 279
+    }
+}

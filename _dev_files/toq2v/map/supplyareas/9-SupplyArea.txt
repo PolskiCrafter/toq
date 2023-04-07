@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 9
+    name = "Ubengrese"
+    value = 10
+    states = {
+        289 248 259 219 216 224 244 202 187 178 183
+    }
+}

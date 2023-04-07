@@ -1,0 +1,17 @@
+state={
+	id=260
+	name="STATE_260"
+	history = {
+		owner = PRH
+		add_core_of = PRH
+		victory_points = {
+			4866 2
+		}
+	}
+	provinces={
+		3171 4866 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

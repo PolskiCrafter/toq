@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 6
+    name = "Dragons"
+    value = 16
+    states = {
+        3 7 9 12 13 11
+    }
+}

@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 3
+    name = "Romdendagtens"
+    value = 12
+    states = {
+        240 256 337
+    }
+}

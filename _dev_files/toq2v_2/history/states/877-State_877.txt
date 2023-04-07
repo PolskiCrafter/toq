@@ -1,0 +1,10 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		535 945 3314 3740 10727 10768 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

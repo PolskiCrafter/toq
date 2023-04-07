@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 15
+    name = "Uguds"
+    value = 10
+    states = {
+        378 344 365 389 318 298 340 280
+    }
+}

@@ -1,0 +1,17 @@
+state={
+	id=604
+	name="STATE_604"
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		victory_points = {
+			7555 6
+		}
+	}
+	provinces={
+		651 1423 3845 7555 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

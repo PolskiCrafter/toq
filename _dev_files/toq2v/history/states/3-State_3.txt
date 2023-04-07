@@ -1,0 +1,20 @@
+state={
+	id=3
+	name="STATE_3"
+	history = {
+		owner = DRA
+		add_core_of = DRA
+		victory_points = {
+			1757 11
+		}
+		victory_points = {
+			2905 34
+		}
+	}
+	provinces={
+		1135 1569 1757 2905 2967 4959 7198 7689 7693 7706 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

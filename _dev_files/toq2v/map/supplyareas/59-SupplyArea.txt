@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 59
+    name = "Pepro Sundeo"
+    value = 8
+    states = {
+        922 916 921 908 907 919 910 906 917 925 920 924 926 927 923 929 930
+    }
+}

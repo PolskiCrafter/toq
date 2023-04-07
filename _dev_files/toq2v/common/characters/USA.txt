@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - Lahatha Viquala
+lahatha_viquala = {
+	name = lahatha_viquala
+	portraits = {
+		civilian = {
+			#Custom image for Lahatha Viquala
+			large = "/gfx/leaders/USA/lzxcaIVo-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = clans
+		traits = {  }
+	}
+}
+
+#Create country leader - 1
+1 = {
+	name = 1
+	portraits = {
+		civilian = {
+			#Custom image for 1
+			large = "/gfx/leaders/USA/QUnVXdow-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = holly_masters_state
+		traits = {  }
+	}
+}
+
+#Create country leader - 5
+5 = {
+	name = 5
+	portraits = {
+		civilian = {
+			#Custom image for 5
+			large = "/gfx/leaders/USA/ptOwUeuf-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = sociallibrism
+		traits = {  }
+	}
+}
+
+#Create country leader - Amasyl Barkson
+amasyl_barkson = {
+	name = amasyl_barkson
+	portraits = {
+		civilian = {
+			#Custom image for Amasyl Barkson
+			large = "/gfx/leaders/USA/SaCGFAQg-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = animlibris
+		traits = {  }
+	}
+}
+}

@@ -1,0 +1,17 @@
+state={
+	id=664
+	name="STATE_664"
+	history = {
+		owner = NOD
+		add_core_of = NOD
+		victory_points = {
+			4391 16
+		}
+	}
+	provinces={
+		952 1570 3278 3721 3821 4391 5918 6325 9713 9768 9799 9851 9889 9908 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

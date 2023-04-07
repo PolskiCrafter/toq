@@ -1,0 +1,378 @@
+focus_tree = {
+	id = usa1
+	continuous_focus_position = { x = -40 y = 1570 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	#And the winner is ...
+	focus = {
+		id = USA_andthewinneris
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Land of Trade and Liberty
+	focus = {
+		id = USA_land_of_trade_and_liberty
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Barkson office
+	focus = {
+		id = USA_barkson_office
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Grate Deppresion
+	focus = {
+		id = USA_grate_deppresion
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Segregation
+	focus = {
+		id = USA_segregation
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Prohibition and the Mob
+	focus = {
+		id = USA_prohibition_and_the_mob
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Patching holes
+	focus = {
+		id = USA_patching_holes
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#desperate measures
+	focus = {
+		id = USA_desperate_measures
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#O shit
+	focus = {
+		id = USA_o_shit
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Negotiation with unions
+	focus = {
+		id = USA_negotiation_with_unions
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Talks with Oposition
+	focus = {
+		id = USA_talks_with_oposition
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Talks with LemsMack
+	focus = {
+		id = USA_talks_with_lemsmack
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Vote Freedom
+	focus = {
+		id = USA_vote_freedom
+		icon = GFX_goal_unknown
+		x = 9
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = USA_vote_red  } mutually_exclusive = { focus = USA_vote_for_nation  }
+	}
+
+	#Vote Red
+	focus = {
+		id = USA_vote_red
+		icon = GFX_goal_unknown
+		x = 14
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = USA_vote_freedom  } mutually_exclusive = { focus = USA_vote_for_nation  }
+	}
+
+	#Vote for Nation
+	focus = {
+		id = USA_vote_for_nation
+		icon = GFX_goal_unknown
+		x = 19
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#4 Waye Coalition
+	focus = {
+		id = USA_4_waye_coalition
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Animals Front
+	focus = {
+		id = USA_animals_front
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Patriots Movment
+	focus = {
+		id = USA_patriots_movment
+		icon = GFX_goal_unknown
+		x = 19
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Atylanders Protecion Militia
+	focus = {
+		id = USA_atylanders_protecion_militia
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Red Militia
+	focus = {
+		id = USA_red_militia
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Strengthen the Police in the capital
+	focus = {
+		id = USA_strengthen_the_police_in_the_capital
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Choosing a candidate
+	focus = {
+		id = USA_choosing_a_candidate
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Charity events
+	focus = {
+		id = USA_charity_events
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The night of bricks
+	focus = {
+		id = USA_the_night_of_bricks
+		icon = GFX_goal_unknown
+		x = 19
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#General strike
+	focus = {
+		id = USA_general_strike
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Promises, Promises
+	focus = {
+		id = USA_promisespromises
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Atylands Dream
+	focus = {
+		id = USA_atylands_dream
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#I have a Draem
+	focus = {
+		id = USA_i_have_a_draem
+		icon = GFX_goal_unknown
+		x = 14
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Streats Marches
+	focus = {
+		id = USA_streats_marches
+		icon = GFX_goal_unknown
+		x = 20
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Dream of Grater Nation
+	focus = {
+		id = USA_dream_of_grater_nation
+		icon = GFX_goal_unknown
+		x = 19
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#4 waye
+	focus = {
+		id = USA_4_waye
+		icon = GFX_goal_unknown
+		x = 12
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#AF
+	focus = {
+		id = USA_af
+		icon = GFX_goal_unknown
+		x = 14
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = USA_andthewinneris  }
+	}
+
+	#ConfNat
+	focus = {
+		id = USA_confnat
+		icon = GFX_goal_unknown
+		x = 16
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = USA_andthewinneris  }
+	}
+
+}

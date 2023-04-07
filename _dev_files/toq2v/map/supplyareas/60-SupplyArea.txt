@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 60 
+    name = "Yamaba"
+    value = 7
+    states = {
+        38 37 39 41 34 35
+    }
+}

@@ -1,0 +1,58 @@
+focus_tree = {
+	id = hrr
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUR
+		}
+	}
+	#So it Started...
+	focus = {
+		id = HUR_soitstarted
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		x = 3
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+	}
+
+	#We need guns to secure our land!
+	focus = {
+		id = HUR_weneedgunstosecureourland
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HUR_soitstarted  }
+	}
+
+	#Choose a Leader
+	focus = {
+		id = HUR_choose_a_leader
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUR_weneedgunstosecureourland  } prerequisite = { focus = HUR_recruit_civil_guard  }
+	}
+
+	#Recruit civil guard
+	focus = {
+		id = HUR_recruit_civil_guard
+		icon = GFX_focus_focus_fra_maquis
+		x = 5
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HUR_soitstarted  }
+	}
+
+}

@@ -1,0 +1,13 @@
+state={
+	id=876
+	name="STATE_876"
+	provinces={
+		3805 4453 5030 6309 10623 10643 10662 10678 10698 10740 
+	}
+	history = {
+		owner = DVE
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

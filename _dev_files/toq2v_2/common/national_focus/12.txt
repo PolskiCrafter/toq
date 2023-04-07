@@ -1,0 +1,1443 @@
+focus_tree = {
+	id = 12
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AOK
+		}
+	}
+	#The Defense
+	focus = {
+		id = AOK_the_defense
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_arsenal_of_the_all  }
+	}
+
+	#All kind, One gole, One contry
+	focus = {
+		id = AOK_allkindonegoleonecontry
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_revolution  }
+	}
+
+	#Revolution!
+	focus = {
+		id = AOK_revolution
+		icon = GFX_goal_generic_demand_territory
+		x = 2
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Security
+	focus = {
+		id = AOK_security
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_by_the_all  }
+	}
+
+	#Trought the blood of martyrs
+	focus = {
+		id = AOK_trought_the_blood_of_martyrs
+		icon = GFX_AOK_trought_the_blood_of_martyrs-88
+		x = 2
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_allkindonegoleonecontry  }
+	}
+
+	#No More
+	focus = {
+		id = AOK_no_more
+		icon = GFX_focus_rom_abdicate
+		x = 1
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_trought_the_blood_of_martyrs  }
+	}
+
+	#Power to the All
+	focus = {
+		id = AOK_power_to_the_all
+		icon = GFX_AOK_power_to_the_all-426
+		x = 3
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_trought_the_blood_of_martyrs  }
+	}
+
+	#Our Defence
+	focus = {
+		id = AOK_our_defence
+		icon = GFX_focus_BUL_bulgarisation_of_the_balkans
+		x = 1
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_no_more  }
+	}
+
+	#The Constitution
+	focus = {
+		id = AOK_the_constitution
+		icon = GFX_focus_generic_treaty
+		x = 3
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_power_to_the_all  }
+	}
+
+	#Who we are and wear we are heding
+	focus = {
+		id = AOK_who_we_are_and_wear_we_are_heding
+		icon = GFX_focus_generic_support_the_left_right
+		x = 2
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_our_defence  } prerequisite = { focus = AOK_the_constitution  }
+	}
+
+	#Rebuild
+	focus = {
+		id = AOK_rebuild
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 10
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Give voice to masses
+	focus = {
+		id = AOK_give_voice_to_masses
+		icon = GFX_focus_por_workers_of_iberia
+		x = 10
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = AOK_rebuild  }
+	}
+
+	#For the All
+	focus = {
+		id = AOK_for_the_all
+		icon = GFX_goal_generic_soviet_construction
+		x = 7
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_give_voice_to_masses  }
+	}
+
+	#Too everyone according to his needs
+	focus = {
+		id = AOK_too_everyone_according_to_his_needs
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = AOK_for_the_all  }
+	}
+
+	#From everyone according to his abilities
+	focus = {
+		id = AOK_from_everyone_according_to_his_abilities
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = AOK_for_the_all  }
+	}
+
+	#By the All
+	focus = {
+		id = AOK_by_the_all
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = AOK_give_voice_to_masses  }
+	}
+
+	#The power of Idea
+	focus = {
+		id = AOK_the_power_of_idea
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AOK_by_the_all  }
+	}
+
+	#Neval collectives
+	focus = {
+		id = AOK_neval_collectives
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_new_factory_collectives  }
+	}
+
+	#New factory collectives
+	focus = {
+		id = AOK_new_factory_collectives
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_from_everyone_according_to_his_abilities  }
+	}
+
+	#The wave of Progress
+	focus = {
+		id = AOK_the_wave_of_progress
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_neval_collectives  }
+	}
+
+	#Roads and Reails
+	focus = {
+		id = AOK_roads_and_reails
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_too_everyone_according_to_his_needs  }
+	}
+
+	#From the earth
+	focus = {
+		id = AOK_from_the_earth
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_roads_and_reails  }
+	}
+
+	#Our Dream
+	focus = {
+		id = AOK_our_dream
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_from_the_earth  }
+	}
+
+	#Arsenal of the All
+	focus = {
+		id = AOK_arsenal_of_the_all
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_security  }
+	}
+
+	#The wepons to all
+	focus = {
+		id = AOK_the_wepons_to_all
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_defense  }
+	}
+
+	#The cultular revolution
+	focus = {
+		id = AOK_the_cultular_revolution
+		icon = GFX_goal_unknown
+		x = 14
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_power_of_idea  }
+	}
+
+	#Back to School
+	focus = {
+		id = AOK_back_to_school
+		icon = GFX_goal_unknown
+		x = 14
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AOK_the_cultular_revolution  }
+	}
+
+	#All ideas are welcam
+	focus = {
+		id = AOK_all_ideas_are_welcam
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AOK_back_to_school  }
+	}
+
+	#There is power in the Unions
+	focus = {
+		id = AOK_there_is_power_in_the_unions
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = AOK_the_wave_of_progress  } prerequisite = { focus = AOK_our_dream  }
+	}
+
+	#Power and Knowleg
+	focus = {
+		id = AOK_power_and_knowleg
+		icon = GFX_goal_unknown
+		x = 13
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AOK_the_wepons_to_all  } prerequisite = { focus = AOK_all_ideas_are_welcam  }
+	}
+
+	#Towards utopia
+	focus = {
+		id = AOK_towards_utopia
+		icon = GFX_goal_unknown
+		x = 10
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_there_is_power_in_the_unions  } prerequisite = { focus = AOK_power_and_knowleg  }
+	}
+
+	#The Congress
+	focus = {
+		id = AOK_the_congress
+		icon = GFX_focus_generic_military_academy
+		x = 21
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Revolution in Hundland
+	focus = {
+		id = AOK_revolution_in_hundland
+		icon = GFX_goal_unknown
+		x = 30
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+	}
+
+	#Sending Support to UF
+	focus = {
+		id = AOK_sending_support_to_uf
+		icon = GFX_goal_unknown
+		x = 30
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_revolution_in_hundland  }
+	}
+
+	#Passive help
+	focus = {
+		id = AOK_passive_help
+		icon = GFX_goal_unknown
+		x = 29
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_sending_support_to_uf  }
+	}
+
+	#Total support
+	focus = {
+		id = AOK_total_support
+		icon = GFX_goal_unknown
+		x = 31
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_sending_support_to_uf  }
+		mutually_exclusive = { focus = AOK_passive_help  }
+	}
+
+	#Army of All Kinds
+	focus = {
+		id = AOK_army_of_all_kinds
+		icon = GFX_focus_BUL_condemn_macedonian_organizations
+		x = 45
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#On the Land
+	focus = {
+		id = AOK_on_the_land
+		icon = GFX_goal_unknown
+		x = 35
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_army_of_all_kinds  }
+	}
+
+	#On the water
+	focus = {
+		id = AOK_on_the_water
+		icon = GFX_goal_unknown
+		x = 45
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_army_of_all_kinds  }
+	}
+
+	#Democratic line of command
+	focus = {
+		id = AOK_democratic_line_of_command
+		icon = GFX_goal_unknown
+		x = 34
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_on_the_land  }
+		mutually_exclusive = { focus = AOK_military_hierarchy  }
+	}
+
+	#Military hierarchy
+	focus = {
+		id = AOK_military_hierarchy
+		icon = GFX_goal_unknown
+		x = 36
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_on_the_land  }
+	}
+
+	#Sword of Revolution
+	focus = {
+		id = AOK_sword_of_revolution
+		icon = GFX_goal_unknown
+		x = 34
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_military_hierarchy  focus = AOK_democratic_line_of_command  }
+	}
+
+	#Shild of Revolution
+	focus = {
+		id = AOK_shild_of_revolution
+		icon = GFX_goal_unknown
+		x = 36
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_military_hierarchy  focus = AOK_democratic_line_of_command  }
+	}
+
+	#The power of the steal
+	focus = {
+		id = AOK_the_power_of_the_steal
+		icon = GFX_goal_unknown
+		x = 31
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_sword_of_revolution  }
+		mutually_exclusive = { focus = AOK_the_power_of_the_mass  }
+	}
+
+	#The power of the Mass
+	focus = {
+		id = AOK_the_power_of_the_mass
+		icon = GFX_goal_unknown
+		x = 33
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_sword_of_revolution  }
+	}
+
+	#Fast as the wind
+	focus = {
+		id = AOK_fast_as_the_wind
+		icon = GFX_goal_unknown
+		x = 31
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_the_power_of_the_steal  }
+	}
+
+	#Before they see
+	focus = {
+		id = AOK_before_they_see
+		icon = GFX_goal_unknown
+		x = 31
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_fast_as_the_wind  }
+	}
+
+	#By car on the water
+	focus = {
+		id = AOK_by_car_on_the_water
+		icon = GFX_goal_unknown
+		x = 31
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_before_they_see  }
+	}
+
+	#There is nothing better than new tanks
+	focus = {
+		id = AOK_there_is_nothing_better_than_new_tanks
+		icon = GFX_goal_unknown
+		x = 31
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_by_car_on_the_water  }
+	}
+
+	#Better weapons
+	focus = {
+		id = AOK_better_weapons
+		icon = GFX_goal_unknown
+		x = 33
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_the_power_of_the_mass  }
+	}
+
+	#March support
+	focus = {
+		id = AOK_march_support
+		icon = GFX_goal_unknown
+		x = 33
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_better_weapons  }
+	}
+
+	#Clear sky
+	focus = {
+		id = AOK_clear_sky
+		icon = GFX_goal_unknown
+		x = 33
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_march_support  }
+	}
+
+	#They have tanks, we have guns
+	focus = {
+		id = AOK_theyhavetankswehaveguns
+		icon = GFX_goal_unknown
+		x = 33
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_clear_sky  }
+	}
+
+	#Coasts and Mountains
+	focus = {
+		id = AOK_coasts_and_mountains
+		icon = GFX_goal_unknown
+		x = 31
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_there_is_nothing_better_than_new_tanks  focus = AOK_theyhavetankswehaveguns  }
+	}
+
+	#Revolutionary Secial Forces
+	focus = {
+		id = AOK_revolutionary_secial_forces
+		icon = GFX_goal_unknown
+		x = 33
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_there_is_nothing_better_than_new_tanks  focus = AOK_theyhavetankswehaveguns  }
+	}
+
+	#Not a step
+	focus = {
+		id = AOK_not_a_step
+		icon = GFX_goal_unknown
+		x = 38
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_shild_of_revolution  }
+	}
+
+	#Everyone will get up when called
+	focus = {
+		id = AOK_everyone_will_get_up_when_called
+		icon = GFX_goal_unknown
+		x = 38
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_not_a_step  }
+	}
+
+	#For every stone that is split open, they will pay a terrible price
+	focus = {
+		id = AOK_foreverystonethatissplitopentheywillpayaterribleprice
+		icon = GFX_goal_unknown
+		x = 38
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_everyone_will_get_up_when_called  }
+	}
+
+	#If you want to survive, learn to dig first
+	focus = {
+		id = AOK_ifyouwanttosurvivelearntodigfirst
+		icon = GFX_goal_unknown
+		x = 38
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = AOK_foreverystonethatissplitopentheywillpayaterribleprice  }
+	}
+
+	#Life is more important than death
+	focus = {
+		id = AOK_life_is_more_important_than_death
+		icon = GFX_goal_unknown
+		x = 38
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_everyfieldeverycityeverypieceofourland  }
+	}
+
+	#Every field, every city, every piece of our land!
+	focus = {
+		id = AOK_everyfieldeverycityeverypieceofourland
+		icon = GFX_goal_unknown
+		x = 38
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_ifyouwanttosurvivelearntodigfirst  }
+	}
+
+	#A true Liberation Army
+	focus = {
+		id = AOK_a_true_liberation_army
+		icon = GFX_goal_unknown
+		x = 35
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_coasts_and_mountains  } prerequisite = { focus = AOK_revolutionary_secial_forces  } prerequisite = { focus = AOK_life_is_more_important_than_death  }
+	}
+
+	#Heroes
+	focus = {
+		id = AOK_heroes
+		icon = GFX_goal_unknown
+		x = 35
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_a_true_liberation_army  }
+	}
+
+	#Animal's Liberation Army Command Center
+	focus = {
+		id = AOK_animalsliberationarmycommandcenter
+		icon = GFX_goal_unknown
+		x = 35
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_sword_of_revolution  } prerequisite = { focus = AOK_shild_of_revolution  }
+	}
+
+	#Extending the influence of the Commission of the Defense and Spread of the Revolution
+	focus = {
+		id = AOK_extending_the_influence_of_the_commission_of_the_defense_and_spread_of_the_revolution
+		icon = GFX_goal_unknown
+		x = 35
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_animalsliberationarmycommandcenter  }
+	}
+
+	#Magic Revolutionary
+	focus = {
+		id = AOK_magic_revolutionary
+		icon = GFX_goal_unknown
+		x = 40
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_shild_of_revolution  }
+	}
+
+	#Socialist offensiv magic school
+	focus = {
+		id = AOK_socialist_offensiv_magic_school
+		icon = GFX_goal_unknown
+		x = 40
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_magic_revolutionary  }
+	}
+
+	#Smaller but fast
+	focus = {
+		id = AOK_smaller_but_fast
+		icon = GFX_goal_unknown
+		x = 44
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_on_the_water  }
+		mutually_exclusive = { focus = AOK_larger_but_slow  }
+	}
+
+	#Larger but slow
+	focus = {
+		id = AOK_larger_but_slow
+		icon = GFX_goal_unknown
+		x = 46
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_on_the_water  }
+	}
+
+	#Help from the surface
+	focus = {
+		id = AOK_help_from_the_surface
+		icon = GFX_goal_unknown
+		x = 43
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_smaller_but_fast  }
+	}
+
+	#Torpedous
+	focus = {
+		id = AOK_torpedous
+		icon = GFX_goal_unknown
+		x = 43
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_help_from_the_surface  }
+	}
+
+	#Undetectable
+	focus = {
+		id = AOK_undetectable
+		icon = GFX_goal_unknown
+		x = 43
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_torpedous  }
+	}
+
+	#Death to death
+	focus = {
+		id = AOK_death_to_death
+		icon = GFX_goal_unknown
+		x = 47
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_larger_but_slow  }
+	}
+
+	#Protector of the People
+	focus = {
+		id = AOK_protector_of_the_people
+		icon = GFX_goal_unknown
+		x = 47
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_death_to_death  }
+	}
+
+	#Even bigger
+	focus = {
+		id = AOK_even_bigger
+		icon = GFX_goal_unknown
+		x = 47
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_protector_of_the_people  }
+	}
+
+	#Red Fleet Operations Command Center
+	focus = {
+		id = AOK_red_fleet_operations_command_center
+		icon = GFX_goal_unknown
+		x = 45
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_smaller_but_fast  focus = AOK_larger_but_slow  }
+	}
+
+	#New ports
+	focus = {
+		id = AOK_new_ports
+		icon = GFX_goal_unknown
+		x = 45
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_red_fleet_operations_command_center  }
+	}
+
+	#Training through maneuvers
+	focus = {
+		id = AOK_training_through_maneuvers
+		icon = GFX_goal_unknown
+		x = 45
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_undetectable  focus = AOK_even_bigger  }
+	}
+
+	#Fleet in being
+	focus = {
+		id = AOK_fleet_in_being
+		icon = GFX_goal_unknown
+		x = 45
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_training_through_maneuvers  }
+	}
+
+	#In the Sky
+	focus = {
+		id = AOK_in_the_sky
+		icon = GFX_goal_unknown
+		x = 53
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_army_of_all_kinds  }
+	}
+
+	#Death in the Air
+	focus = {
+		id = AOK_death_in_the_air
+		icon = GFX_goal_unknown
+		x = 52
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_in_the_sky  }
+		mutually_exclusive = { focus = AOK_death_from_above  }
+	}
+
+	#Death from Above
+	focus = {
+		id = AOK_death_from_above
+		icon = GFX_goal_unknown
+		x = 54
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_in_the_sky  }
+	}
+
+	#Support for land troops
+	focus = {
+		id = AOK_support_for_land_troops
+		icon = GFX_goal_unknown
+		x = 51
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_death_in_the_air  }
+	}
+
+	#Better squadrons
+	focus = {
+		id = AOK_better_squadrons
+		icon = GFX_goal_unknown
+		x = 51
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_support_for_land_troops  }
+	}
+
+	#Speed
+	focus = {
+		id = AOK_speed
+		icon = GFX_goal_unknown
+		x = 51
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_better_squadrons  }
+	}
+
+	#Escort
+	focus = {
+		id = AOK_escort
+		icon = GFX_goal_unknown
+		x = 55
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_death_from_above  }
+	}
+
+	#Better target recognition
+	focus = {
+		id = AOK_better_target_recognition
+		icon = GFX_goal_unknown
+		x = 55
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_escort  }
+	}
+
+	#Rockets
+	focus = {
+		id = AOK_rockets
+		icon = GFX_goal_unknown
+		x = 55
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_better_target_recognition  }
+	}
+
+	#Air Operations Coordination Center
+	focus = {
+		id = AOK_air_operations_coordination_center
+		icon = GFX_goal_unknown
+		x = 53
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_death_in_the_air  focus = AOK_death_from_above  }
+	}
+
+	#Out of the clouds
+	focus = {
+		id = AOK_out_of_the_clouds
+		icon = GFX_goal_unknown
+		x = 53
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_air_operations_coordination_center  }
+	}
+
+	#We can see everything above
+	focus = {
+		id = AOK_we_can_see_everything_above
+		icon = GFX_goal_unknown
+		x = 53
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_out_of_the_clouds  }
+	}
+
+	#The sky belongs to our pilots!
+	focus = {
+		id = AOK_theskybelongstoourpilots
+		icon = GFX_goal_unknown
+		x = 53
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_speed  focus = AOK_rockets  }
+	}
+
+	#Issue of Crime
+	focus = {
+		id = AOK_issue_of_crime
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_the_congress  }
+	}
+
+	#The matter of the environment
+	focus = {
+		id = AOK_the_matter_of_the_environment
+		icon = GFX_goal_unknown
+		x = 19
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_the_congress  }
+	}
+
+	#Question of Youth organizations
+	focus = {
+		id = AOK_question_of_youth_organizations
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_the_congress  }
+	}
+
+	#Healthcare infrastructure
+	focus = {
+		id = AOK_healthcare_infrastructure
+		icon = GFX_goal_unknown
+		x = 23
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_the_congress  }
+	}
+
+	#Question of vulgar language and chauvinism
+	focus = {
+		id = AOK_question_of_vulgar_language_and_chauvinism
+		icon = GFX_goal_unknown
+		x = 25
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_the_congress  }
+	}
+
+	#Question of centralisation or decentralisation
+	focus = {
+		id = AOK_question_of_centralisation_or_decentralisation
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_issue_of_crime  } prerequisite = { focus = AOK_the_matter_of_the_environment  } prerequisite = { focus = AOK_question_of_youth_organizations  } prerequisite = { focus = AOK_healthcare_infrastructure  } prerequisite = { focus = AOK_question_of_vulgar_language_and_chauvinism  }
+	}
+
+	#Emancipation of women
+	focus = {
+		id = AOK_emancipation_of_women
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_question_of_centralisation_or_decentralisation  }
+	}
+
+	#The New Commune Animal
+	focus = {
+		id = AOK_the_new_commune_animal
+		icon = GFX_goal_unknown
+		x = 19
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_question_of_centralisation_or_decentralisation  }
+	}
+
+	#Mass media case
+	focus = {
+		id = AOK_mass_media_case
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_question_of_centralisation_or_decentralisation  }
+	}
+
+	#Question of Pesticides
+	focus = {
+		id = AOK_question_of_pesticides
+		icon = GFX_goal_unknown
+		x = 23
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_lgbt_community_status  }
+	}
+
+	#The matter of magic
+	focus = {
+		id = AOK_the_matter_of_magic
+		icon = GFX_goal_unknown
+		x = 23
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_question_of_centralisation_or_decentralisation  }
+	}
+
+	#The case of alcohol and drugs
+	focus = {
+		id = AOK_the_case_of_alcohol_and_drugs
+		icon = GFX_goal_unknown
+		x = 25
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = AOK_question_of_centralisation_or_decentralisation  }
+	}
+
+	#LGBT Community Status
+	focus = {
+		id = AOK_lgbt_community_status
+		icon = GFX_goal_unknown
+		x = 21
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_the_case_of_alcohol_and_drugs  } prerequisite = { focus = AOK_mass_media_case  } prerequisite = { focus = AOK_the_matter_of_magic  } prerequisite = { focus = AOK_the_new_commune_animal  } prerequisite = { focus = AOK_emancipation_of_women  }
+	}
+
+	#Public Works
+	focus = {
+		id = AOK_public_works
+		icon = GFX_goal_unknown
+		x = 17
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_lgbt_community_status  }
+	}
+
+	#Animal holidays
+	focus = {
+		id = AOK_animal_holidays
+		icon = GFX_goal_unknown
+		x = 19
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_lgbt_community_status  }
+	}
+
+	#The issue of euthanasia
+	focus = {
+		id = AOK_the_issue_of_euthanasia
+		icon = GFX_goal_unknown
+		x = 21
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_lgbt_community_status  }
+	}
+
+	#Organizing Rest
+	focus = {
+		id = AOK_organizing_rest
+		icon = GFX_goal_unknown
+		x = 25
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_lgbt_community_status  }
+	}
+
+	#The case of the worm cruelty
+	focus = {
+		id = AOK_the_case_of_the_worm_cruelty
+		icon = GFX_goal_unknown
+		x = 21
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		prerequisite = { focus = AOK_public_works  } prerequisite = { focus = AOK_animal_holidays  } prerequisite = { focus = AOK_the_issue_of_euthanasia  } prerequisite = { focus = AOK_question_of_pesticides  } prerequisite = { focus = AOK_organizing_rest  }
+	}
+
+	#New Red Sociaiety
+	focus = {
+		id = AOK_new_red_sociaiety
+		icon = GFX_goal_unknown
+		x = 21
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_USA_CONGRESS
+		}
+		prerequisite = { focus = AOK_the_case_of_the_worm_cruelty  }
+	}
+
+	#Forward
+	focus = {
+		id = AOK_forward
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = AOK_towards_utopia  }
+	}
+
+	#Red Highways
+	focus = {
+		id = AOK_red_highways
+		icon = GFX_goal_unknown
+		x = 7
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#AAEOCN
+	focus = {
+		id = AOK_aaeocn
+		icon = GFX_goal_unknown
+		x = 9
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Computerization
+	focus = {
+		id = AOK_computerization
+		icon = GFX_goal_unknown
+		x = 11
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Genetic research
+	focus = {
+		id = AOK_genetic_research
+		icon = GFX_goal_unknown
+		x = 13
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Internet
+	focus = {
+		id = AOK_internet
+		icon = GFX_goal_unknown
+		x = 9
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Rocket Research
+	focus = {
+		id = AOK_rocket_research
+		icon = GFX_goal_unknown
+		x = 13
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#New Animal Cities
+	focus = {
+		id = AOK_new_animal_cities
+		icon = GFX_goal_unknown
+		x = 7
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Modern Collectives and Automation
+	focus = {
+		id = AOK_modern_collectives_and_automation
+		icon = GFX_goal_unknown
+		x = 11
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+}

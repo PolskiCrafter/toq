@@ -1,0 +1,17 @@
+state={
+	id=736
+	name="STATE_736"
+	history = {
+		owner = CYR
+		add_core_of = CYR
+		victory_points = {
+			226 14
+		}
+	}
+	provinces={
+		226 4533 7631 10208 10213 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

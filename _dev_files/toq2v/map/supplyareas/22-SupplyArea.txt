@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 22
+    name = "Gribsy"
+    value = 10
+    states = {
+        584 632 652 685 738 736 719 683 665 602 594 626 591
+    }
+}

@@ -1,0 +1,49 @@
+characters = {
+#Create country leader - Congress of All Working Animals
+congress_of_all_working_animals = {
+	name = congress_of_all_working_animals
+	portraits = {
+		civilian = {
+			#Custom image for Congress of All Working Animals
+			large = "/gfx/leaders/AOK/KVyCnOcP-156353.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socinalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Congress of All Working Animals
+congress_of_all_working_animals = {
+	name = congress_of_all_working_animals
+	portraits = {
+		civilian = {
+			#Custom image for Congress of All Working Animals
+			large = "/gfx/leaders/AOK/hdZHzkNQ-156351.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = kralism
+		traits = {  }
+	}
+}
+
+#Create country leader - Congress of All Working Animals
+congress_of_all_working_animals = {
+	name = congress_of_all_working_animals
+	portraits = {
+		civilian = {
+			#Custom image for Congress of All Working Animals
+			large = "/gfx/leaders/AOK/JmAqnwhN-156349.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = ratcommunpromieism
+		traits = {  }
+	}
+}
+}

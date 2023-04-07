@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 39
+    name = "Cricks"
+    value = 11
+    states = {
+         831 770 810 780 748 714 647 682 655 673
+    }
+}

@@ -1,0 +1,17 @@
+state={
+	id=845
+	name="STATE_845"
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			7006 18
+		}
+	}
+	provinces={
+		1268 6209 7006 7054 7478 10524 10567 10568 10589 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

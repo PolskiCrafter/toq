@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 10
+    name = "Ribthnahten"
+    value = 11
+    states = {
+        137 126 157 148 167 136 17 16 154 191 194 182 174 10
+    }
+}

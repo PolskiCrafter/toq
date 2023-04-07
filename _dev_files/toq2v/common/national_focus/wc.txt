@@ -1,0 +1,548 @@
+focus_tree = {
+	id = wc
+	continuous_focus_position = { x = -40 y = 1570 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AOK
+		}
+	}
+	#Unification Day
+	focus = {
+		id = AOK_unification_day
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#We are All
+	focus = {
+		id = AOK_we_are_all
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_unification_day  }
+	}
+
+	#We are everywhere
+	focus = {
+		id = AOK_we_are_everywhere
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_unification_day  }
+	}
+
+	#The Capitol
+	focus = {
+		id = AOK_the_capitol
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_we_are_all  } prerequisite = { focus = AOK_we_are_everywhere  }
+	}
+
+	#Bringing the Cultural Revolution everywhere
+	focus = {
+		id = AOK_bringing_the_cultural_revolution_everywhere
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#Liberation of Schools
+	focus = {
+		id = AOK_liberation_of_schools
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#Uniting Animals
+	focus = {
+		id = AOK_uniting_animals
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#Food for everyone
+	focus = {
+		id = AOK_food_for_everyone
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#Voice to All
+	focus = {
+		id = AOK_voice_to_all
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#Fight with reaction
+	focus = {
+		id = AOK_fight_with_reaction
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#No one will by left behind
+	focus = {
+		id = AOK_no_one_will_by_left_behind
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#By plane everywhere
+	focus = {
+		id = AOK_by_plane_everywhere
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_capitol  }
+	}
+
+	#Liberation of Medias
+	focus = {
+		id = AOK_liberation_of_medias
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_bringing_the_cultural_revolution_everywhere  }
+	}
+
+	#Freedom of Speah
+	focus = {
+		id = AOK_freedom_of_speah
+		icon = GFX_goal_unknown
+		x = 0
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_liberation_of_medias  }
+	}
+
+	#No for profit
+	focus = {
+		id = AOK_no_for_profit
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_liberation_of_schools  }
+	}
+
+	#Higher purpose
+	focus = {
+		id = AOK_higher_purpose
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_no_for_profit  }
+	}
+
+	#Cracking down lenguage bariers
+	focus = {
+		id = AOK_cracking_down_lenguage_bariers
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_uniting_animals  }
+	}
+
+	#Blurring old feuds
+	focus = {
+		id = AOK_blurring_old_feuds
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_cracking_down_lenguage_bariers  }
+	}
+
+	#Building a home for everyone
+	focus = {
+		id = AOK_building_a_home_for_everyone
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_food_for_everyone  }
+	}
+
+	#AAEOCN Woorldwild
+	focus = {
+		id = AOK_aaeocn_woorldwild
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_building_a_home_for_everyone  }
+	}
+
+	#Raising awareness of rights and freedoms
+	focus = {
+		id = AOK_raising_awareness_of_rights_and_freedoms
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_voice_to_all  }
+	}
+
+	#Power in All hands
+	focus = {
+		id = AOK_power_in_all_hands
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_raising_awareness_of_rights_and_freedoms  }
+	}
+
+	#Expanding the Animal Militia
+	focus = {
+		id = AOK_expanding_the_animal_militia
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_fight_with_reaction  }
+	}
+
+	#The end of the people's enemy
+	focus = {
+		id = AOK_theendofthepeoplesenemy
+		icon = GFX_goal_unknown
+		x = 10
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_expanding_the_animal_militia  }
+	}
+
+	#Clean Quaidan
+	focus = {
+		id = AOK_clean_quaidan
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_no_one_will_by_left_behind  }
+	}
+
+	#For our childrens
+	focus = {
+		id = AOK_for_our_childrens
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_clean_quaidan  }
+	}
+
+	#Roads and rails
+	focus = {
+		id = AOK_roads_and_rails
+		icon = GFX_goal_unknown
+		x = 14
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_by_plane_everywhere  }
+	}
+
+	#Freedom of movement
+	focus = {
+		id = AOK_freedom_of_movement
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_roads_and_rails  }
+	}
+
+	#A dream that is fulfilled for everyone
+	focus = {
+		id = AOK_a_dream_that_is_fulfilled_for_everyone
+		icon = GFX_goal_unknown
+		x = 6
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_freedom_of_speah  } prerequisite = { focus = AOK_higher_purpose  } prerequisite = { focus = AOK_blurring_old_feuds  } prerequisite = { focus = AOK_aaeocn_woorldwild  } prerequisite = { focus = AOK_power_in_all_hands  } prerequisite = { focus = AOK_theendofthepeoplesenemy  } prerequisite = { focus = AOK_for_our_childrens  } prerequisite = { focus = AOK_freedom_of_movement  }
+	}
+
+	#Thanks to the Unions and Counciuls
+	focus = {
+		id = AOK_thanks_to_the_unions_and_counciuls
+		icon = GFX_goal_unknown
+		x = 4
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_a_dream_that_is_fulfilled_for_everyone  }
+	}
+
+	#Merit of the congress
+	focus = {
+		id = AOK_merit_of_the_congress
+		icon = GFX_goal_unknown
+		x = 6
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_a_dream_that_is_fulfilled_for_everyone  }
+	}
+
+	#Dissolution of the CDSR
+	focus = {
+		id = AOK_dissolution_of_the_cdsr
+		icon = GFX_goal_unknown
+		x = 8
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_a_dream_that_is_fulfilled_for_everyone  }
+	}
+
+	#The World Utopia
+	focus = {
+		id = AOK_the_world_utopia
+		icon = GFX_goal_unknown
+		x = 6
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_thanks_to_the_unions_and_counciuls  } prerequisite = { focus = AOK_merit_of_the_congress  } prerequisite = { focus = AOK_dissolution_of_the_cdsr  }
+	}
+
+	#End of Conscription
+	focus = {
+		id = AOK_end_of_conscription
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_theendofthepeoplesenemy  }
+	}
+
+	#The Losses
+	focus = {
+		id = AOK_the_losses
+		icon = GFX_goal_unknown
+		x = 10
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_end_of_conscription  }
+	}
+
+	#No More Wars
+	focus = {
+		id = AOK_no_more_wars
+		icon = GFX_goal_unknown
+		x = 10
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_losses  }
+	}
+
+	#The Last March of ALA
+	focus = {
+		id = AOK_the_last_march_of_ala
+		icon = GFX_goal_unknown
+		x = 10
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_no_more_wars  }
+	}
+
+	#Touching the stars
+	focus = {
+		id = AOK_touching_the_stars
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+	}
+
+	#Stating Project
+	focus = {
+		id = AOK_stating_project
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_touching_the_stars  }
+	}
+
+	#Construction of Special Stations and Infrastructure
+	focus = {
+		id = AOK_construction_of_special_stations_and_infrastructure
+		icon = GFX_goal_unknown
+		x = 21
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AOK_stating_project  }
+	}
+
+	#The first artificial satellite
+	focus = {
+		id = AOK_the_first_artificial_satellite
+		icon = GFX_goal_unknown
+		x = 21
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = AOK_construction_of_special_stations_and_infrastructure  }
+	}
+
+	#The first Animal in space
+	focus = {
+		id = AOK_the_first_animal_in_space
+		icon = GFX_goal_unknown
+		x = 21
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_first_artificial_satellite  }
+	}
+
+	#The moon
+	focus = {
+		id = AOK_the_moon
+		icon = GFX_goal_unknown
+		x = 21
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_first_animal_in_space  }
+	}
+
+	#One chapter ends, the enother begins
+	focus = {
+		id = AOK_onechapterendstheenotherbegins
+		icon = GFX_goal_unknown
+		x = 14
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AOK_the_world_utopia  } prerequisite = { focus = AOK_the_last_march_of_ala  } prerequisite = { focus = AOK_the_moon  }
+	}
+
+	#A love that will last forever
+	focus = {
+		id = AOK_a_love_that_will_last_forever
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

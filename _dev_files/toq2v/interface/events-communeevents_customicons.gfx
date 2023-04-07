@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Seven Years Revolution
+	SpriteType = { 
+		name = "seven_years_revolution-1"
+		texturefile = "gfx/interface/events/communeevents-event/seven_years_revolution-1.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,17 @@
+state={
+	id=692
+	name="STATE_692"
+	history = {
+		owner = ALA
+		add_core_of = ALA
+		victory_points = {
+			6796 15
+		}
+	}
+	provinces={
+		1274 1433 2040 2241 2471 6796 10072 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

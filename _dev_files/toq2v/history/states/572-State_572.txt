@@ -1,0 +1,13 @@
+state={
+	id=572
+	name="STATE_572"
+	provinces={
+		1258 1923 6033 6786 6920 9514 
+	}
+	history = {
+		owner = KAT
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

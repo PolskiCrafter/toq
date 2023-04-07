@@ -1,0 +1,17 @@
+state={
+	id=519
+	name="STATE_519"
+	history = {
+		owner = NOI
+		add_core_of = NOI
+		victory_points = {
+			4781 10
+		}
+	}
+	provinces={
+		4781 9287 9314 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

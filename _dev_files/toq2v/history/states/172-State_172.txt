@@ -1,0 +1,20 @@
+state={
+	id=172
+	name="STATE_172"
+	history = {
+		owner = PRH
+		add_core_of = PRH
+		victory_points = {
+			2485 19
+		}
+		victory_points = {
+			6633 34
+		}
+	}
+	provinces={
+		1622 2053 2485 2734 2848 3811 5383 6633 8075 8090 8124 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

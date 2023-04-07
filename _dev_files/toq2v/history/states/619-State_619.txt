@@ -1,0 +1,17 @@
+state={
+	id=619
+	name="STATE_619"
+	history = {
+		owner = GUT
+		add_core_of = GUT
+		victory_points = {
+			3628 15
+		}
+	}
+	provinces={
+		514 3628 4174 4587 5671 5800 6144 7257 9543 9565 9602 9608 9655 9668 9688 9707 9751 9772 9793 9833 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

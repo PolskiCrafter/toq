@@ -1,0 +1,278 @@
+#Category allowed for GXC YUN SHX XSM
+
+ ###  ##  ###   ##  #  # ###  ## ###      ## #  # ###  ###   ##  ###  ### 
+   # #  # #  # #  # ## # #   #   #       #   #  # #  # #  # #  # #  #  #  
+   # #### ###  #### # ## ##   #  ##       #  #  # ###  ###  #  # ###   #  
+#  # #  # #    #  # #  # #     # #         # #  # #    #    #  # #  #  #  
+ ##  #  # #    #  # #  # ### ##  ###     ##   ##  #    #     ##  #  #  #  
+
+CHI_seek_japanese_support = {
+
+	CHI_internal_party_support_futhdeomism = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = futhdeomism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			futhdeomism_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_futhdeomism = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = futhdeomism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			futhdeomism_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_kollektigleichenism = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = kollektigleichenism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			kollektigleichenism_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_kollektigleichenism = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = kollektigleichenism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			kollektigleichenism_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_ubestrapanism = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = ubestrapanism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			ubestrapanism_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_ubestrapanism = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = ubestrapanism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			ubestrapanism_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_gemefraism = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = gemefraism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			gemefraism_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_approach_japan = {
+
+		icon = jap_pacific_guardian
+
+		available = {
+			is_subject = no
+			if = {
+				limit = { JAP = { has_government = futhdeomism } }
+				futhdeomism > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = gemefraism } }
+				gemefraism > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = kollektigleichenism } }
+				kollektigleichenism > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = ubestrapanism } }
+				ubestrapanism > 0.4
+			}
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			JAP = { country_event = wtt_warlord.1 }
+			add_stability = 0.2
+			add_political_power = 100
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=131
+	name="STATE_131"
+	provinces={
+		2022 2742 3529 4348 4459 4565 4575 4748 4770 4772 4793 4806 4839 4858 4861 
+	}
+	manpower = 1000000
+	state_category = megalopolis
+	history={
+		owner = TST
+		add_core_of = TST
+	}
+	buildings_max_level_factor=1.000
+}

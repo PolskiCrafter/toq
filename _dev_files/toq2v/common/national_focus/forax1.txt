@@ -1,0 +1,187 @@
+focus_tree = {
+	id = forax1
+	continuous_focus_position = { x = -40 y = 1440 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKF
+		}
+	}
+	#The hevenly land
+	focus = {
+		id = UKF_the_hevenly_land
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Thouse Ancient Lands
+	focus = {
+		id = UKF_thouse_ancient_lands
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_the_hevenly_land  }
+	}
+
+	#Glory to KIng
+	focus = {
+		id = UKF_glory_to_king
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_the_hevenly_land  }
+	}
+
+	#Use the cheap workforce
+	focus = {
+		id = UKF_use_the_cheap_workforce
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_colonial_affiers  }
+	}
+
+	#Goverment Loans
+	focus = {
+		id = UKF_goverment_loans
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_economical_debat  }
+	}
+
+	#Economical Debat
+	focus = {
+		id = UKF_economical_debat
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_new_era  }
+	}
+
+	#New Era
+	focus = {
+		id = UKF_new_era
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_lords_lexyiftons_office  }
+	}
+
+	#Colonial Affiers
+	focus = {
+		id = UKF_colonial_affiers
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_new_era  }
+	}
+
+	#Lords Lexyiftons office
+	focus = {
+		id = UKF_lords_lexyiftons_office
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_thouse_ancient_lands  } prerequisite = { focus = UKF_glory_to_king  }
+	}
+
+	#Cut bissnes taxes
+	focus = {
+		id = UKF_cut_bissnes_taxes
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_goverment_loans  }
+	}
+
+	#Promote National Pride
+	focus = {
+		id = UKF_promote_national_pride
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_use_the_cheap_workforce  }
+	}
+
+	#End of The Term
+	focus = {
+		id = UKF_end_of_the_term
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UKF_cut_bissnes_taxes  } prerequisite = { focus = UKF_promote_national_pride  }
+	}
+
+	#Labor Party
+	focus = {
+		id = UKF_labor_party
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Torfoxans
+	focus = {
+		id = UKF_torfoxans
+		icon = GFX_goal_unknown
+		x = 13
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Islanders
+	focus = {
+		id = UKF_islanders
+		icon = GFX_goal_unknown
+		x = 18
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

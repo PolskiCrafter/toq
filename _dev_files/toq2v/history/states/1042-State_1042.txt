@@ -1,0 +1,22 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+
+	history={
+		owner = AOK
+		add_core_of = AOK
+		victory_points = {
+			5300 12 
+		}
+
+	}
+
+	provinces={
+		377 3115 4241 5300 11200 11242 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

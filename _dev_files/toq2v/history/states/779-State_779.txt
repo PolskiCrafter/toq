@@ -1,0 +1,13 @@
+state={
+	id=779
+	name="STATE_779"
+	provinces={
+		777 1854 6121 10281 10295 10310 10359 10394 
+	}
+	history = {
+		owner = ESN
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

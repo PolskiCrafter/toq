@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 21
+    name = "South Shashek"
+    value = 7
+    states = {
+        702 692 746 708 717 689 720 774 827 824 813 818 802 784 751 840
+    }
+}

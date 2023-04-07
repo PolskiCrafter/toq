@@ -1,0 +1,17 @@
+state={
+	id=824
+	name="STATE_824"
+	history = {
+		owner = NIN
+		add_core_of = NIN
+		victory_points = {
+			2334 19
+		}
+	}
+	provinces={
+		2334 3882 4871 7406 10505 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

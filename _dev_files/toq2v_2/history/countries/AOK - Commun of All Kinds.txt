@@ -1,0 +1,48 @@
+﻿oob = "AOK_1090"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+revolutionary_enthusiasm
+homeland_of_the_revolution
+disorganized_army
+young_animal_economy
+}
+
+	recruit_character = MsnVUHDy
+	recruit_character = MsnVUHDy
+	recruit_character = MsnVUHDy
+	recruit_character = counciul_of_military_theoreticians
+
+
+#Politics for 1090.1.1
+set_politics = {
+	ruling_party = gemefraism
+	last_election = "1089.6.13"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	marlianimibrunism = 0
+	gemefraism = 50
+	kollektigleichenism = 30
+	futhdeomism = 0
+	ubestrapanism = 0
+	confamdivism = 0
+	nacinoparinism = 0
+	light = 0
+	darkness = 0
+	aniprimism = 0
+	sociallibrism = 20
+}
+
+recruit_character = congress_of_all_working_animals
+recruit_character = congress_of_all_working_animals
+recruit_character = congress_of_all_working_animals
+

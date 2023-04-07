@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 14
+    name = "Whutenhuden"
+    value = 10
+    states = {
+        173 164 114 145 170 159 119 14 142 153 150 165
+    }
+}

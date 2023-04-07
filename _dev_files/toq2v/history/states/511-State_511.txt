@@ -1,0 +1,17 @@
+state={
+	id=511
+	name="STATE_511"
+	history = {
+		owner = HBJ
+		add_core_of = HBJ
+		victory_points = {
+			9343 14
+		}
+	}
+	provinces={
+		1752 3462 5568 6689 7028 9310 9343 9400 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

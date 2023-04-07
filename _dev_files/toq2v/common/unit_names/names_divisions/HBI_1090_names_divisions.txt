@@ -1,0 +1,8 @@
+HBI_DIV_0_0 = {	name = "Example Division"
+	for_countries = { HBI }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. Example Division"
+}

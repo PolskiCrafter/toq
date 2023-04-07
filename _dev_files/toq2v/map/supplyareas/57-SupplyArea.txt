@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 57 
+    name = "Grate Attylands Lake"
+    value = 12
+    states = {
+        764 772 788 803 754 718 723 701 648 637 663 609 634 576 627
+    }
+}

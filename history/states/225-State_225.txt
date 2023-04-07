@@ -1,0 +1,14 @@
+state={
+	id=225
+	name="STATE_225"
+	provinces={
+		773 1141 1540 1721 2502 3153 3207 3706 4375 4511 5270 5275 5297 5306 5312 5344 
+	}
+	manpower = 1000000
+	state_category = megalopolis
+	history={
+		owner = TST
+		add_core_of = TST
+	}
+	buildings_max_level_factor=1.000
+}

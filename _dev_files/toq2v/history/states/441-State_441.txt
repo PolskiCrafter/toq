@@ -1,0 +1,17 @@
+state={
+	id=441
+	name="STATE_441"
+	history = {
+		owner = KUT
+		add_core_of = KUT
+		victory_points = {
+			8943 17
+		}
+	}
+	provinces={
+		3755 6511 6517 8911 8943 9006 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

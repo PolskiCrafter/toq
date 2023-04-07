@@ -1,0 +1,9 @@
+
+supply_area={
+	id=48
+	name="North West Clusonia"
+	value=15
+	states={
+		1053 1042 1038 1041 1054 1021 1006 961 956 986 1012 1022 993 1008 977 
+	}
+}

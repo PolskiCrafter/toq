@@ -1,0 +1,27 @@
+spriteTypes = { 
+	##Icon For: Unions of All Kind
+	SpriteType = { 
+		name = "VDzReoPx-1"
+		texturefile = "gfx/interface/ideas/AOK/VDzReoPx-1.dds"
+	}
+
+	##Icon For: Conciuls of Workes And Farmers
+	SpriteType = { 
+		name = "BmoMAXSq-1"
+		texturefile = "gfx/interface/ideas/AOK/BmoMAXSq-1.dds"
+	}
+
+	##Icon For: Scientific Collectives
+	SpriteType = { 
+		name = "ltGnsjog-1"
+		texturefile = "gfx/interface/ideas/AOK/ltGnsjog-1.dds"
+	}
+
+	##Icon For: Counciul of Military Theoreticians
+	SpriteType = { 
+		name = "dATmNncf-1"
+		texturefile = "gfx/interface/ideas/AOK/dATmNncf-1.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 62
+    name = "Berp"
+    value = 12
+    states = {
+        1706 1717 1752 1761 1745 1725 57 1685
+    }
+}

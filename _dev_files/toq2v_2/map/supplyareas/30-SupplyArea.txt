@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 30
+    name = "North East Liver"
+    value = 11
+    states = {
+        380 359 357 284 254 149 141 140 322 338 304 232 276
+    }
+}

@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 56
+    name = "Sniffcolnia"
+    value = 13
+    states = {
+        605 660 905 888 866 807 762 872 666 620 653 852 875 873 863 704 679
+    }
+}

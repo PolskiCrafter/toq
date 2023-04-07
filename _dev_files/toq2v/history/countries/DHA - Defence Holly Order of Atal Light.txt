@@ -1,0 +1,41 @@
+﻿oob = "DHA_1090"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 1090.1.1
+set_politics = {
+	ruling_party = light
+	last_election = ""
+	election_frequency = 
+	elections_allowed = no
+}
+set_popularities = {
+	marlianimibrunism = 0
+	gemefraism = 0
+	kollektigleichenism = 0
+	futhdeomism = 0
+	ubestrapanism = 0
+	confamdivism = 0
+	nacinoparinism = 0
+	light = 100
+	darkness = 0
+	aniprimism = 0
+	sociallibrism = 0
+}
+
+

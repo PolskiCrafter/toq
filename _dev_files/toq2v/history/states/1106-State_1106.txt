@@ -1,0 +1,12 @@
+
+state={
+	id=1106
+	name="STATE_1106"
+	provinces={
+		862 4911 5838 11474 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

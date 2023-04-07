@@ -1,0 +1,20 @@
+state={
+	id=392
+	name="STATE_392"
+	history = {
+		owner = AOI
+		add_core_of = AOI
+		victory_points = {
+			6688 5
+		}
+		victory_points = {
+			3232 31
+		}
+	}
+	provinces={
+		1021 3230 3232 4084 6688 8803 8847 8866 8882 8924 8949 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 58 
+    name = "Blear hundsosons"
+    value = 12
+    states = {
+        900 892 894 885 874 855 825 856 891 879 847 832 787
+    }
+}

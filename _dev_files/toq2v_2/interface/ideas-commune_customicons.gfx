@@ -1,0 +1,45 @@
+spriteTypes = { 
+	##Icon For: Revolutionary enthusiasm
+	SpriteType = { 
+		name = "GFX_idea_revolutionary_enthusiasm-2096"
+		texturefile = "gfx/interface/ideas/commune-ideas/revolutionary_enthusiasm-2096.dds"
+	}
+
+	##Icon For: Homeland of the Revolution
+	SpriteType = { 
+		name = "GFX_idea_homeland_of_the_revolution-1"
+		texturefile = "gfx/interface/ideas/commune-ideas/homeland_of_the_revolution-1.dds"
+	}
+
+	##Icon For: Disorganized army
+	SpriteType = { 
+		name = "GFX_idea_disorganized_army-1"
+		texturefile = "gfx/interface/ideas/commune-ideas/disorganized_army-1.dds"
+	}
+
+	##Icon For: Young Animal Economy
+	SpriteType = { 
+		name = "GFX_idea_young_animal_economy-1"
+		texturefile = "gfx/interface/ideas/commune-ideas/young_animal_economy-1.dds"
+	}
+
+	##Icon For: Unions of All Kind
+	SpriteType = { 
+		name = "GFX_idea_unions_of_all_kind-1"
+		texturefile = "gfx/interface/ideas/commune-ideas/unions_of_all_kind-1.dds"
+	}
+
+	##Icon For: Conciuls of Workes And Farmers
+	SpriteType = { 
+		name = "GFX_idea_conciuls_of_workes_and_farmers-1"
+		texturefile = "gfx/interface/ideas/commune-ideas/conciuls_of_workes_and_farmers-1.dds"
+	}
+
+	##Icon For: Scientific Collectives
+	SpriteType = { 
+		name = "GFX_idea_scientific_collectives-1"
+		texturefile = "gfx/interface/ideas/commune-ideas/scientific_collectives-1.dds"
+	}
+
+ 
+ }

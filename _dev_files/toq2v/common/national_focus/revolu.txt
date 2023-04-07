@@ -1,0 +1,394 @@
+focus_tree = {
+	id = revolu
+	continuous_focus_position = { x = -40 y = 1830 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GHL
+		}
+	}
+	#Propagand against sub-animals
+	focus = {
+		id = GHL_propagand_against_subanimals
+		icon = GFX_goal_unknown
+		x = 2
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_mixing_races_is_a_crime  }
+	}
+
+	#Balstkrag
+	focus = {
+		id = GHL_balstkrag
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = GHL_hiden_staches  }
+	}
+
+	#The army is the basis of society
+	focus = {
+		id = GHL_the_army_is_the_basis_of_society
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_brake_the_unions  }
+	}
+
+	#Dark Sacraments
+	focus = {
+		id = GHL_dark_sacraments
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_no_mercy_to_basterds  }
+	}
+
+	#Sub-Animals ar not Animals
+	focus = {
+		id = GHL_subanimals_ar_not_animals
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_for_the_race_and_sidonism  }
+	}
+
+	#Enemy within
+	focus = {
+		id = GHL_enemy_within
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_dark_sacraments  }
+	}
+
+	#War make mans from boys
+	focus = {
+		id = GHL_war_make_mans_from_boys
+		icon = GFX_goal_unknown
+		x = 0
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_subanimals_ar_not_animals  }
+	}
+
+	#Mixing races is a crime
+	focus = {
+		id = GHL_mixing_races_is_a_crime
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_enemy_within  }
+	}
+
+	#Church support
+	focus = {
+		id = GHL_church_support
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_moderate_approach  }
+	}
+
+	#The biggest and the strongest
+	focus = {
+		id = GHL_the_biggest_and_the_strongest
+		icon = GFX_goal_unknown
+		x = 5
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_balstkrag  }
+	}
+
+	#Order with the militia
+	focus = {
+		id = GHL_order_with_the_militia
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_moderate_approach  }
+	}
+
+	#Good day to die
+	focus = {
+		id = GHL_good_day_to_die
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_race  } prerequisite = { focus = GHL_and_nation  } prerequisite = { focus = GHL_strength  } prerequisite = { focus = GHL_dark_pawer  }
+	}
+
+	#No mercy to basterds
+	focus = {
+		id = GHL_no_mercy_to_basterds
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_good_day_to_die  }
+	}
+
+	#Moderate approach
+	focus = {
+		id = GHL_moderate_approach
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_good_day_to_die  }
+	}
+
+	#Hiden staches
+	focus = {
+		id = GHL_hiden_staches
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_no_mercy_to_basterds  focus = GHL_moderate_approach  }
+	}
+
+	#For the Race and Sidonism
+	focus = {
+		id = GHL_for_the_race_and_sidonism
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_no_mercy_to_basterds  }
+	}
+
+	#Strength
+	focus = {
+		id = GHL_strength
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_time_has_come  }
+	}
+
+	#Dark Pawer
+	focus = {
+		id = GHL_dark_pawer
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_time_has_come  }
+	}
+
+	#There is no place for the weak
+	focus = {
+		id = GHL_there_is_no_place_for_the_weak
+		icon = GFX_goal_unknown
+		x = 0
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_war_make_mans_from_boys  }
+	}
+
+	#Time has come
+	focus = {
+		id = GHL_time_has_come
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 5
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Race...
+	focus = {
+		id = GHL_race
+		icon = GFX_goal_generic_CAS
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_time_has_come  }
+	}
+
+	#And Nation
+	focus = {
+		id = GHL_and_nation
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_time_has_come  }
+	}
+
+	#Brake the unions
+	focus = {
+		id = GHL_brake_the_unions
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_church_support  }
+	}
+
+	#Segregation law
+	focus = {
+		id = GHL_segregation_law
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_order_with_the_militia  }
+	}
+
+	#Nation and Honor
+	focus = {
+		id = GHL_nation_and_honor
+		icon = GFX_goal_unknown
+		x = 10
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_segregation_law  }
+	}
+
+	#The wisdom of Generals
+	focus = {
+		id = GHL_the_wisdom_of_generals
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_the_army_is_the_basis_of_society  }
+	}
+
+	#There must be order
+	focus = {
+		id = GHL_there_must_be_order
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_nation_and_honor  }
+	}
+
+	#Offenzire
+	focus = {
+		id = GHL_offenzire
+		icon = GFX_goal_unknown
+		x = 5
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_there_is_no_place_for_the_weak  } prerequisite = { focus = GHL_propagand_against_subanimals  } prerequisite = { focus = GHL_clear_the_skys  focus = GHL_the_wisdom_of_generals  } prerequisite = { focus = GHL_there_must_be_order  } prerequisite = { focus = GHL_clear_the_skys  }
+	}
+
+	#Deth to red scum
+	focus = {
+		id = GHL_deth_to_red_scum
+		icon = GFX_goal_unknown
+		x = 7
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_offenzire  }
+	}
+
+	#Slith the republica throat
+	focus = {
+		id = GHL_slith_the_republica_throat
+		icon = GFX_goal_unknown
+		x = 3
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_offenzire  }
+	}
+
+	#No more crazy emperors
+	focus = {
+		id = GHL_no_more_crazy_emperors
+		icon = GFX_goal_unknown
+		x = 5
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_offenzire  }
+	}
+
+	#Clear the skys
+	focus = {
+		id = GHL_clear_the_skys
+		icon = GFX_goal_unknown
+		x = 5
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GHL_the_biggest_and_the_strongest  }
+	}
+
+}

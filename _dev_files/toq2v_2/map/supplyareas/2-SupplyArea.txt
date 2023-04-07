@@ -1,0 +1,8 @@
+supply_area = {
+    id = 2
+    name = "Hiligen Cappitol"
+    value = 16
+    states = {
+        368 385 434 336 314 395
+    }
+}

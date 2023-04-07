@@ -1,0 +1,20 @@
+state={
+	id=720
+	name="STATE_720"
+	history = {
+		owner = TIT
+		add_core_of = TIT
+		victory_points = {
+			4385 15
+		}
+		victory_points = {
+			4089 31
+		}
+	}
+	provinces={
+		3391 3537 4089 4318 4385 4585 7313 9899 10141 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

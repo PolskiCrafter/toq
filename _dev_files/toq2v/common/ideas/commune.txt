@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+
+		revolutionary_enthusiasm = {
+			picture = revolutionary_enthusiasm-2096
+		}
+
+		homeland_of_the_revolution = {
+			picture = homeland_of_the_revolution-1
+		}
+
+		disorganized_army = {
+			picture = disorganized_army-1
+		}
+
+		young_animal_economy = {
+			picture = young_animal_economy-1
+		}
+
+	}
+	political_advisor = {
+
+		unions_of_all_kind = {
+			picture = unions_of_all_kind-1
+		}
+
+		conciuls_of_workes_and_farmers = {
+			picture = conciuls_of_workes_and_farmers-1
+		}
+
+		scientific_collectives = {
+			picture = scientific_collectives-1
+		}
+	}
+}

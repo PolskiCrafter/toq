@@ -1,0 +1,9 @@
+
+supply_area={
+	id=32
+	name="Webet"
+	value=14
+	states={
+		523 606 556 498 534 519 555 570 600 566 625 545 
+	}
+}

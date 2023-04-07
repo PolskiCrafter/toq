@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 29
+    name = "North West Liver"
+    value = 15
+    states = {
+        163 245 286 327 360 348 341 346 349 287 308 297 282 345
+    }
+}

@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Death of a tyrant
+	SpriteType = { 
+		name = "befor_death_of_a_tyrant-1"
+		texturefile = "gfx/interface/events/the_hunland_empire-event/befor_death_of_a_tyrant-1.dds"
+	}
+
+	##Icon For: The Civil War
+	SpriteType = { 
+		name = "befor_the_civil_war-1"
+		texturefile = "gfx/interface/events/the_hunland_empire-event/befor_the_civil_war-1.dds"
+	}
+
+	##Icon For: Old Glory
+	SpriteType = { 
+		name = "befor_old_glory-1"
+		texturefile = "gfx/interface/events/the_hunland_empire-event/befor_old_glory-1.dds"
+	}
+
+ 
+ }

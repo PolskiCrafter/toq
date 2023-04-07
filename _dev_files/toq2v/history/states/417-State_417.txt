@@ -1,0 +1,17 @@
+state={
+	id=417
+	name="STATE_417"
+	history = {
+		owner = KUT
+		add_core_of = KUT
+		victory_points = {
+			8999 4
+		}
+	}
+	provinces={
+		49 3001 8861 8912 8919 8999 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

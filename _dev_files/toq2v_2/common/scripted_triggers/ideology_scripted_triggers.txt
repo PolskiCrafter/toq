@@ -1,0 +1,32 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = kollektigleichenism
+			ROOT = {
+				OR = {
+					has_government = futhdeomism
+					has_government = gemefraism
+				}
+			}
+		}
+		AND = {
+			has_government = gemefraism
+			ROOT = {
+				OR = {
+					has_government = kollektigleichenism
+					has_government = futhdeomism
+				}
+			}
+		}
+		AND = {
+			has_government = futhdeomism
+			ROOT = {
+				OR = {
+					has_government = gemefraism
+					has_government = kollektigleichenism
+				}
+			}
+		}
+	}
+}

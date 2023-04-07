@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 24
+    name = "Gula Taser"
+    value = 11
+    states = {
+        619 681 710 711 688 635 631 651 638 644
+    }
+}

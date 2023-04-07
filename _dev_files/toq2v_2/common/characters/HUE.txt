@@ -1,0 +1,97 @@
+characters = {
+#Create country leader - Clans Counciul
+clans_counciul = {
+	name = clans_counciul
+	portraits = {
+		civilian = {
+			#Custom image for Clans Counciul
+			large = "/gfx/leaders/HUE/DyXMovlH-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = clans
+		traits = {  }
+	}
+}
+
+#Create country leader - Union conciul
+union_conciul = {
+	name = union_conciul
+	portraits = {
+		civilian = {
+			#Custom image for Union conciul
+			large = "/gfx/leaders/HUE/MeyAQsif-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socinalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Gerhano
+gerhano = {
+	name = gerhano
+	portraits = {
+		civilian = {
+			#Custom image for Gerhano
+			large = "/gfx/leaders/HUE/feuEBLFC-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = democratic_confamdivism
+		traits = {  }
+	}
+}
+
+#Create country leader - Hansztad
+hansztad = {
+	name = hansztad
+	portraits = {
+		civilian = {
+			#Custom image for Hansztad
+			large = "/gfx/leaders/HUE/nUMKsHgN-156415.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = sidonism
+		traits = {  }
+	}
+}
+
+#Create country leader - Gerhano
+gerhano = {
+	name = gerhano
+	portraits = {
+		civilian = {
+			#Custom image for Gerhano
+			large = "/gfx/leaders/HUE/xertasvW-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = animlibris
+		traits = {  }
+	}
+}
+
+#Create country leader - Cases V Gerlen
+cases_v_gerlen = {
+	name = cases_v_gerlen
+	portraits = {
+		civilian = {
+			#Custom image for Cases V Gerlen
+			large = "/gfx/leaders/HUE/PsBcwhKS-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = absolut_futhdeomism
+		traits = {  }
+	}
+}
+}

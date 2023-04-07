@@ -1,0 +1,17 @@
+state={
+	id=304
+	name="STATE_304"
+	history = {
+		owner = LIV
+		add_core_of = LIV
+		victory_points = {
+			4592 1
+		}
+	}
+	provinces={
+		4592 6671 8536 8587 8660 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

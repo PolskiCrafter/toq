@@ -1,0 +1,13 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		2322 5815 10552 10599 10658 
+	}
+	history = {
+		owner = ORT
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

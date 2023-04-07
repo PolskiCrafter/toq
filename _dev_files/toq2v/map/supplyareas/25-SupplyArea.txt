@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 25
+    name = "East Turkey"
+    value = 10
+    states = {
+        794 808 760 816 766 817 846 837 845 765 806 799 740 696 732
+    }
+}

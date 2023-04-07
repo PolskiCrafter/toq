@@ -1,0 +1,9 @@
+
+supply_area={
+	id=82
+	name="Knot"
+	value=15
+	states={
+		953 969 938 942 944 931 29 
+	}
+}

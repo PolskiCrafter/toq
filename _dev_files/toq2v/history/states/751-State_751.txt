@@ -1,0 +1,17 @@
+state={
+	id=751
+	name="STATE_751"
+	history = {
+		owner = NEL
+		add_core_of = NEL
+		victory_points = {
+			5478 7
+		}
+	}
+	provinces={
+		834 2946 5478 6416 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

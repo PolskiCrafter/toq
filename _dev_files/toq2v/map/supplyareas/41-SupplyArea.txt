@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 41
+    name = "Vnovnios"
+    value = 12
+    states = {
+       513 507 494 421 390 404 414 391 419 468 484 450 437 467
+    }
+}

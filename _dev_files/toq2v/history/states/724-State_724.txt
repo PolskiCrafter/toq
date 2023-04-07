@@ -1,0 +1,13 @@
+state={
+	id=724
+	name="STATE_724"
+	provinces={
+		157 3095 3102 3469 5968 6509 7484 10076 10077 10116 10162 10174 10186 10205 10246 
+	}
+	history = {
+		owner = DVE
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

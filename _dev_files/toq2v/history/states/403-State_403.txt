@@ -1,0 +1,17 @@
+state={
+	id=403
+	name="STATE_403"
+	history = {
+		owner = LIV
+		add_core_of = LIV
+		victory_points = {
+			8878 11
+		}
+	}
+	provinces={
+		360 2378 6521 8783 8830 8878 8922 8929 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 11
+    name = "Shtupalhime"
+    value = 9
+    states = {
+        514 451 489 478 461 377 409 331 356 369 302
+    }
+}

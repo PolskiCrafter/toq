@@ -1,0 +1,18 @@
+bookmarks = {
+	bookmark = {
+		name = "silence_before_the_storm_name"
+		desc = "silence_before_the_storm_desc"
+		date = 1090.1.1.12
+	picture = "silence_before_the_storm-1"
+		default_country = "HUE"
+		default = yes
+		"HUE" = {
+			history = "silence_before_the_storm_HUE"
+			ideology = futhdeomism
+		}
+		"AOK" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = gemefraism
+		}
+	}
+}

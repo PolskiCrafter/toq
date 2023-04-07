@@ -1,0 +1,17 @@
+state={
+	id=586
+	name="STATE_586"
+	history = {
+		owner = SHH
+		add_core_of = SHH
+		victory_points = {
+			965 1
+		}
+	}
+	provinces={
+		474 965 2647 7009 9485 9593 9599 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

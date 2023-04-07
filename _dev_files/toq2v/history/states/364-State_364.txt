@@ -1,0 +1,14 @@
+state={
+	id=364
+	name="STATE_364"
+	history = {
+		owner = KUT
+		add_core_of = KUT
+		}
+	provinces={
+		169 2876 4932 6344 8717 8744 8849 8867 
+	}
+	manpower=400000
+        state_category = town
+	buildings_max_level_factor=1.000
+}

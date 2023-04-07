@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 36
+    name = "West Dvedme"
+    value = 9
+    states = {
+       724 801 876 850 901 747 791 883 887
+    }
+}

@@ -1,0 +1,17 @@
+state={
+	id=187
+	name="STATE_187"
+	history = {
+		owner = HUE
+		add_core_of = HUE
+		victory_points = {
+			895 14
+		}
+	}
+	provinces={
+		460 895 2642 6510 6816 8148 8175 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

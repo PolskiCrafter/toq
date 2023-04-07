@@ -1,0 +1,13 @@
+state={
+	id=714
+	name="STATE_714"
+	provinces={
+		2529 3558 3813 9973 10003 10033 10057 10100 10133 10134 10169 
+	}
+	history = {
+		owner = RAD
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

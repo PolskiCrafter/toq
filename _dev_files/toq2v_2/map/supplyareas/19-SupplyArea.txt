@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 19
+    name = "West Kutuze Kingdom"
+    value = 10
+    states = {
+        472 500 460 417 464 442 510 531 509 455 441 364 482 456 452 401 408 423
+    }
+}

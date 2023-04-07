@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 16
+    name = "East Perhalia"
+    value = 9
+    states = {
+        147 117 135 108 201 290 269 261 238 273 238
+    }
+}

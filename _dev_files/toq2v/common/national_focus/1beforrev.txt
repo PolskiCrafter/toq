@@ -1,0 +1,297 @@
+focus_tree = {
+	id = 1beforrev
+	continuous_focus_position = { x = -40 y = 1830 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUE
+		}
+	}
+	#The Empire
+	focus = {
+		id = HUE_the_empire
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 3
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The old glory
+	focus = {
+		id = HUE_the_old_glory
+		icon = GFX_focus_generic_monarchy_2
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_empire  }
+	}
+
+	#These days
+	focus = {
+		id = HUE_these_days
+		icon = GFX_HUE_these_days-280
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_empire  }
+	}
+
+	#The ticking of a clock
+	focus = {
+		id = HUE_the_ticking_of_a_clock
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 3
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_old_glory  } prerequisite = { focus = HUE_these_days  }
+	}
+
+	#Secure the arsenals
+	focus = {
+		id = HUE_secure_the_arsenals
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_ticking_of_a_clock  }
+	}
+
+	#Call the guard
+	focus = {
+		id = HUE_call_the_guard
+		icon = GFX_goal_demand_sudetenland
+		x = 3
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_ticking_of_a_clock  }
+	}
+
+	#Strengthening the capital
+	focus = {
+		id = HUE_strengthening_the_capital
+		icon = GFX_goal_generic_fortify_city
+		x = 5
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_ticking_of_a_clock  }
+	}
+
+	#Ban the constitution
+	focus = {
+		id = HUE_ban_the_constitution
+		icon = GFX_focus_generic_monarchy_1
+		x = 3
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_secure_the_arsenals  } prerequisite = { focus = HUE_call_the_guard  } prerequisite = { focus = HUE_strengthening_the_capital  }
+	}
+
+	#Purge the Opposition
+	focus = {
+		id = HUE_purge_the_opposition
+		icon = GFX_goal_unknown
+		x = 1
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_ban_the_constitution  }
+	}
+
+	#Purge in Army
+	focus = {
+		id = HUE_purge_in_army
+		icon = GFX_goal_unknown
+		x = 5
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_ban_the_constitution  }
+	}
+
+	#Few
+	focus = {
+		id = HUE_few
+		icon = GFX_goal_unknown
+		x = 2
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_secret  }
+	}
+
+	#Immortality
+	focus = {
+		id = HUE_immortality
+		icon = GFX_goal_unknown
+		x = 4
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_secret  }
+	}
+
+	#A show of strength
+	focus = {
+		id = HUE_a_show_of_strength
+		icon = GFX_goal_unknown
+		x = 3
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_few  } prerequisite = { focus = HUE_immortality  }
+	}
+
+	#Secret
+	focus = {
+		id = HUE_secret
+		icon = GFX_goal_unknown
+		x = 3
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_everyone_is_an_enemy  }
+	}
+
+	#Everyone is an enemy
+	focus = {
+		id = HUE_everyone_is_an_enemy
+		icon = GFX_goal_unknown
+		x = 3
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_pogroms  }
+	}
+
+	#Pogroms
+	focus = {
+		id = HUE_pogroms
+		icon = GFX_goal_unknown
+		x = 3
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_purge_the_opposition  } prerequisite = { focus = HUE_purge_in_army  }
+	}
+
+	#The new king
+	focus = {
+		id = HUE_the_new_king
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Attempting to fix errors
+	focus = {
+		id = HUE_attempting_to_fix_errors
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = sdw
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_new_king  }
+	}
+
+	#The promise of the constitution
+	focus = {
+		id = HUE_the_promise_of_the_constitution
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_attempting_to_fix_errors  }
+	}
+
+	#Negotiations
+	focus = {
+		id = HUE_negotiations
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_attempting_to_fix_errors  }
+	}
+
+	#Desperate attempt
+	focus = {
+		id = HUE_desperate_attempt
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_the_promise_of_the_constitution  } prerequisite = { focus = HUE_negotiations  }
+	}
+
+	#Waiting for the coming storm
+	focus = {
+		id = HUE_waiting_for_the_coming_storm
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUE_desperate_attempt  }
+	}
+
+	#Cooperation with Hansztad
+	focus = {
+		id = HUE_cooperation_with_hansztad
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = HUE_cooperation_with_gerhano  }
+	}
+
+	#Cooperation with Gerhano
+	focus = {
+		id = HUE_cooperation_with_gerhano
+		icon = GFX_goal_unknown
+		x = 9
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

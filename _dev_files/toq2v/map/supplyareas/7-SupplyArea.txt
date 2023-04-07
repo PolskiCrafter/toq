@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 7
+    name = "Grubesztage"
+    value = 10
+    states = {
+        435 438 354 504 485 504 393 465 479 432
+    }
+}

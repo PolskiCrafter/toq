@@ -1,0 +1,17 @@
+state={
+	id=719
+	name="STATE_719"
+	history = {
+		owner = CYR
+		add_core_of = CYR
+		victory_points = {
+			5583 6
+		}
+	}
+	provinces={
+		5583 5908 9994 10045 10059 10093 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

@@ -1,0 +1,13 @@
+state={
+	id=475
+	name="STATE_475"
+	provinces={
+		84 779 1649 6585 9080 9115 9139 9185 
+	}
+	history = {
+		owner = VNO
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+
+		broken_promiss = {
+			picture = broken_promiss-1672
+		}
+
+		internal_instability = {
+			picture = internal_instability-1929
+		}
+
+		race_clashes = {
+			picture = race_clashes-1053
+		}
+
+		concesions_of_ = {
+			picture = concesions_of_-1781
+		}
+
+		dying_economy = {
+			picture = dying_economy-1
+		}
+	}
+}

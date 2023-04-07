@@ -1,0 +1,22 @@
+add_namespace = communeevents
+
+#Seven Years Revolution
+country_event = {
+	id = communeevents.1
+	title = communeevents.1.t
+	desc = communeevents.1.d
+
+	picture = seven_years_revolution-1
+	timeout_days = 3
+	option = {
+		name = communeevents.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=44
+	name="North Sewtiiten"
+	value=10
+	states={
+		250 278 251 264 274 272 258 257 239 130 227 
+	}
+}

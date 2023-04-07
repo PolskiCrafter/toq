@@ -1,0 +1,13 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		1940 3671 10387 10406 10456 10482 10497 
+	}
+	history = {
+		owner = ESN
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

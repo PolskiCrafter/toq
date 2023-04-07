@@ -1,0 +1,98 @@
+add_namespace = befor_the_hunland_empire
+
+#Death of a tyrant
+country_event = {
+	id = befor_the_hunland_empire.1
+	title = befor_the_hunland_empire.1.t
+	desc = befor_the_hunland_empire.1.d
+
+	picture = befor_death_of_a_tyrant-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = befor_the_hunland_empire.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#The Civil War
+country_event = {
+	id = befor_the_hunland_empire.2
+	title = befor_the_hunland_empire.2.t
+	desc = befor_the_hunland_empire.2.d
+
+	picture = befor_the_civil_war-1
+	option = {
+		name = befor_the_hunland_empire.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = befor_the_hunland_empire.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = befor_the_hunland_empire.2.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = befor_the_hunland_empire.2.d
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Old Glory
+country_event = {
+	id = befor_the_hunland_empire.3
+	title = befor_the_hunland_empire.3.t
+	desc = befor_the_hunland_empire.3.d
+
+	picture = befor_old_glory-1
+	is_triggered_only = yes
+	option = {
+		name = befor_the_hunland_empire.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

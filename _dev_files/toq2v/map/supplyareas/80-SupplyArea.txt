@@ -1,0 +1,9 @@
+
+supply_area={
+	id=80
+	name="Classenburgsa"
+	value=12
+	states={
+		80 77 64 83 66 63 79 82 60 67 4 95 71 74 97 75 69 
+	}
+}

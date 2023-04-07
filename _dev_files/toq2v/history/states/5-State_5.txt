@@ -1,0 +1,17 @@
+state={
+	id=5
+	name="STATE_5"
+	history = {
+		owner = UKF
+		add_core_of = UKF
+		victory_points = {
+			4153 1
+		}
+	}
+	provinces={
+		586 2139 2271 4153 4974 7541 7735 7741 7757 7764 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

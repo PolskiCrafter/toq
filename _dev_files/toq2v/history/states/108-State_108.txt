@@ -1,0 +1,20 @@
+state={
+	id=108
+	name="STATE_108"
+	history = {
+		owner = ACH
+		add_core_of = ACH
+		victory_points = {
+			4686 17
+		}
+		victory_points = {
+			5811 37
+		}
+	}
+	provinces={
+		4686 5811 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

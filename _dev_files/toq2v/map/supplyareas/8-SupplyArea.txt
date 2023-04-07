@@ -1,0 +1,8 @@
+ supply_area = {
+    id = 8
+    name = "Ukershtun"
+    value = 12
+    states = {
+        388 428 440 447 503 471 502 470 520
+    }
+}

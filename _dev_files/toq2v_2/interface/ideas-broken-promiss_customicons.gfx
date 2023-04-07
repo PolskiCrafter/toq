@@ -1,0 +1,33 @@
+spriteTypes = { 
+	##Icon For: Broken Promiss
+	SpriteType = { 
+		name = "GFX_idea_broken_promiss-1672"
+		texturefile = "gfx/interface/ideas/broken-promiss-ideas/broken_promiss-1672.dds"
+	}
+
+	##Icon For: Internal Instability
+	SpriteType = { 
+		name = "GFX_idea_internal_instability-1929"
+		texturefile = "gfx/interface/ideas/broken-promiss-ideas/internal_instability-1929.dds"
+	}
+
+	##Icon For: Race Clashes
+	SpriteType = { 
+		name = "GFX_idea_race_clashes-1053"
+		texturefile = "gfx/interface/ideas/broken-promiss-ideas/race_clashes-1053.dds"
+	}
+
+	##Icon For: Concesions of ...
+	SpriteType = { 
+		name = "GFX_idea_concesions_of_-1781"
+		texturefile = "gfx/interface/ideas/broken-promiss-ideas/concesions_of_-1781.dds"
+	}
+
+	##Icon For: Dying Economy
+	SpriteType = { 
+		name = "GFX_idea_dying_economy-1"
+		texturefile = "gfx/interface/ideas/broken-promiss-ideas/dying_economy-1.dds"
+	}
+
+ 
+ }

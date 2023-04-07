@@ -1,0 +1,17 @@
+state={
+	id=521
+	name="STATE_521"
+	history = {
+		owner = SHH
+		add_core_of = SHH
+		victory_points = {
+			1123 19
+		}
+	}
+	provinces={
+		1123 4197 4970 9241 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = city
+}

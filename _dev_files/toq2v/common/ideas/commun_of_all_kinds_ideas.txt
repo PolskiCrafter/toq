@@ -1,0 +1,56 @@
+ideas = {
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+		counciul_of_military_theoreticians = {
+			allowed = {
+				tag = AOK
+			}
+			traits = {}
+			picture = "VDzReoPx-1"
+		}
+		counciul_of_military_theoreticians = {
+			allowed = {
+				tag = AOK
+			}
+			traits = {}
+			picture = "BmoMAXSq-1"
+		}
+		counciul_of_military_theoreticians = {
+			allowed = {
+				tag = AOK
+			}
+			traits = {}
+			picture = "ltGnsjog-1"
+		}
+}
+	tank_manufacturer = {
+}
+	naval_manufacturer = {
+}
+	aircraft_manufacturer = {
+}
+	materiel_manufacturer = {
+}
+	industrial_concern = {
+}
+	theorist = {
+		counciul_of_military_theoreticians = {
+			allowed = {
+				tag = AOK
+			}
+			traits = {council_of_theorists }
+			picture = "dATmNncf-1"
+		}
+}
+	army_chief = {
+}
+	navy_chief = {
+}
+	air_chief = {
+}
+	high_command = {
+}
+}
