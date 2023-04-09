@@ -1,0 +1,7 @@
+
+ONE = "countries/Continent One.txt"
+TWO = "countries/Continent Two.txt"
+THR = "countries/Continent Three.txt"
+FOR = "countries/Continent Four.txt"
+FIV = "countries/Continent Five.txt"
+SIX = "countries/Continent Six.txt"

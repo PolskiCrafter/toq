@@ -1,0 +1,37 @@
+capital = 2
+
+set_research_slots = 1
+
+set_stability = 1
+
+set_war_support = 1
+
+add_political_power = 0
+
+set_convoys = 0
+
+set_popularities = {
+	democratic = 25
+	communism = 25
+	fascism = 25
+	neutrality = 25
+	# aniprimism = 25
+	# confamdivism = 25
+	# darkness = 25
+	# futhdeomism = 25
+	gemefraism = 0
+	kollektigleichenism = 0
+	light = 0
+	marlianimibrunism = 0
+	nacinoparinism = 0
+	sociallibrism = 0
+	ubestrapanism = 0
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1070.11.8"
+	election_frequency = 48
+	elections_allowed = Yes
+}
+

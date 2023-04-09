@@ -1,0 +1,16 @@
+
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		167 1203 1769 1857 2529 4939 4952 4964 4977 
+	}
+	history = {
+		owner = SIX
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = town
+
+}

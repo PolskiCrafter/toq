@@ -1,0 +1,15 @@
+state={
+	id=165
+	name="STATE_165"
+	provinces={
+		6 655 1796 2350 
+	}
+	history = {
+		owner = ONE
+	}
+	 
+buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

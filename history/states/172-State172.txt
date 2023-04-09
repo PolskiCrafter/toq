@@ -1,0 +1,16 @@
+
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		1963 2145 2230 2354 
+	}
+	history = {
+		owner = ONE
+	}
+	 
+buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

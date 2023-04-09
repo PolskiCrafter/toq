@@ -1,0 +1,16 @@
+
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		339 983 2656 2998 3605 3996 
+	}
+	history = {
+		owner = ONE
+	}
+	 
+buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

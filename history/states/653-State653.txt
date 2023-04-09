@@ -1,0 +1,16 @@
+
+state={
+	id=653
+	name="STATE_653"
+	provinces={
+		201 2351 2927 3377 3483 4614 4636 
+	}
+	history = {
+		owner = SIX
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = town
+
+}

@@ -1,0 +1,39 @@
+ideologies = {
+	nacinoparinism = {
+		types = {
+			army_pack = { can_be_randomly_selected = no }
+			nacinoparsyndykale = { can_be_randomly_selected = no }
+			ultranacinoparinism = { can_be_randomly_selected = no }
+			reliqnacinoparinism = {  }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 121 19 34 }
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		war_impact_on_world_tension = 50
+		faction_modifiers = {
+			
+		}
+		faction_impact_on_world_tension = 0.5
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_force_government = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = -30
+			annex_cost_factor = 50
+			civilian_intel_to_others = 15
+			army_intel_to_others = 15
+			navy_intel_to_others = 15
+			airforce_intel_to_others = 15
+			justify_war_goal_when_in_major_war_time = -50
+			#increased_influence_factor  = 50
+			drift_defence_factor = 50
+		}
+		ai_neutral = yes
+	}
+}

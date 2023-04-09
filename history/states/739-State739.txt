@@ -1,0 +1,15 @@
+state={
+	id=739
+	name="STATE_739"
+	provinces={
+		1018 4923 4927 4936 
+	}
+	history = {
+		owner = SIX
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = town
+
+}

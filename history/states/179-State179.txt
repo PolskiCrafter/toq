@@ -1,0 +1,15 @@
+state={
+	id=179
+	name="STATE_179"
+	provinces={
+		1176 1893 2033 2968 4147 
+	}
+	history = {
+		owner = ONE
+	}
+	 
+buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

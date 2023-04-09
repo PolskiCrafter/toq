@@ -1,0 +1,15 @@
+
+state={
+	id=442
+	name="STATE_442"
+	provinces={
+		527 1932 2544 2732 
+	}
+	history = {
+		owner = FOR
+	}
+buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

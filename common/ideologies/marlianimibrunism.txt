@@ -1,0 +1,25 @@
+ideologies = {
+	marlianimibrunism = {
+		types = {
+			animlibris = { can_be_randomly_selected = no }
+			genzotradism = { can_be_randomly_selected = no }
+			centrism_marlianimibrunism = { can_be_randomly_selected = no }
+			technoanimilibris = { can_be_randomly_selected = no }
+			spiritual_animlibris = {  }
+			socialanimlibris = {  }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 192 255 0 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_send_volunteers = yes
+			can_force_government = yes
+			can_puppet = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+}

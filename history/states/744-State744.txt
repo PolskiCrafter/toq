@@ -1,0 +1,15 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		269 1698 3627 4706 
+	}
+	history = {
+		owner = SIX
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = town
+
+}

@@ -1,0 +1,15 @@
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		1227 2511 2528 2585 3227 3294 4514 4548 
+	}
+	history = {
+		owner = TWO
+	}
+	 
+buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

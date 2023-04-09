@@ -1,0 +1,51 @@
+﻿l_english:
+  democratic:0 "Aniprimist"
+  democratic_noun:0 "Aniprimism"
+  democratic_desc:0 "Aniprimist Regime"
+
+  communism:0 "Confamdivist"
+  communism_noun:0 "Confamdivism"
+  communism_desc:0 "Confamdivist Regime"
+
+  fascism:0 "Darkness"
+  fascism_noun:0 "Darkness"
+  fascism_desc:0 "Darkness Rule"
+
+  neutrality:0 "Futhdeomist"
+  neutrality_noun:0 "Futhdeomism"
+  neutrality_desc:0 "Futhdeomist Regime"
+
+
+  clans:0 "Clans"
+  clans_desc:0 "The country land is controled by a clan or multiple clans."
+  tribes:0 "Tribes"
+  tribes_desc:0 "The country land is controled by a tribe or multiple tribes."
+  wasteland:0 "Wasteland"
+  wasteland_desc:0 "Terain is destroyed and people are dead or few to be."
+  old_faith:0 "Old Faith "
+  old_faith_desc:0 "A ideology of defending or spreading "old" ( Thats not Light ore Darkness) faith."
+  shamanate:0 "Shamanate"
+  shamanate_desc:0 "As name implies,it is a rule of local shaman."
+  faction_aniprimism_clans:0 "Aniprimism Party"
+
+  traditional_confamdivism:0 "Traditional Confamdivism"
+  traditional_confamdivism_desc:0 "Traditional Confamdivism is a political philosophy emphasizing the need for the principles of natural law and transcendent moral order, tradition, hierarchy and organic unity, agrarianism, classicism and high culture as well as the intersecting spheres of loyalty."
+  national_confamdivism:0 "National Confamdivism"
+  national_confamdivism_desc:0 "National Confamdivism is a political term used to describe a variant of Confamdivism which concentrates more on national interests than standard conservatism as well as upholding cultural and ethnic identity."
+  democratic_confamdivism:0 "Democratic Confamdivism"
+  democratic_confamdivism_desc:0 "Democratic Confamdivism incorporates the classical liberal view of minimal government intervention in the economy. Individuals should be free to participate in the market and generate wealth without government interference. However, individuals cannot be thoroughly depended on to act responsibly in other spheres of life, therefore liberal conservatives believe that a strong state is necessary to ensure law and order and social institutions are needed to nurture a sense of duty and responsibility to the nation."
+  spiritual_confamdivism:0 "Spiritual Confamdivism"
+  spiritual_confamdivism_desc:0 "Spiritual Confamdivism principally applies the teachings of particular religions to politics,  sometimes by merely proclaiming the value of those teachings, at other times by having those teachings influence laws."
+  faction_confamdivism_reanimalic_party:0 "Reanimalic Party"
+
+  CjnzlLuw:0 "Darkness"
+  CjnzlLuw_desc:0 "When you look into Darkness. Darkness looks into you. -Dasuk"
+  dark_order:0 "Dark Order"
+  dark_order_desc:0 "The head of Darkness faith. Conciuling the belivers and kepping Dasuk teachings book in secret. Masters of corruption power and corruption magic."
+  darkness_freedom:0 "Darkness Freedom"
+  darkness_freedom_desc:0 "The ideology that want emancipation end expantion of darkness religion. Usualy lead by Dark sect."
+
+  absolut_futhdeomism:0 "Absolut Futhdeomism"
+  absolut_futhdeomism_desc:0 "Absolute Futhdeomism (or absolutism as doctrine) is a form of Futhdeomism in which the Monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature, or unwritten customs. These are often hereditary monarchies. In contrast, in constitutional Futhdeomism, the head of state's authority derives from or is legally bound or restricted by a constitution, legislature or unwritten customs."
+  parlamentary_futhdeomism:0 "Parlamentary Futhdeomism"
+  parlamentary_futhdeomism_desc:0 "A parliamentary  Futhdeomism is a form of monarchy in which the monarch exercises authority in accordance with a written or unwritten constitution. Constitutional monarchies differ from absolute monarchies (in which a monarch holds absolute power as both head of state and head of government) in that they are bound to exercise powers and authorities within limits prescribed by an established legal framework."

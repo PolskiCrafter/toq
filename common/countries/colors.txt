@@ -202,3 +202,27 @@ D50 = {
 	color = rgb { 210 106 47 }
 	color_ui = rgb { 255 138 61 }
 }
+ONE = {
+	color = rgb { 128 0 64 }
+	color_ui  = rgb { 98 0 34 }
+}
+TWO = {
+	color = rgb { 0 0 255 }
+	color_ui  = rgb { 0 0 225 }
+}
+THR = {
+	color = rgb { 0 64 0 }
+	color_ui  = rgb { 0 34 0 }
+}
+FOR = {
+	color = rgb { 64 0 64 }
+	color_ui  = rgb { 34 0 34 }
+}
+FIV = {
+	color = rgb { 255 131 0 }
+	color_ui  = rgb { 225 131 0 }
+}
+SIX = {
+	color = rgb { 0 255 255 }
+	color_ui  = rgb { 0 225 225 }
+}

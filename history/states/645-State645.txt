@@ -1,0 +1,14 @@
+state={
+	id=645
+	name="STATE_645"
+	provinces={
+		101 297 375 695 4076 4085 
+	}
+	history = {
+		owner = FIV
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = town
+}
