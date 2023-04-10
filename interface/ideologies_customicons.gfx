@@ -1,0 +1,37 @@
+spriteTypes = {	##Icon For: Gemefraism
+	SpriteType = { 
+		name = "GFX_ideology_gemefraism_icon_group"
+		texturefile = "gfx/interface/ideologies/gemefraism_icon.dds"
+	}
+
+	##Icon For: Kollektigleichenism
+	SpriteType = { 
+		name = "GFX_ideology_kollektigleichenism_icon_group"
+		texturefile = "gfx/interface/ideologies/kollektigleichenism_icon.dds"
+	}
+
+	##Icon For: Ubestrapanism
+	SpriteType = { 
+		name = "GFX_ideology_ubestrapanism_icon_group"
+		texturefile = "gfx/interface/ideologies/ubestrapanism_icon.dds"
+	}
+
+	##Icon For: Nacinoparinism
+	SpriteType = { 
+		name = "GFX_ideology_nacinoparinism_icon_group"
+		texturefile = "gfx/interface/ideologies/nacinoparinism_icon.dds"
+	}
+
+	##Icon For: Social-librism
+	SpriteType = { 
+		name = "GFX_ideology_socialliberalism_icon_group"
+		texturefile = "gfx/interface/ideologies/socialliberalism_icon.dds"
+	}
+
+	##Icon For: Marlianimibrunism
+	SpriteType = { 
+		name = "GFX_ideology_marlianimibrunism_icon_group"
+		texturefile = "gfx/interface/ideologies/marlianimibrunism_icon.dds"
+	}
+
+}
