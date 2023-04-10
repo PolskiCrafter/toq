@@ -1,0 +1,44 @@
+﻿oob = "NOE_1090"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 1090.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1089.7.17"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	marlianimibrunism = 10
+	gemefraism = 10
+	kollektigleichenism = 10
+	neutrality = 10
+	ubestrapanism = 10
+	communism = 10
+	nacinoparinism = 10
+	light = 10
+	fascism = 10
+	democratic = 5
+	sociallibrism = 5
+}
+
+
+
+
+

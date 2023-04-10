@@ -1,0 +1,2 @@
+HUR = "countries/1'sth Hundland Reanimalic.txt"
+UFH = "countries/United Front.txt"

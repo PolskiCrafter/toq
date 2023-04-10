@@ -1,0 +1,43 @@
+﻿oob = "USA_1090"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 1090.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1089.7.6"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	marlianimibrunism = 28
+	gemefraism = 10
+	kollektigleichenism = 4
+	neutrality = 0
+	ubestrapanism = 4
+	communism = 26
+	nacinoparinism = 10
+	light = 3
+	fascism = 0
+	democratic = 0
+	sociallibrism = 5
+}
+
+recruit_character = amasyl_barkson
+recruit_character = lahatha_viquala
+

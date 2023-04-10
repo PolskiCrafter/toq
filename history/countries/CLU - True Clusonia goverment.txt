@@ -1,0 +1,42 @@
+﻿oob = "CLU_1090"
+capital = 1
+set_research_slots = 2
+set_stability = 20
+set_war_support = 70
+set_convoys = 10
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+#Politics for 1090.1.1
+set_politics = {
+	ruling_party = nacinoparinism
+	last_election = "1090.01.01"
+	election_frequency = 3
+	elections_allowed = yes
+}
+set_popularities = {
+	marlianimibrunism = 10
+	gemefraism = 10
+	kollektigleichenism = 10
+	neutrality = 10
+	ubestrapanism = 10
+	communism = 10
+	nacinoparinism = 10
+	light = 10
+	fascism = 10
+	democratic = 5
+	sociallibrism = 5
+}
+
+
+

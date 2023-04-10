@@ -1,0 +1,47 @@
+﻿oob = "HUE_1090"
+capital = 1
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 300
+
+
+add_ideas = {
+	disarmed_nation
+	civilian_economy
+	internal_instability
+	race_clashes
+	dying_economy
+	concesions_of_
+}
+
+
+
+#Politics for 1090.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1089.10.21"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	marlianimibrunism = 9
+	gemefraism = 9
+	kollektigleichenism = 9
+	neutrality = 27
+	ubestrapanism = 9
+	communism = 9
+	nacinoparinism = 9
+	light = 8
+	fascism = 1
+	democratic = 0
+	sociallibrism = 9
+}
+
+recruit_character = cases_v_gerlen
+recruit_character = gerhano
+recruit_character = hansztad
+recruit_character = gerhano
+recruit_character = union_conciul
+recruit_character = clans_counciul
+
