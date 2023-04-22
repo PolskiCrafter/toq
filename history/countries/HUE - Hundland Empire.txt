@@ -9,10 +9,6 @@ set_convoys = 300
 add_ideas = {
 	disarmed_nation
 	civilian_economy
-	internal_instability
-	race_clashes
-	dying_economy
-	concesions_of_
 }
 
 
@@ -38,10 +34,10 @@ set_popularities = {
 	sociallibrism = 9
 }
 
-recruit_character = cases_v_gerlen
-recruit_character = gerhano
-recruit_character = hansztad
-recruit_character = gerhano
-recruit_character = union_conciul
-recruit_character = clans_counciul
+# recruit_character = cases_v_gerlen
+# recruit_character = gerhano
+# recruit_character = hansztad
+# recruit_character = gerhano
+# recruit_character = union_conciul
+# recruit_character = clans_counciul
 

@@ -7,6 +7,10 @@ bookmarks = {
 		default_country = "ONE"
 
 		default = yes
+		"HUE" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
 		"ONE" = {
 			history = "silence_before_the_storm_AOK"
 			ideology = democratic

@@ -5,7 +5,11 @@ state={
 		1259 2291 2365 3199 3957 3967 
 	}
 	history = {
-		owner = ONE
+		owner = HUE
+		add_core_of = HUE
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	 
 buildings_max_level_factor=1.000

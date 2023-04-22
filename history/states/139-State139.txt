@@ -6,11 +6,10 @@ state={
 		198 1113 1752 3277 3925 3965 
 	}
 	history = {
-		owner = ONE
+		owner = ACH
 	}
-	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

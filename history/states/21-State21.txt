@@ -5,10 +5,10 @@ state={
 		1779 2127 3184 3582 3888 3907 
 	}
 	history = {
-		owner = ONE
+		owner = PRH
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

@@ -5,11 +5,10 @@ state={
 		209 420 815 1027 1387 1671 
 	}
 	history = {
-		owner = ONE
+		owner = KUT
 	}
-	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }
