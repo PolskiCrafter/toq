@@ -11,6 +11,10 @@ bookmarks = {
 			history = "silence_before_the_storm_AOK"
 			ideology = democratic
 		}
+		"KUT" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = neutrality
+		}
 		"ONE" = {
 			history = "silence_before_the_storm_AOK"
 			ideology = democratic
@@ -31,12 +35,14 @@ bookmarks = {
 			history = "silence_before_the_storm_AOK"
 			ideology = gemefraism
 		}
-		"SIX" = {
-			history = "silence_before_the_storm_AOK"
-			ideology = kollektigleichenism
-		}
+
 		"---"={
 			history = "silence_before_the_storm_OTHER"
+		}
+		"SIX" = {
+			minor = yes
+			history = "silence_before_the_storm_AOK"
+			ideology = kollektigleichenism
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

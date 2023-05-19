@@ -90,7 +90,7 @@ cases_v_gerlen = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = absolut_futhdeomism
+		ideology = absolute_futhdeomism
 		traits = {  }
 	}
 }

@@ -1,0 +1,18 @@
+characters = {
+	########################################
+	################ Leaders ###############
+	########################################
+	KUT_Kitserade = {
+		name = "Kitserade Sphepenhof XII Hohensbach"
+		portraits={
+			civilian={
+				large="gfx/leaders/KUT/portrait_KUT_Kitserade.dds.dds"
+			}
+		}
+		country_leader={
+			ideology= random_futhdeomism
+			traits={ dictator }
+			id=-1
+		}
+	}
+}

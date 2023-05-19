@@ -2,7 +2,7 @@ ideologies = {
 	futhdeomism = {
 		types = {
 			random_futhdeomism = {}
-			absolut_futhdeomism = { can_be_randomly_selected = no }
+			absolute_futhdeomism = { can_be_randomly_selected = no }
 			parlamentary_futhdeomism = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
