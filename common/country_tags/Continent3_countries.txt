@@ -7,7 +7,7 @@ ERM = "countries/Ertemetente.txt"
 MIN = "countries/Minoando.txt"
 NSI = "countries/Nsidialas.txt"
 RAG = "countries/Ragande.txt"
-URA = "countries/Urag.txt"
+
 THK = "countries/Thakini.txt"
 AMY = "countries/Amyrten.txt"
 RAM = "countries/Ramtten.txt"

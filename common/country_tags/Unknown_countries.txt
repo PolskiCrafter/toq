@@ -1,2 +1,24 @@
 HUR = "countries/1'sth Hundland Reanimalic.txt"
 UFH = "countries/United Front.txt"
+
+NEL = "countries/Nelevo.txt" #DEFUNKT
+ALE = "countries/Aleur.txt" #DEFUNKT
+ERT = "countries/Ertoninere.txt"
+TIT = "countries/Ttivinara.txt"
+
+RUP = "countries/Rupa Reanimalic.txt"
+ERR = "countries/Errda.txt"
+VNO = "countries/Kingdom of Vnovnios.txt"
+KAR = "countries/Kar.txt"
+SWE = "countries/Sewiiten Kingdom.txt"
+BAG = "countries/Bagred.txt"
+KAT = "countries/Katarv.txt"
+KIN = "countries/Kinal Reanimalic.txt"
+RAD = "countries/Radax.txt"
+RAO = "countries/Raod.txt"
+DVE = "countries/Dvedme Empire.txt"
+ORT = "countries/Orto Kingdom.txt"
+ESN = "countries/Esnic Kingdom.txt"
+NOI = "countries/Noillegre Kingdom.txt"
+ZAK = "countries/Zakor.txt"
+SHH = "countries/Kutuze Sh Protectorat.txt"

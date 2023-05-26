@@ -5,11 +5,11 @@ state={
 		840 2441 3511 4112 4126 
 	}
 	history = {
-		owner = ONE
+		owner = TUR
 	}
 	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+    manpower=1
+    state_category = town
 }

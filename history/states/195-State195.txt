@@ -5,7 +5,7 @@ state={
 		807 1969 3482 
 	}
 	history = {
-		owner = ONE
+		owner = UKF
 	}
 	 
 buildings_max_level_factor=1.000
