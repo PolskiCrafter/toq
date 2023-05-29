@@ -1,0 +1,62 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+    private_property_rights = {
+		law = yes
+		use_list_view = yes
+        interventionism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        feudal_economy = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        collective_and_communal = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        manufacturing_based  = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        centrally_planned_economy = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        market_socinalism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        free_market = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        corporatism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+        etatism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+    }
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

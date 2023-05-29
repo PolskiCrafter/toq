@@ -1,0 +1,18 @@
+﻿l_english:
+none:0 "None"
+none_desc:0 "Lorem Ipsum"
+
+curfews:0 "Implement Curfews"
+curfews_desc:0 "Lorem Ipsum"
+
+city_lockdowns:0 "Enforce City Lockdowns"
+city_lockdowns_desc:0 "Lorem Ipsum"
+
+suspend_habeas_corpus:0 "Suspend Habeas Corpus"
+suspend_habeas_corpus_desc:0 "Lorem Ipsum"
+
+state_of_emergency:0 "Declare State Of Emergency"
+state_of_emergency_desc:0 "Lorem Ipsum"
+
+martial_law:0 "Declare Martial Law"
+martial_law_desc:0 "Lorem Ipsum"

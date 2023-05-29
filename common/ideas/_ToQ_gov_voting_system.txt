@@ -1,0 +1,77 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	voting_system = {
+		law = yes
+		use_list_view = yes
+
+		no_voting_rights = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+		}
+		party_members_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.4
+			}
+		}
+		chosen_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.3
+			}
+		} 
+		elites_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.2
+			}
+		}
+		army_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+			}
+		}
+		male_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0
+			}
+		}
+		female_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		wealth_vote = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+			}
+		}
+		status_vote = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.3
+			}
+		}
+		citizens_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.4
+			}
+		}
+		universal = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.5
+			}
+		}
+
+	}
+
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

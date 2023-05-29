@@ -1,0 +1,39 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	internal_security_surveillance = {
+		law = yes
+		use_list_view = yes
+
+		no_surveillance = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+		}
+		criminals_only = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.4
+			}
+		}
+		potential_criminals_and_terrorists = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.3
+			}
+		}
+		threats_to_status_quo = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+			}
+		}
+		universal_surveillance = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.2
+			}
+		}
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

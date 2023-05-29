@@ -1,0 +1,33 @@
+﻿l_english:
+no_voting_rights:0 "No Voting Rights"
+no_voting_rights_desc:0 "Lorem Ipsum"
+
+party_members_only:0 "Party Memebers Only"
+party_members_only_desc:0 "Lorem Ipsum"
+
+chosen_only:0 "Chosen Only"
+chosen_only_desc:0 "Lorem Ipsum"
+
+elites_only:0 "Elites Only"
+elites_only_desc:0 "Lorem Ipsum"
+
+army_only:0 "Army Only"
+army_only_desc:0 "Lorem Ipsum"
+
+male_only:0 "Male Only"
+male_only_desc:0 "Lorem Ipsum"
+
+female_only:0 "Female Only"
+female_only_desc:0 "Lorem Ipsum"
+
+wealth_vote:0 "Wealth Voting"
+wealth_vote_desc:0 "Lorem Ipsum"
+
+status_vote:0 "Status Voting"
+status_vote_desc:0 "Lorem Ipsum"
+
+citizens_only:0 "Citizen Only"
+citizens_only_desc:0 "Lorem Ipsum"
+
+universal:0 "Universal Voting Rights"
+universal_desc:0 "Lorem Ipsum"

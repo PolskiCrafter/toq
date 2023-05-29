@@ -1,0 +1,58 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	level_of_poverty = {
+		law = yes
+		use_list_view = yes
+
+		zero_five = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+		}
+		five_twenty = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.4
+			}
+		}
+		twenty_thirty = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.3
+			}
+		}
+		thirty_fifty = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.2
+			}
+		}
+		fifty_sixty = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+			}
+		}
+		sixty_seventy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0
+			}
+		}
+		seventy_eighty = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		eighty_plus = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+			}
+		}
+	}
+
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

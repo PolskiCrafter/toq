@@ -1,0 +1,57 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	internal_security_police = {
+		law = yes
+		use_list_view = yes
+
+		secularism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		state_atheism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.4
+			}
+        }
+		light_supremacy = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.3
+			}
+        }
+		darkness_supremacy = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.2
+			}
+        }
+		religion_cule = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+			}
+        }
+		progress_cult = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = 0
+			}
+        }
+		one_faith_supremacy = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+        }
+		pluralism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+			}
+        }
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

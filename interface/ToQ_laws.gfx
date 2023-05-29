@@ -1,0 +1,352 @@
+################################################ Code and GFX Made by Jackal from the Tales Of Quaidan dev team ################################################
+
+spriteTypes = {	
+	### DEVELOPMENT LAWS
+	spriteType = {
+		name = "GFX_idea_tribal_economy"
+		texturefile = "gfx/interface/laws/level_of_development/tribal_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_underdeveloped_economy"
+		texturefile = "gfx/interface/laws/level_of_development/underdeveloped_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_early_industrial_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/early_industrial_age_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_full_steam_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/full_steam_age_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_early_diesel_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/early_diesel_age_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diesel_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/diesel_age_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_early_atom_economy"
+		texturefile = "gfx/interface/laws/level_of_development/early_atom_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_atom_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/atom_age_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_early_post_scarcity_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/early_post_scarcity_age_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_posts_scarcity_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/posts_scarcity_age_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_advanced_steam_age_economy"
+		texturefile = "gfx/interface/laws/level_of_development/advanced_steam_age_economy.dds"
+	}
+	### PRIVATE PROPERTY LAWS
+	spriteType = {
+		name = "GFX_idea_interventionism"
+		texturefile = "gfx/interface/laws/private_property_rights/interventionism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_feudal_economy"
+		texturefile = "gfx/interface/laws/private_property_rights/feudal_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_collective_and_communal"
+		texturefile = "gfx/interface/laws/private_property_rights/collective_and_communal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufacturing_based"
+		texturefile = "gfx/interface/laws/private_property_rights/manufacturing_based.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_centrally_planned_economy"
+		texturefile = "gfx/interface/laws/private_property_rights/centrally_planned_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_market_socinalism"
+		texturefile = "gfx/interface/laws/private_property_rights/market_socinalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_free_market"
+		texturefile = "gfx/interface/laws/private_property_rights/free_market.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corporatism"
+		texturefile = "gfx/interface/laws/private_property_rights/corporatism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_etatism"
+		texturefile = "gfx/interface/laws/private_property_rights/etatism.dds"
+	}
+	### PRIVATE PROPERTY LAWS
+	spriteType = {
+		name = "GFX_idea_zero_five"
+		texturefile = "gfx/interface/laws/level_of_poverty/zero_five.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_five_twenty"
+		texturefile = "gfx/interface/laws/level_of_poverty/five_twenty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_twenty_thirty"
+		texturefile = "gfx/interface/laws/level_of_poverty/twenty_thirty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_thirty_fifty"
+		texturefile = "gfx/interface/laws/level_of_poverty/thirty_fifty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fifty_sixty"
+		texturefile = "gfx/interface/laws/level_of_poverty/fifty_sixty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sixty_seventy"
+		texturefile = "gfx/interface/laws/level_of_poverty/sixty_seventy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_seventy_eighty"
+		texturefile = "gfx/interface/laws/level_of_poverty/seventy_eighty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eighty_plus"
+		texturefile = "gfx/interface/laws/level_of_poverty/eighty_plus.dds"
+	}
+
+	### Power Distribution LAWS
+	spriteType = {
+		name = "GFX_idea_direct_democracy"
+		texturefile = "gfx/interface/laws/power_distribution/direct_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_non_direct_democracy"
+		texturefile = "gfx/interface/laws/power_distribution/non_direct_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_autoritarian"
+		texturefile = "gfx/interface/laws/power_distribution/autoritarian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_one_party_rule"
+		texturefile = "gfx/interface/laws/power_distribution/one_party_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_one_person_rule_king"
+		texturefile = "gfx/interface/laws/power_distribution/one_person_rule_king.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_captains_rule"
+		texturefile = "gfx/interface/laws/power_distribution/captains_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_constitutional_rule"
+		texturefile = "gfx/interface/laws/power_distribution/constitutional_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_oligarchy"
+		texturefile = "gfx/interface/laws/power_distribution/oligarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nobility_rule"
+		texturefile = "gfx/interface/laws/power_distribution/nobility_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_clergy_rule"
+		texturefile = "gfx/interface/laws/power_distribution/clergy_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communes_democracy"
+		texturefile = "gfx/interface/laws/power_distribution/communes_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_specialist_rule"
+		texturefile = "gfx/interface/laws/power_distribution/specialist_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_darkness_will_come"
+		texturefile = "gfx/interface/laws/power_distribution/darkness_will_come.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_army_line_of_command"
+		texturefile = "gfx/interface/laws/power_distribution/army_line_of_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_parlamentarism"
+		texturefile = "gfx/interface/laws/power_distribution/parlamentarism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_presidentialsm"
+		texturefile = "gfx/interface/laws/power_distribution/presidentialsm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_strong_ones_rule"
+		texturefile = "gfx/interface/laws/power_distribution/strong_ones_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corporate_rule"
+		texturefile = "gfx/interface/laws/power_distribution/corporate_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_army_with_party"
+		texturefile = "gfx/interface/laws/power_distribution/army_with_party.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agrarianism"
+		texturefile = "gfx/interface/laws/power_distribution/agrarianism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_constitutional_rule"
+		texturefile = "gfx/interface/laws/power_distribution/constitutional_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_council"
+		texturefile = "gfx/interface/laws/power_distribution/council.dds"
+	}
+
+	### Emergency LAWS
+	spriteType = {
+		name = "GFX_idea_none"
+		texturefile = "gfx/interface/laws/emergency_laws/none.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_curfews"
+		texturefile = "gfx/interface/laws/emergency_laws/curfews.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_city_lockdowns"
+		texturefile = "gfx/interface/laws/emergency_laws/city_lockdowns.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_suspend_habeas_corpus"
+		texturefile = "gfx/interface/laws/emergency_laws/suspend_habeas_corpus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_of_emergency"
+		texturefile = "gfx/interface/laws/emergency_laws/state_of_emergency.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_martial_law"
+		texturefile = "gfx/interface/laws/emergency_laws/martial_law.dds"
+	}
+	### VOTNG LAWS
+	spriteType = {
+		name = "GFX_idea_no_voting_rights"
+		texturefile = "gfx/interface/laws/voting_system/no_voting_rights.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_party_members_only"
+		texturefile = "gfx/interface/laws/voting_system/party_members_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chosen_only"
+		texturefile = "gfx/interface/laws/voting_system/chosen_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_elites_only"
+		texturefile = "gfx/interface/laws/voting_system/elites_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_army_only"
+		texturefile = "gfx/interface/laws/voting_system/army_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_male_only"
+		texturefile = "gfx/interface/laws/voting_system/male_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_female_only"
+		texturefile = "gfx/interface/laws/voting_system/female_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wealth_vote"
+		texturefile = "gfx/interface/laws/voting_system/wealth_vote.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_status_vote"
+		texturefile = "gfx/interface/laws/voting_system/status_vote.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_citizens_only"
+		texturefile = "gfx/interface/laws/voting_system/citizens_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_universal"
+		texturefile = "gfx/interface/laws/voting_system/universal.dds"
+	}
+	### internal security surveillance LAWS
+	spriteType = {
+		name = "GFX_idea_no_surveillance"
+		texturefile = "gfx/interface/laws/internal_security_surveillance/no_surveillance.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_criminals_only"
+		texturefile = "gfx/interface/laws/internal_security_surveillance/criminals_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_potential_criminals_and_terrorists"
+		texturefile = "gfx/interface/laws/internal_security_surveillance/potential_criminals_and_terrorists.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_threats_to_status_quo"
+		texturefile = "gfx/interface/laws/internal_security_surveillance/threats_to_status_quo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_universal_surveillance"
+		texturefile = "gfx/interface/laws/internal_security_surveillance/universal_surveillance.dds"
+	}
+	### internal security police LAWS
+	spriteType = {
+		name = "GFX_idea_no_police"
+		texturefile = "gfx/interface/laws/internal_security_police/no_police.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_neighbourhood_watch"
+		texturefile = "gfx/interface/laws/internal_security_police/neighbourhood_watch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_militia"
+		texturefile = "gfx/interface/laws/internal_security_police/volunteer_militia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_regular_police_force"
+		texturefile = "gfx/interface/laws/internal_security_police/regular_police_force.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_police"
+		texturefile = "gfx/interface/laws/internal_security_police/military_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_uniformed_officers_on_every_street"
+		texturefile = "gfx/interface/laws/internal_security_police/uniformed_officers_on_every_street.dds"
+	}
+	### internal security police LAWS
+	spriteType = {
+		name = "GFX_idea_no_police"
+		texturefile = "gfx/interface/laws/internal_security_police/no_police.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_neighbourhood_watch"
+		texturefile = "gfx/interface/laws/internal_security_police/neighbourhood_watch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_militia"
+		texturefile = "gfx/interface/laws/internal_security_police/volunteer_militia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_regular_police_force"
+		texturefile = "gfx/interface/laws/internal_security_police/regular_police_force.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_police"
+		texturefile = "gfx/interface/laws/internal_security_police/military_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_uniformed_officers_on_every_street"
+		texturefile = "gfx/interface/laws/internal_security_police/uniformed_officers_on_every_street.dds"
+	}
+} 
+################################################ Code and GFX Made by Jackal from the Tales Of Quaidan dev team ################################################

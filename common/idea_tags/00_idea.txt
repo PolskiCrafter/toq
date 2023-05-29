@@ -1,0 +1,240 @@
+idea_categories = {
+	# ledger can be define for idea > idea slot > idea category
+	# first one overrides the others
+	# multiple ledgers can be defined, in that case will show on all
+	# possible values : army, air, navy, military (shows on all military ledgers), civilian, all (shows up everywhere), hidden (does not show up)
+	################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+
+	
+	hidden_ideas = {
+		hidden = yes
+	
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+
+	country = {
+		type = national_spirit
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+
+	ToQ_Political_Cabinet = {
+		character_slot = head_of_government
+		character_slot = minister_of_internal_affairs
+		character_slot = minister_of_economy
+		character_slot = minister_of_internal_defense
+		character_slot = minister_of_army
+	}
+	ToQ_Economy = {
+		slot = level_of_development
+		slot = private_property_rights
+		slot = level_of_poverty
+		slot = economy
+		slot = trade_laws
+	}
+	ToQ_Research_Production = {
+		slot = tank_manufacturer
+		slot = naval_manufacturer
+		slot = aircraft_manufacturer
+		slot = materiel_manufacturer
+		slot = industrial_concern
+
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+
+	ToQ_Government = {
+		slot = power_distribution
+		slot = government_type
+		slot = voting_system
+		slot = emergency_laws
+		slot = internal_security_surveillance
+		slot = internal_security_police
+		slot = religion
+		slot = predominant_species
+
+
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	} 
+	ToQ_Civil_Rights = {
+		slot = freedom_of_speech
+		slot = assembly_rights
+		slot = union_rights
+		slot = lgbtq_rights
+		slot = working_hours
+		slot = gender_roles
+	}
+
+	ToQ_Science_And_Development = {
+		slot = education
+		slot = literacy
+		slot = institution_of_science
+		slot = healthcare
+		slot = social_assistance
+		slot = ecology_laws
+		slot = drugs_and_alcohol_policies
+	}
+	ToQ_Security_And_Army = {
+		slot = mobilization_laws
+		slot = conscription_requirement 
+		slot = officer_schooling
+		slot = army_quality
+		slot = anti_enemy_propaganda 
+		slot = structure_of_combat
+		slot = woman_in_the_army
+		slot = institute_of_intelligence
+	}
+
+	ToQ_Military_Staff = {
+		character_slot = army_chief  #grand_marshal 
+		character_slot = navy_chief #grand_admiral 
+		character_slot = air_chief  #grand_air_marshal
+		character_slot = grand_mage_marshal
+		character_slot = theorist
+		character_slot = land_advisor
+		character_slot = air_advisor
+		character_slot = navy_advisor
+		ledger = invalid # must be overridden
+		
+		cost = 150
+		removal_cost = 0
+	}
+
+	academy_spirit = {
+		type = army_spirit
+
+		cost = 20
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+
+		slot = academy_spirit
+	}
+
+	army_spirit = {
+		type = army_spirit
+
+		cost = 35
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = army_spirit
+	}
+
+	division_command_spirit = {
+		type = army_spirit
+		
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = division_command_spirit
+	}
+
+	naval_academy_spirit = {
+		type = navy_spirit
+
+		cost = 20
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = naval_academy_spirit
+	}
+
+	navy_spirit = {
+		type = navy_spirit
+
+		cost = 35
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = navy_spirit
+	}
+
+	naval_command_spirit = {
+		type = navy_spirit
+		
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = naval_command_spirit
+	}
+
+	air_force_academy_spirit = {
+		type = air_spirit
+
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = air_force_academy_spirit
+	}
+
+	air_force_spirit = {
+		type = air_spirit
+
+		cost = 50
+		removal_cost = -1
+		
+		politics_tab = no
+		
+		ledger = hidden
+		slot = air_force_spirit
+	}
+
+	air_force_command_spirit = {
+		type = air_spirit
+		
+		politics_tab = no
+		
+		cost = 50
+		removal_cost = -1
+		
+		ledger = hidden
+		slot = air_force_command_spirit
+	}
+}
+
+
+slot_ledgers = {
+	army_chief = army
+	navy_chief = navy
+	air_chief = air
+	
+	tank_manufacturer = army
+	naval_manufacturer = navy
+	aircraft_manufacturer = air
+	
+	theorist = invalid # must be overridden
+	high_command = invalid # must be overridden
+	
+	
+	mobilization_laws = civilian
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

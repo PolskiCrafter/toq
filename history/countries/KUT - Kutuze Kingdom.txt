@@ -9,6 +9,15 @@ set_convoys = 0
 add_ideas = {
 	limited_conscription
 	civilian_economy
+
+	diesel_age_economy
+	twenty_thirty
+	one_person_rule_king
+	feudal_economy
+	none
+	no_voting_rights
+	threats_to_status_quo
+	regular_police_force
 }
 
 

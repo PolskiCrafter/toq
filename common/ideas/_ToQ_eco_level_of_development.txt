@@ -1,0 +1,77 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+
+	level_of_development = {
+		law = yes
+		use_list_view = yes
+
+		tribal_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+		}
+		underdeveloped_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.4
+			}
+		}
+		early_industrial_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.3
+			}
+		}
+		full_steam_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.2
+			}
+		}
+		early_diesel_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+			}
+		}
+		diesel_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0
+			}
+		}
+		early_atom_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		atom_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+			}
+		}
+		early_post_scarcity_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.3
+			}
+		}
+		posts_scarcity_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.4
+			}
+		}
+		advanced_steam_age_economy = {
+			allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.5
+			}
+		}
+	}
+
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

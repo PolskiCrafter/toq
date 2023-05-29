@@ -1,0 +1,24 @@
+﻿l_english:
+zero_five:0 "§G0% - 5% §!"
+zero_five_desc:0 "Lorem Ipsum"
+
+five_twenty:0 "§76% -20%§!"
+five_twenty_desc:0 "Lorem Ipsum"
+
+twenty_thirty:0 "§621% -30%§!"
+twenty_thirty_desc:0 "Lorem Ipsum"
+
+thirty_fifty:0 "§Y31% - 50%§!"
+thirty_fifty_desc:0 "Lorem Ipsum"
+
+fifty_sixty:0 "§851% - 60%§!"
+fifty_sixty_desc:0 "Lorem Ipsum"
+
+sixty_seventy:0 "§960% - 70%§!"
+sixty_seventy_desc:0 "Lorem Ipsum"
+
+seventy_eighty:0 "§O71% - 80%§!" 
+seventy_eighty_desc:0 "Lorem Ipsum"
+
+eighty_plus:0 "§t> 80%§!"
+eighty_plus_desc:0 "Lorem Ipsum"

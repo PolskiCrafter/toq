@@ -1,0 +1,77 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+spriteTypes = {	
+	##Icon For: head_of_government
+	SpriteType = { 
+		name = "GFX_idea_slot_head_of_government"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: minister_of_internal_affairs
+	SpriteType = { 
+		name = "GFX_idea_slot_minister_of_internal_affairs"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: minister_of_economy
+	SpriteType = { 
+		name = "GFX_idea_slot_minister_of_economy"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: minister_of_internal_defense
+	SpriteType = { 
+		name = "GFX_idea_slot_minister_of_internal_defense"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: minister_of_army
+	SpriteType = { 
+		name = "GFX_idea_slot_minister_of_army"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	# ##Icon For: grand_marshal
+	# SpriteType = { 
+	# 	name = "GFX_idea_slot_grand_marshal"
+	# 	texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	# }
+	# ##Icon For: grand_admiral
+	# SpriteType = { 
+	# 	name = "GFX_idea_slot_grand_admiral"
+	# 	texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	# }
+	# ##Icon For: grand_air_marshal
+	# SpriteType = { 
+	# 	name = "GFX_idea_slot_grand_air_marshal"
+	# 	texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	# }
+	
+	##Icon For: grand_mage_marshal
+	SpriteType = { 
+		name = "GFX_idea_slot_grand_mage_marshal"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: military_theorist
+	SpriteType = { 
+		name = "GFX_idea_slot_theorist"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: land_advisor
+	SpriteType = { 
+		name = "GFX_idea_slot_land_advisor"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: air_advisor
+	SpriteType = { 
+		name = "GFX_idea_slot_air_advisor"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	##Icon For: navy_advisor
+	SpriteType = { 
+		name = "GFX_idea_slot_navy_advisor"
+		texturefile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_categories"
+		texturefile = "gfx/interface/idea_categories.dds"
+		noOfFrames = 12	
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
