@@ -1,6 +1,6 @@
 ################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
 ideas = {
-	internal_security_police = {
+	religion = {
 		law = yes
 		use_list_view = yes
 
@@ -28,7 +28,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.2
 			}
         }
-		religion_cule = {
+		religion_rule = {
             allowed_to_remove = {always = yes}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.1

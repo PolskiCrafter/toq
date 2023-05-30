@@ -348,5 +348,76 @@ spriteTypes = {
 		name = "GFX_idea_uniformed_officers_on_every_street"
 		texturefile = "gfx/interface/laws/internal_security_police/uniformed_officers_on_every_street.dds"
 	}
+	### Religion LAWS
+	spriteType = {
+		name = "GFX_idea_secularism"
+		texturefile = "gfx/interface/laws/religion/secularism.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_state_atheism"
+		texturefile = "gfx/interface/laws/religion/state_atheism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_light_supremacy"
+		texturefile = "gfx/interface/laws/religion/light_supremacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_darkness_supremacy"
+		texturefile = "gfx/interface/laws/religion/darkness_supremacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_rule"
+		texturefile = "gfx/interface/laws/religion/religion_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_progress_cult"
+		texturefile = "gfx/interface/laws/religion/progress_cult.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_one_faith_supremacy"
+		texturefile = "gfx/interface/laws/religion/one_faith_supremacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pluralism"
+		texturefile = "gfx/interface/laws/religion/pluralism.dds"
+	}
+	### predominant_species LAWS
+	spriteType = {
+		name = "GFX_idea_non_specific"
+		texturefile = "gfx/interface/laws/predominant_species/non_specific.dds" 
+	}
+	### freedom_of_speech LAWS
+	spriteType = {
+		name = "GFX_idea_no_censorship"
+		texturefile = "gfx/interface/laws/freedom_of_speech/no_censorship.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_sex_vulgarism_and_radicalism"
+		texturefile = "gfx/interface/laws/freedom_of_speech/sex_vulgarism_and_radicalism.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_decency_check"
+		texturefile = "gfx/interface/laws/freedom_of_speech/decency_check.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_light_censorship"
+		texturefile = "gfx/interface/laws/freedom_of_speech/light_censorship.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_heavy_censorship"
+		texturefile = "gfx/interface/laws/freedom_of_speech/heavy_censorship.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_only_state_media"
+		texturefile = "gfx/interface/laws/freedom_of_speech/only_state_media.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_only_religion"
+		texturefile = "gfx/interface/laws/freedom_of_speech/only_religion.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_darkness"
+		texturefile = "gfx/interface/laws/freedom_of_speech/darkness.dds" 
+	}
 } 
 ################################################ Code and GFX Made by Jackal from the Tales Of Quaidan dev team ################################################

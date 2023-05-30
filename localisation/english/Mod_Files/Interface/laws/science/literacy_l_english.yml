@@ -1,0 +1,24 @@
+﻿l_english:
+zero_literacy:0 "0%"
+zero_literacy_desc:0 "Lorem Ipsum"
+
+very_low_literacy:0 "5%-20%"
+very_low_literacy_desc:0 "Lorem Ipsum"
+
+low_literacy:0 "21%-30%"
+low_literacy_desc:0 "Lorem Ipsum"
+
+medium_literacy:0 "31%-50%"
+medium_literacy_desc:0 "Lorem Ipsum"
+
+high_literacy:0 "51%-60%"
+high_literacy_desc:0 "Lorem Ipsum"
+
+very_high_literacy:0 "61%-70%"
+very_high_literacy_desc:0 "Lorem Ipsum"
+
+almost_total_literacy:0 "71%-85%"
+almost_total_literacy_desc:0 "Lorem Ipsum"
+
+total_literacy:0 "86%-100%"
+total_literacy_desc:0 "Lorem Ipsum"

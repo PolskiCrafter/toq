@@ -1,0 +1,18 @@
+﻿l_english:
+no_schools:0 "No Schools"
+no_schools_desc:0 "Lorem Ipsum"
+
+public_education:0 "Public Education"
+public_education_desc:0 "Lorem Ipsum"
+
+private_education:0 "Private Education"
+private_education_desc:0 "Lorem Ipsum"
+
+religious_schools:0 "Religious Schools"
+religious_schools_desc:0 "Lorem Ipsum"
+
+mixed_education:0 "Mixed Education"
+mixed_education_desc:0 "Lorem Ipsum"
+
+military_focused_education:0 "Military Focused Education"
+military_focused_education_desc:0 "Lorem Ipsum"

@@ -18,6 +18,26 @@ add_ideas = {
 	no_voting_rights
 	threats_to_status_quo
 	regular_police_force
+	secularism
+	non_specific
+	decency_check
+	state_approved_only
+	neutral_stance
+	state_controlled_unions
+	14_hours
+	patriarchal
+	medium_literacy
+	basic_support_for_the_beggars
+	shaman_healthcare
+	religious_schools
+	light_alcohol_only
+	largely_regulated
+	a_classification
+	early_gunpowder_army
+	neutral
+	nobility_only
+	no_intelligence_agency
+	politically_controlled
 }
 
 
