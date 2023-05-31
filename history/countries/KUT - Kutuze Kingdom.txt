@@ -30,6 +30,7 @@ add_ideas = {
 	basic_support_for_the_beggars
 	shaman_healthcare
 	religious_schools
+	underdeveloped_institution
 	light_alcohol_only
 	largely_regulated
 	a_classification

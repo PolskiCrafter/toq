@@ -1,0 +1,21 @@
+﻿l_english:
+no_healthcare:0 "No Healthcare"
+no_healthcare_desc:0 "Lorem Ipsum"
+
+volunteer_healthcare:0 "Volunteer Healthcare"
+volunteer_healthcare_desc:0 "Lorem Ipsum"
+
+shaman_healthcare:0 "Shaman Healthcare"
+shaman_healthcare_desc:0 "Lorem Ipsum"
+
+religious_healthcare:0 "Religious Healthcare"
+religious_healthcare_desc:0 "Lorem Ipsum"
+
+public_healthcare:0 "Public Healthcare"
+public_healthcare_desc:0 "Lorem Ipsum"
+
+private_healthcare:0 "Private Healthcare"
+private_healthcare_desc:0 "Lorem Ipsum"
+
+mixed_healthcare:0 "Mixed Healthcare"
+mixed_healthcare_desc:0 "Lorem Ipsum"
