@@ -1,4 +1,4 @@
-################################################ Code and GFX Made by Jackal from the Tales Of Quaidan dev team ################################################
+################################################ Code and GFX Basic Made by Jackal, Complex GFX made by Killer Red from the Tales Of Quaidan dev team ################################################
 
 spriteTypes = {	
 	### DEVELOPMENT LAWS
@@ -419,5 +419,464 @@ spriteTypes = {
 		name = "GFX_idea_darkness"
 		texturefile = "gfx/interface/laws/freedom_of_speech/darkness.dds" 
 	}
+	### assembly_rights LAWS
+	spriteType = {
+		name = "GFX_idea_full"
+		texturefile = "gfx/interface/laws/assembly_rights/full.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_non_radical"
+		texturefile = "gfx/interface/laws/assembly_rights/non_radical.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_state_approved_only"
+		texturefile = "gfx/interface/laws/assembly_rights/state_approved_only.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_assemblies_forbidden"
+		texturefile = "gfx/interface/laws/assembly_rights/assemblies_forbidden.dds" 
+	}
+	### union_rights LAWS
+	spriteType = {
+		name = "GFX_idea_unions_banned"
+		texturefile = "gfx/interface/laws/union_rights/unions_banned.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_state_controlled_unions"
+		texturefile = "gfx/interface/laws/union_rights/state_controlled_unions.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_non_radical_unions"
+		texturefile = "gfx/interface/laws/union_rights/non_radical_unions.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_free_unions"
+		texturefile = "gfx/interface/laws/union_rights/free_unions.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_empowered_unions"
+		texturefile = "gfx/interface/laws/union_rights/empowered_unions.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_unions_control"
+		texturefile = "gfx/interface/laws/union_rights/unions_control.dds" 
+	}
+	### lgbtq_rights LAWS
+	spriteType = {
+		name = "GFX_idea_exterminate"
+		texturefile = "gfx/interface/laws/lgbtq_rights/exterminate.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_persecuted"
+		texturefile = "gfx/interface/laws/lgbtq_rights/persecuted.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_segregated"
+		texturefile = "gfx/interface/laws/lgbtq_rights/segregated.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_neutral_stance"
+		texturefile = "gfx/interface/laws/lgbtq_rights/neutral_stance.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_tolerated"
+		texturefile = "gfx/interface/laws/lgbtq_rights/tolerated.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_protected"
+		texturefile = "gfx/interface/laws/lgbtq_rights/protected.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_empowered"
+		texturefile = "gfx/interface/laws/lgbtq_rights/empowered.dds" 
+	}
+	### working_hours LAWS
+	spriteType = {
+		name = "GFX_idea_twenty_four_hours"
+		texturefile = "gfx/interface/laws/working_hours/twenty_four_hours.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_twenty_hours"
+		texturefile = "gfx/interface/laws/working_hours/twenty_hours.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_eighteen_hours"
+		texturefile = "gfx/interface/laws/working_hours/eighteen_hours.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_fourteen_hours"
+		texturefile = "gfx/interface/laws/working_hours/fourteen_hours.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_ten_hours"
+		texturefile = "gfx/interface/laws/working_hours/ten_hours.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_eight_hours"
+		texturefile = "gfx/interface/laws/working_hours/eight_hours.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_four_hours"
+		texturefile = "gfx/interface/laws/working_hours/four_hours.dds" 
+	}
+	### gender_roles LAWS
+	spriteType = {
+		name = "GFX_idea_matriarchal"
+		texturefile = "gfx/interface/laws/gender_roles/matriarchal.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_women_leaning"
+		texturefile = "gfx/interface/laws/gender_roles/women_leaning.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_equal"
+		texturefile = "gfx/interface/laws/gender_roles/equal.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_male_leaning"
+		texturefile = "gfx/interface/laws/gender_roles/male_leaning.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_patriarchal"
+		texturefile = "gfx/interface/laws/gender_roles/patriarchal.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_abolishment_of_gender_roles"
+		texturefile = "gfx/interface/laws/gender_roles/abolishment_of_gender_roles.dds" 
+	}
+	### education LAWS
+	spriteType = {
+		name = "GFX_idea_public_education"
+		texturefile = "gfx/interface/laws/education/public_education.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_private_education"
+		texturefile = "gfx/interface/laws/education/private_education.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_religious_schools"
+		texturefile = "gfx/interface/laws/education/religious_schools.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_no_schools"
+		texturefile = "gfx/interface/laws/education/no_schools.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_mixed_education"
+		texturefile = "gfx/interface/laws/education/mixed_education.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_military_focused_education"
+		texturefile = "gfx/interface/laws/education/military_focused_education.dds" 
+	}
+	### literacy LAWS
+	spriteType = {
+		name = "GFX_idea_zero_literacy"
+		texturefile = "gfx/interface/laws/literacy/zero_literacy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_very_low_literacy"
+		texturefile = "gfx/interface/laws/literacy/very_low_literacy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_low_literacy"
+		texturefile = "gfx/interface/laws/literacy/low_literacy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_medium_literacy"
+		texturefile = "gfx/interface/laws/literacy/medium_literacy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_high_literacy"
+		texturefile = "gfx/interface/laws/literacy/high_literacy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_very_high_literacy"
+		texturefile = "gfx/interface/laws/literacy/very_high_literacy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_almost_total_literacy"
+		texturefile = "gfx/interface/laws/literacy/almost_total_literacy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_total_literacy"
+		texturefile = "gfx/interface/laws/literacy/total_literacy.dds" 
+	}
+	### institution_of_science LAWS
+	spriteType = {
+		name = "GFX_idea_non_existant_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/non_existant_institution.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_medieval_tomes_based_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/medieval_tomes_based_institution.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_old_age_equipment_and_theories_based_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/old_age_equipment_and_theories_based_institution.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_underdeveloped_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/underdeveloped_institution.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_starting_race_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/starting_race_institution.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_modern_standards_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/modern_standards_institution.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_competitive_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/competitive_institution.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_next_gen_institution"
+		texturefile = "gfx/interface/laws/institution_of_science/next_gen_institution.dds" 
+	}
+	### healthcare LAWS
+	spriteType = {
+		name = "GFX_idea_no_healthcare"
+		texturefile = "gfx/interface/laws/healthcare/no_healthcare.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_healthcare"
+		texturefile = "gfx/interface/laws/healthcare/volunteer_healthcare.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_shaman_healthcare"
+		texturefile = "gfx/interface/laws/healthcare/shaman_healthcare.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_religious_healthcare"
+		texturefile = "gfx/interface/laws/healthcare/religious_healthcare.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_public_healthcare"
+		texturefile = "gfx/interface/laws/healthcare/public_healthcare.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_private_healthcare"
+		texturefile = "gfx/interface/laws/healthcare/private_healthcare.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_mixed_healthcare"
+		texturefile = "gfx/interface/laws/healthcare/mixed_healthcare.dds" 
+	}
+	### social_assistance LAWS
+	spriteType = {
+		name = "GFX_idea_no_state_support"
+		texturefile = "gfx/interface/laws/social_assistance/no_state_support.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_basic_support_for_the_beggars"
+		texturefile = "gfx/interface/laws/social_assistance/basic_support_for_the_beggars.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_left_to_private_charities"
+		texturefile = "gfx/interface/laws/social_assistance/left_to_private_charities.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_medium_social_spending"
+		texturefile = "gfx/interface/laws/social_assistance/medium_social_spending.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_welfare_state"
+		texturefile = "gfx/interface/laws/social_assistance/welfare_state.dds" 
+	}
+	### ecology_laws LAWS
+	spriteType = {
+		name = "GFX_idea_naturalism"
+		texturefile = "gfx/interface/laws/ecology_laws/naturalism.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_largely_regulated"
+		texturefile = "gfx/interface/laws/ecology_laws/largely_regulated.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_semi_regulated"
+		texturefile = "gfx/interface/laws/ecology_laws/semi_regulated.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_unregulated"
+		texturefile = "gfx/interface/laws/ecology_laws/unregulated.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_rampart_ecological_exploitation"
+		texturefile = "gfx/interface/laws/ecology_laws/rampart_ecological_exploitation.dds" 
+	}
+	### drugs_and_alcohol_policies LAWS
+	spriteType = {
+		name = "GFX_idea_all_alcohol_banned"
+		texturefile = "gfx/interface/laws/drugs_and_alcohol_policies/all_alcohol_banned.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_military_use_only"
+		texturefile = "gfx/interface/laws/drugs_and_alcohol_policies/military_use_only.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_medical_use_only"
+		texturefile = "gfx/interface/laws/drugs_and_alcohol_policies/medical_use_only.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_light_alcohol_only"
+		texturefile = "gfx/interface/laws/drugs_and_alcohol_policies/light_alcohol_only.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_few_allowed"
+		texturefile = "gfx/interface/laws/drugs_and_alcohol_policies/few_allowed.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_all_alcohol_allowed"
+		texturefile = "gfx/interface/laws/drugs_and_alcohol_policies/all_alcohol_allowed.dds" 
+	}
+	### conscription_requirement LAWS
+	spriteType = {
+		name = "GFX_idea_a_classification"
+		texturefile = "gfx/interface/laws/conscription_requirement/a_classification.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_b_classification"
+		texturefile = "gfx/interface/laws/conscription_requirement/b_classification.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_c_classification"
+		texturefile = "gfx/interface/laws/conscription_requirement/c_classification.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_d_classification"
+		texturefile = "gfx/interface/laws/conscription_requirement/d_classification.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_e_classification"
+		texturefile = "gfx/interface/laws/conscription_requirement/e_classification.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_f_classification"
+		texturefile = "gfx/interface/laws/conscription_requirement/f_classification.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_warrior_clan"
+		texturefile = "gfx/interface/laws/conscription_requirement/warrior_clan.dds" 
+	}
+	### officer_schooling LAWS
+	spriteType = {
+		name = "GFX_idea_no_officer_training"
+		texturefile = "gfx/interface/laws/officer_schooling/no_officer_training.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_nobility_only"
+		texturefile = "gfx/interface/laws/officer_schooling/nobility_only.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_low_requirements"
+		texturefile = "gfx/interface/laws/officer_schooling/low_requirements.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_medium_requirements"
+		texturefile = "gfx/interface/laws/officer_schooling/medium_requirements.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_only_the_best"
+		texturefile = "gfx/interface/laws/officer_schooling/only_the_best.dds" 
+	}
+	### army_quality LAWS
+	spriteType = {
+		name = "GFX_idea_tribal_army"
+		texturefile = "gfx/interface/laws/army_quality/tribal_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_medieval_army"
+		texturefile = "gfx/interface/laws/army_quality/medieval_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_early_gunpowder_army"
+		texturefile = "gfx/interface/laws/army_quality/early_gunpowder_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_bouncy_wars_army"
+		texturefile = "gfx/interface/laws/army_quality/bouncy_wars_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_great_war_army"
+		texturefile = "gfx/interface/laws/army_quality/great_war_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_modern_army"
+		texturefile = "gfx/interface/laws/army_quality/modern_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_future_army"
+		texturefile = "gfx/interface/laws/army_quality/future_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_darkness_flood"
+		texturefile = "gfx/interface/laws/army_quality/darkness_flood.dds" 
+	}
+	### anti_enemy_propaganda LAWS
+	spriteType = {
+		name = "GFX_idea_demonisation"
+		texturefile = "gfx/interface/laws/anti_enemy_propaganda/demonisation.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_neutral"
+		texturefile = "gfx/interface/laws/anti_enemy_propaganda/neutral.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_animalization"
+		texturefile = "gfx/interface/laws/anti_enemy_propaganda/animalization.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_classify_them_as_food"
+		texturefile = "gfx/interface/laws/anti_enemy_propaganda/classify_them_as_food.dds" 
+	}
+	### structure_of_combat LAWS
+	spriteType = {
+		name = "GFX_idea_irregular"
+		texturefile = "gfx/interface/laws/structure_of_combat/irregular.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_mercenary"
+		texturefile = "gfx/interface/laws/structure_of_combat/mercenary.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_army_democracy"
+		texturefile = "gfx/interface/laws/structure_of_combat/army_democracy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_hard_hierarchy"
+		texturefile = "gfx/interface/laws/structure_of_combat/hard_hierarchy.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_fluid_reaction"
+		texturefile = "gfx/interface/laws/structure_of_combat/fluid_reaction.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_politically_controlled"
+		texturefile = "gfx/interface/laws/structure_of_combat/politically_controlled.dds" 
+	}
+	### woman_in_the_army LAWS
+	spriteType = {
+		name = "GFX_idea_no_woman_in_the_army"
+		texturefile = "gfx/interface/laws/woman_in_the_army/no_woman_in_the_army.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_non_combat_roles"
+		texturefile = "gfx/interface/laws/woman_in_the_army/non_combat_roles.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_limited_woman_conscription"
+		texturefile = "gfx/interface/laws/woman_in_the_army/limited_woman_conscription.dds" 
+	}
+	spriteType = {
+		name = "GFX_idea_women_on_the_front"
+		texturefile = "gfx/interface/laws/woman_in_the_army/women_on_the_front.dds" 
+	}
+	### institute_of_intelligence LAWS
+	spriteType = {
+		name = "GFX_idea_no_intelligence_agency"
+		texturefile = "gfx/interface/laws/institute_of_intelligence/no_intelligence_agency.dds" 
+	}
 } 
-################################################ Code and GFX Made by Jackal from the Tales Of Quaidan dev team ################################################
+################################################ Code and GFX Basic Made by Jackal, Complex GFX made by Killer Red from the Tales Of Quaidan dev team ################################################

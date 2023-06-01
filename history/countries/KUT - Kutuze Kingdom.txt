@@ -24,7 +24,7 @@ add_ideas = {
 	state_approved_only
 	neutral_stance
 	state_controlled_unions
-	14_hours
+	fourteen_hours
 	patriarchal
 	medium_literacy
 	basic_support_for_the_beggars
@@ -39,6 +39,7 @@ add_ideas = {
 	nobility_only
 	no_intelligence_agency
 	politically_controlled
+	non_combat_roles
 }
 
 

@@ -4,43 +4,43 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		24_hours = {
+		twenty_four_hours= {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		20_hours = {
+		twenty_hours= {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		18_hours = {
+		eighteen_hours = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		14_hours = {
+		fourteen_hours = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		10_hours = {
+		ten_hours = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		8_hours = {
+		eight_hours = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		4_hours = {
+		four_hours = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5

@@ -17,7 +17,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		limited_conscription = {
+		limited_woman_conscription = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
