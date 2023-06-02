@@ -5,11 +5,15 @@ state={
 		217 954 2468 4983 4999 
 	}
 	history = {
-		owner = TWO
+		owner = EDA
+		add_core_of = EDA
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

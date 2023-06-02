@@ -5,11 +5,15 @@ state={
 		1070 1144 2845 3649 4965 
 	}
 	history = {
-		owner = TWO
+		owner = DNA
+		add_core_of = DNA
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

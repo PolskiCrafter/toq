@@ -5,11 +5,15 @@ state={
 		746 2423 3592 3653 5007 
 	}
 	history = {
-		owner = TWO
+		owner = EMO
+		add_core_of = EMO
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

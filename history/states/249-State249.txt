@@ -5,11 +5,15 @@ state={
 		1227 2511 2528 2585 3227 3294 4514 4548 
 	}
 	history = {
-		owner = TWO
+		owner = VAM
+		add_core_of = VAM
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

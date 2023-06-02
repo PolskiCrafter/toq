@@ -5,11 +5,15 @@ state={
 		1209 2158 3115 3439 4700 4711 4724 4734 
 	}
 	history = {
-		owner = TWO
+		owner = AOK
+		add_core_of = AOK
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

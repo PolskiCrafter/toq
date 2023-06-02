@@ -5,11 +5,15 @@ state={
 		220 324 330 803 1300 1365 3375 4602 4617 4629 4634 
 	}
 	history = {
-		owner = TWO
+		owner = EDS
+		add_core_of = EDS
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	 
-buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }
