@@ -1,0 +1,42 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+
+	taxation = {
+		law = yes
+		use_list_view = yes
+
+
+		no_taxation = {
+			allowed_to_remove = {always = no}
+			modifier = {
+	
+			}
+		}
+		low_taxation = {
+			allowed_to_remove = {always = no}
+			modifier = {
+			
+			}
+		}
+		medium_taxation = {
+			allowed_to_remove = {always = no}
+			modifier = {
+		
+			}
+		}
+		high_taxation = {
+			allowed_to_remove = {always = no}
+			modifier = {
+	
+			}
+		}
+		explotative_taxation = {
+			allowed_to_remove = {always = no}
+			modifier = {
+
+			}
+		}
+	}
+
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

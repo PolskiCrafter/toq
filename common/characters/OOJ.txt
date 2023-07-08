@@ -1,0 +1,108 @@
+characters = {
+	########################################
+	################ Leaders ###############
+	########################################
+	OOJ_Jackal = {
+		name = "Jackal"
+		portraits={
+			civilian={
+				large="gfx/leaders/OOJ/Template.dds"
+			}
+		}
+		country_leader={
+			ideology= darkness_freedom
+			traits={ prince_of_the_night }
+			id=-1
+		}
+	}
+	########################################
+	################ Advisors ##############
+	########################################
+	OOJ_Jackal_HOG ={
+		name= jackal_hog_name
+		advisor={
+			slot = head_of_government
+			idea_token = OOJ_Jackal_HOG
+			allowed = { original_tag = OOJ }
+			traits = {}
+			cost = 0
+			can_be_fired = no
+		}
+		portraits={
+			civilian={
+				small="gfx/interface/advisors/government/OOJ/Jackal_HOG.dds"
+			}
+		}
+	}
+	OOJ_Wolfhilda_Marshall = {
+		name= wolfhilda_marshall_name
+		advisor={
+			slot = minister_of_internal_affairs
+			idea_token = OOJ_Wolfhilda_Marshall
+			allowed = { original_tag = OOJ }
+			traits = {}
+			cost = 0
+			can_be_fired = no
+		}
+		portraits={
+			civilian={
+				small="gfx/interface/advisors/government/OOJ/Wolfhilda_Marshall.dds"
+			}
+		}
+	}
+	OOJ_Silas_Matterfang = {
+		name= silas_matterfang_name
+		advisor={
+			slot = minister_of_economy
+			idea_token = OOJ_Silas_Matterfang
+			allowed = { original_tag = OOJ }
+			traits = {}
+			cost = 0
+			can_be_fired = no
+		}
+		portraits={
+			civilian={
+				small="gfx/interface/advisors/government/OOJ/Silas_Matterfang.dds"
+			}
+		}
+	}
+	OOJ_Phillip_Spiritward = {
+		name= phillip_spiritward_name
+		advisor={
+			slot = minister_of_internal_defense
+			idea_token = OOJ_Phillip_Spiritward
+			allowed = { original_tag = OOJ }
+			traits = {}
+			cost = 0
+			can_be_fired = no
+		}
+		portraits={
+			civilian={
+				small="gfx/interface/advisors/government/OOJ/Phillip_Spiritward.dds"
+			}
+		}
+	}
+	OOJ_Lothar_Wolfsbane = {
+		name= lothar_wolfsbane_name
+		advisor={
+			slot = minister_of_army
+			idea_token = OOJ_Lothar_Wolfsbane
+			allowed = { original_tag = OOJ }
+			traits = {}
+			cost = 0
+			can_be_fired = no
+		}
+		portraits={
+			civilian={
+				small="gfx/interface/advisors/government/OOJ/Lothar_Wolfsbane.dds"
+			}
+		}
+	}
+}
+#Leaders
+# create_country_leader = {
+# 	name = "Jackal"
+# 	ideology = absolute_futhdeomism
+# 	picture = "gfx/leaders/OOJ/Template.dds"
+# 	traits={ dictator }
+# }

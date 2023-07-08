@@ -5,10 +5,15 @@ state={
 		8 358 1675 3273 4053 
 	}
 	history = {
-		owner = FOR
+		owner = DVE
+		add_core_of = DVE
+		buildings = {
+			infrastructure = 1
+		}
 	}
-buildings_max_level_factor=1.000
+	 
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

@@ -40,6 +40,18 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
+		elite_only_education = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		propaganda_driven_education = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
 	}
 }
 ################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

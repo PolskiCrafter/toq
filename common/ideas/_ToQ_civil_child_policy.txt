@@ -1,0 +1,51 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	child_policy = {
+		law = yes
+		use_list_view = yes
+
+		one_child= {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		two_children= {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		abortion_allowed = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		abortion_prohibited = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		children_encuraged = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		expected_to_have_children = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		no_specific_children_policy = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

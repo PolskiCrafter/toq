@@ -1,0 +1,64 @@
+﻿l_english:
+#anti-enemy propaganda
+demonisation:0 "Demonisation"
+demonisation_desc:0 "Lorem Ipsum" 
+
+no_propaganda:0 "No Propaganda"
+no_propaganda_desc:0 "Lorem Ipsum" 
+
+animalization:0 "Animalization"
+animalization_desc:0 "Lorem Ipsum" 
+
+classify_them_as_food:0 "Classify Them As Food"
+classify_them_as_food_desc:0 "Lorem Ipsum" 
+
+#intelligence agency
+no_intelligence_agency:0 "No Intelligence Agency"
+no_intelligence_agency_desc:0 "Lorem Ipsum"
+
+samll_agency:0 "Small Agency"
+samll_agency_desc:0 "Lorem Ipsum" 
+
+medium_agency:0 "Medium Agency"
+medium_agency_desc:0 "Lorem Ipsum" 
+
+big_agency:0 "Big Agency"
+big_agency_desc:0 "Lorem Ipsum" 
+
+large_agency:0 "Large Agency"
+large_agency_desc:0 "Lorem Ipsum" 
+
+worldwide_agency:0 "Worldwide Agency"
+worldwide_agency_desc:0 "Lorem Ipsum" 
+
+#warcrimes
+everything_for_victory:0 "Everythign For Victory"
+laws_of_war:0 "Laws Of War"
+last_resort:0 "Last Resort"
+
+#partisan treatment
+partisan_amnesty:0 "Partisan Amnesty"
+partisan_incarceration:0 "Partisan Incarceration"
+death_penality:0 "Death Penality"
+no_specific_treatment:0 "No Specific Treatment"
+
+#pow treatment
+pow_death_penality:0 "POW Death Penality"
+pow_protected:0 "POW Protected"
+pow_disgraced:0 "POW Disgraced"
+
+#deserter treatment
+desertion_death_penality:0 "Desertion Death Penality"
+significant_crime:0 "Significant Crime"
+minor_crime:0 "Minor Crime"
+variable_sentence:0 "Variable Sentence"
+
+#conscription exemption
+religious_exemption:0 "Religious Exemption"
+political_exemption:0 "Political Exemption"
+no_exemption:0 "No Exemption"
+
+#non core animalpower
+army_purity:0 "Army Purity"
+segregated_regiments:0 "Segregated Regiments"
+integrated_animalpower:0 "Integrated Animalpower"

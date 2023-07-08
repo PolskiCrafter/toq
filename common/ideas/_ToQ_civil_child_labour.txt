@@ -1,0 +1,33 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	child_labour = {
+		law = yes
+		use_list_view = yes
+
+		child_soldiers= {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		child_labour_permitted = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		parental_decision = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		children_protection = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

@@ -102,9 +102,9 @@ script_enum_advisor_slot_type = {
 	minister_of_economy
 	minister_of_internal_defense
 	minister_of_army
-	grand_marshal #army_chief 
-	grand_admiral #navy_chief 
-	grand_air_marshal #air_chief
+	army_chief  #grand_marshal#
+	navy_chief  #grand_admiral
+	air_chief  #grand_air_marshal
 	grand_mage_marshal
 	theorist
 	land_advisor

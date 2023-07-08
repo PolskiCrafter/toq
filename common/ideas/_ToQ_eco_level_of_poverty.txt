@@ -7,49 +7,70 @@ ideas = {
 		zero_five = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.5
+				stability_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_dockyard = 0.15
+				industrial_capacity_factory = 0.15
 			}
 		}
 		five_twenty = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.4
+				stability_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.1
 			}
 		}
 		twenty_thirty = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.3
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 		thirty_fifty = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.2
+
 			}
 		}
 		fifty_sixty = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.1
+				stability_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_dockyard = -0.05
+				industrial_capacity_factory = -0.05
 			}
 		}
 		sixty_seventy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_dockyard = -0.1
+				industrial_capacity_factory = -0.1
 			}
 		}
 		seventy_eighty = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_dockyard = -0.15
+				industrial_capacity_factory = -0.15
 			}
 		}
 		eighty_plus = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.2
+				stability_factor = -0.20
+				production_speed_buildings_factor = -0.20
+				industrial_capacity_dockyard = -0.20
+				industrial_capacity_factory = -0.20 
 			}
 		}
 	}

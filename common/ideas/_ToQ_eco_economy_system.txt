@@ -1,0 +1,104 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+    economy_system = {
+		law = yes
+		use_list_view = yes
+        interventionism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				production_speed_arms_factory_factor = 0.05 
+				production_speed_industrial_complex_factor = -0.05 
+			}
+        }
+        feudal_economy = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = -0.2
+				industrial_capacity_factory = -0.2
+			}
+        }
+        collective_and_communal = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				consumer_goods_factor = 0.05 
+				stability_factor = -0.20
+				production_speed_buildings_factor = -0.1 
+				production_speed_arms_factory_factor = 0.2 
+				production_speed_industrial_complex_factor = 0.2 
+				industrial_capacity_dockyard = 0.2
+				industrial_capacity_factory = 0.05 
+			}
+        }
+        manufacturing_based  = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				consumer_goods_factor = -0.1  
+				production_speed_buildings_factor = -0.05 
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+        }
+        centrally_planned_economy = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				consumer_goods_factor = -0.1  # -10% Consumer Goods Factory
+				production_speed_buildings_factor = -0.1 # +10% Construction
+				production_speed_industrial_complex_factor = -0.05 # -5% Civilian Factory Bulding Speed
+				production_speed_arms_factory_factor = 0.15 # +15% Military Factory Bulding Speed
+				production_speed_dockyard_factor = 0.1 # +10% Dockyard Construction Speed
+				industrial_capacity_factory = -0.05 # -5% Factory Output
+				industrial_capacity_dockyard = 0.1 # +10% Dockyard Output
+			}
+        }
+        market_socinalism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				stability_factor = -0.1	# -10% Stability
+				consumer_goods_factor = 0.05	# +5% Consumer Goods Factory
+				production_speed_arms_factory_factor = 0.5	# +5% Military Factory Construction Speed
+				production_speed_industrial_complex_factor = 0.15	# +15% Civilian Factory Bulding Speed
+				industrial_capacity_factory = -0.05 	# -5% Factory Output
+				industrial_capacity_dockyard = -0.05	# -5% Dockyard Output
+			}
+        }
+        free_market = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				consumer_goods_factor = 0.2	# +20% Consumer Goods Factory
+				stability_factor = -0.1	# -10% Stability
+				production_speed_buildings_factor = -0.1	# -10% Bulding Speed
+				production_speed_industrial_complex_factor = 0.2 # +20% Civilan Factories Bulding Speed
+				production_speed_arms_factory_factor = -0.1	# -10% Military Factory Bulding Speed Factory
+				industrial_capacity_factory = 0.1 	# +10% Factory Output
+				industrial_capacity_dockyard = 0.1	# +10% Dockyard Outut
+			}
+        }
+        corporatism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				consumer_goods_factor = 0.1 # +10% Consumer Goods Factory
+				stability_factor = -0.2	# -20% Stability
+				production_speed_industrial_complex_factor = 0.2	# +20% Civilian Factory Bulding Speed
+				production_speed_arms_factory_factor = 0.1	# +10% Military Factory Bulding Speed
+				industrial_capacity_factory = 0.2 	# +20% Factory Output
+				industrial_capacity_dockyard = 0.2	# +20% Dockyard Output
+			}
+        }
+        etatism = {
+            allowed_to_remove = {always = yes}
+			modifier = {
+				consumer_goods_factor = -0.1 #-10% Consumer Goods Factory
+				production_speed_industrial_complex_factor = -0.2 #-20% Civilan Factoris Bulding Speed
+				production_speed_arms_factory_factor = 0.15 #+15% Military Factory Bulding Speed
+				production_speed_dockyard_factor = 0.1 #+10% Dokyar Bulding Speed
+				industrial_capacity_factory = 0.1 	# +10% Factory Output
+				industrial_capacity_dockyard = 0.1	# +10% Dockyard Outut
+			}
+        }
+    }
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

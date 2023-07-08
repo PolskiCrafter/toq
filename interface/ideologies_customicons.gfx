@@ -24,8 +24,8 @@ spriteTypes = {	##Icon For: Gemefraism
 
 	##Icon For: Social-librism
 	SpriteType = { 
-		name = "GFX_ideology_socialliberalism_icon_group"
-		texturefile = "gfx/interface/ideologies/socialliberalism_icon.dds"
+		name = "GFX_ideology_sociallibrism_icon_group"
+		texturefile = "gfx/interface/ideologies/sociallibrism_icon.dds"
 	}
 
 	##Icon For: Marlianimibrunism
@@ -33,5 +33,9 @@ spriteTypes = {	##Icon For: Gemefraism
 		name = "GFX_ideology_marlianimibrunism_icon_group"
 		texturefile = "gfx/interface/ideologies/marlianimibrunism_icon.dds"
 	}
-
+	##Icon For: Darkness
+	SpriteType = { 
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/darkness_icon.dds"
+	}
 }

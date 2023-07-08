@@ -5,10 +5,15 @@ state={
 		1561 1895 2135 3068 3687 
 	}
 	history = {
-		owner = FOR
+		owner = ESN
+		add_core_of = ESN
+		buildings = {
+			infrastructure = 1
+		}
 	}
-buildings_max_level_factor=1.000
+	 
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

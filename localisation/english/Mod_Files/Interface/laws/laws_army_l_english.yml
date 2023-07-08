@@ -1,0 +1,111 @@
+﻿l_english:
+#conscription classification
+a_classification:0 "A"
+a_classification_desc:0 "Lorem Ipsum"
+
+b_classification:0 "B"
+b_classification_desc:0 "Lorem Ipsum"
+
+c_classification:0 "C"
+c_classification_desc:0 "Lorem Ipsum"
+
+d_classification:0 "D"
+d_classification_desc:0 "Lorem Ipsum"
+
+e_classification:0 "E"
+e_classification_desc:0 "Lorem Ipsum"
+
+f_classification:0 "F"
+f_classification_desc:0 "Lorem Ipsum"
+
+warrior_clan:0 "Warrior Clan"
+warrior_clan_desc:0 "Lorem Ipsum"
+
+#structure of combat
+irregular:0 "Irregular"
+irregular_desc:0 "Lorem Ipsum" 
+
+mercenary:0 "Mercenary"
+mercenary_desc:0 "Lorem Ipsum" 
+
+army_democracy:0 "Army Democracy"
+army_democracy_desc:0 "Lorem Ipsum" 
+
+hard_hierarchy:0 "Hard Hierarchy"
+hard_hierarchy_desc:0 "Lorem Ipsum" 
+
+fluid_reaction:0 "Fluid Reaction"
+fluid_reaction_desc:0 "Lorem Ipsum" 
+
+politically_controlled:0 "Politically Controlled"
+politically_controlled_desc:0 "Lorem Ipsum" 
+
+#army classification
+tribal_army:0 "Tribal Army"
+tribal_army_desc:0 "Lorem Ipsum"
+
+medieval_army:0 "Medieval Army"
+medieval_army_desc:0 "Lorem Ipsum"
+
+early_gunpowder_army:0 "Early Gunpowder Army"
+early_gunpowder_army_desc:0 "Lorem Ipsum"
+
+bouncy_wars_army:0 "Bouncy Wars Army"
+bouncy_wars_army_desc:0 "Lorem Ipsum"
+
+great_war_army:0 "Great War Army"
+great_war_army_desc:0 "Lorem Ipsum"
+
+modern_army:0 "Modern Army"
+modern_army_desc:0 "Lorem Ipsum"
+
+future_army:0 "Future Army"
+future_army_desc:0 "Lorem Ipsum"
+
+darkness_flood:0 "Darkness Flood"
+darkness_flood_desc:0 "Lorem Ipsum"
+
+#woman in army
+no_woman_in_the_army:0 "No Woman In The Army"
+no_woman_in_the_army_desc:0 "Lorem Ipsum" 
+
+non_combat_roles:0 "Non Combat Roles"
+non_combat_roles_desc:0 "Lorem Ipsum" 
+
+limited_woman_conscription:0 "Limited Conscription"
+limited_woman_conscription_desc:0 "Lorem Ipsum" 
+
+women_on_the_front:0 "Woman On The Front"
+women_on_the_front_desc:0 "Lorem Ipsum" 
+
+#Army Quality
+awful_quality:0 "Awful Quality"
+bad_quality:0 "Bad Quality"
+lacking_quality:0 "Lacking Quality"
+average_quality:0 "Average Quality"
+good_quality:0 "Good Quality"
+best_quality:0 "Best Quality"
+example_to_the_world:0 "Example To The World"
+
+#Oficer Schoolimg
+no_officer_training:0 "No Officer Training"
+no_officer_training_desc:0 "Lorem Ipsum"
+
+nobility_only:0 "Nobility Only"
+nobility_only_desc:0 "Lorem Ipsum"
+
+low_requirements:0 "Low Requirements"
+low_requirements_desc:0 "Lorem Ipsum"
+
+medium_requirements:0 "Medium Requirements"
+medium_requirements_desc:0 "Lorem Ipsum"
+
+only_the_best:0 "Only The Best"
+only_the_best_desc:0 "Lorem Ipsum" 
+
+#Army Training
+no_training:0 "No Training"
+minimal_training:0 "Minimal Training"
+basic_training:0 "Basic Training"
+combat_schooling:0 "Combat Schooling"
+advanced_training_methods:0 "Advanced Training Methods"

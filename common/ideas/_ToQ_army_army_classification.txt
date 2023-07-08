@@ -1,0 +1,58 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	army_classification = {
+		law = yes
+		use_list_view = yes
+
+		tribal_army = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		medieval_army = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		early_gunpowder_army = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		bouncy_wars_army = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		great_war_army = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		modern_army = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		future_army = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		darkness_flood = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

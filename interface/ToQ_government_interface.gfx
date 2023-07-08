@@ -71,7 +71,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_categories"
 		texturefile = "gfx/interface/idea_categories.dds"
-		noOfFrames = 12	
+		noOfFrames = 24
 	}
 }
 ################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

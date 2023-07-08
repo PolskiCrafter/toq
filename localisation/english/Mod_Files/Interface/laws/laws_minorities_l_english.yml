@@ -1,0 +1,52 @@
+﻿l_english:
+#LGBTQ
+exterminate:0 "Exterminate"
+exterminate_desc:0 "Lorem Ipsum"
+
+persecuted:0 "Persecuted"
+persecuted_desc:0 "Lorem Ipsum"
+
+segregated:0 "Segregated"
+segregated_desc:0 "Lorem Ipsum"
+
+neutral_stance:0 "Neutral Stance"
+neutral_stance_desc:0 "Lorem Ipsum"
+
+tolerated:0 "Tolerance"
+tolerated_desc:0 "Lorem Ipsum"
+
+protected:0 "Protected"
+protected_desc:0 "Lorem Ipsum"
+
+empowered:0 "Empowered"
+empowered_desc:0 "Lorem Ipsum"
+
+#Vores Policy
+carnivore_supremacy:0 "Carnivore Supremacy"
+carnivore_preference:0 "Carnivore Preference"
+herbivore_supremacy:0 "Herbivore Supremacy"
+herbivore_preference:0 "Herbivore Preference"
+omnivore_supremacy:0 "Omnivore Supremacy"
+omnivore_preference:0 "Omnivore Preference"
+equality:0 "Equality"
+
+#Hybrids Policy
+hybrids_outlawed:0 "Hybrids Outlawed"
+hybrids_discouraged:0 "Hybrids Discouraged"
+hybrids_allowed:0 "Hybrids Allowed"
+hybrids_protected:0 "Hybrids Protected"
+
+#Bug Laws
+no_protection:0 "No Protection"
+basic_protection:0 "Basic Protection"
+fully_protected:0 "Fully Protected"
+
+#Other Minorities
+minorities_extermination:0 "Minorities Extermination"
+minorities_presecution:0 "Minorities Persecution"
+minorities_segregation:0 "Minorities Segregation"
+minorities_neutral_stance:0 "Minorities Neutral Stance"
+minorities_tolerated:0 "Minorities Tolerated"
+minorities_integrated:0 "Minorities Integrated"
+minorities_protected:0 "Minorities Protected"
+minorities_empowered:0 "Minorities Empowered"

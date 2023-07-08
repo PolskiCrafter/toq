@@ -1,0 +1,62 @@
+bookmarks = {
+	bookmark = {
+		name = "continent_two_name"
+		desc = "continent_two_desc"
+		date = 1090.1.1.12
+		picture = "silence_before_the_storm-1"
+		default_country = "AOK"
+
+		default = yes
+		"AOK" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
+		"VAM" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = neutrality
+		}
+		"EDS" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
+		"LOB" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = communism
+		}
+		"NRU" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = fascism
+		}
+		"DNA" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = neutrality
+		}
+		"EDA" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = gemefraism
+		}
+		"---"={
+			history = "silence_before_the_storm_OTHER"
+		}
+		
+		"THE" = {
+			minor = yes
+			history = "silence_before_the_storm_AOK"
+			ideology = kollektigleichenism
+		}
+		"KRO" = {
+			minor = yes
+			history = "silence_before_the_storm_AOK"
+			ideology = kollektigleichenism
+		}
+		"EMO" = {
+			minor = yes
+			history = "silence_before_the_storm_AOK"
+			ideology = kollektigleichenism
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

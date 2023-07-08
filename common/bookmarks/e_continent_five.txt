@@ -1,0 +1,23 @@
+bookmarks = {
+	bookmark = {
+		name = "continent_five_name"
+		desc = "continent_five_desc"
+		date = 1090.1.1.12
+		picture = "silence_before_the_storm-1"
+		default_country = "FIV"
+
+		default = yes
+		"FIV" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
+
+		"---"={
+			history = "silence_before_the_storm_OTHER"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

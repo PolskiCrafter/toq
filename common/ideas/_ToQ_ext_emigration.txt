@@ -1,0 +1,39 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	emigration = {
+		law = yes
+		use_list_view = yes
+
+		closed_borders = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		free_to_leave= {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		non_citizen_only = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		exportation_of_non_citizens = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		exportation_of_non_desirables = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

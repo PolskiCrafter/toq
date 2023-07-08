@@ -1,0 +1,46 @@
+bookmarks = {
+	bookmark = {
+		name = "continent_four_name"
+		desc = "continent_four_desc"
+		date = 1090.1.1.12
+		picture = "silence_before_the_storm-1"
+		default_country = "ORT"
+
+		default = yes
+		"ORT" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
+		"ESN" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = neutrality
+		}
+		"DVE" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
+		"RAD" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = communism
+		}
+		"RUP" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = fascism
+		}
+		"ROT" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = neutrality
+		}
+		"SHH" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = gemefraism
+		}
+		"---"={
+			history = "silence_before_the_storm_OTHER"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

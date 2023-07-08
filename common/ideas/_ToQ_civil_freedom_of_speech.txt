@@ -7,49 +7,77 @@ ideas = {
 		no_censorship = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.5
+				stability_factor = -0.2
+				civilian_intel_to_others = 20.0
+				navy_intel_to_others = 20.0
+				army_intel_to_others = 20.0
+				airforce_intel_to_others = 20.0
 			}
         }
 		sex_vulgarism_and_radicalism = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.4
+				stability_factor = -0.1
+				civilian_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				army_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
 			}
         }
 		decency_check = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.3
+				stability_factor = -0.05
+				civilian_intel_to_others = 5.0
+				navy_intel_to_others = 5.0
+				army_intel_to_others = 5.0
+				airforce_intel_to_others = 5.0			
 			}
         }
 		light_censorship = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.2
+				stability_factor = 0.05
 			}
         }
 		heavy_censorship = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.1
+				stability_factor = 0.1
+				civilian_intel_to_others = -10.0
+				navy_intel_to_others = -10.0
+				army_intel_to_others = -10.0
+				airforce_intel_to_others = -10.0		
 			}
         }
 		only_state_media = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0
+				stability_factor = 0.15
+				civilian_intel_to_others = -15.0
+				navy_intel_to_others = -15.0
+				army_intel_to_others = -15.0
+				airforce_intel_to_others = -15.0
 			}
         }
 		only_religion = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				stability_factor = 0.2
+				civilian_intel_to_others = -20.0
+				navy_intel_to_others = -20.0
+				army_intel_to_others = -20.0
+				airforce_intel_to_others = -20.0
 			}
         }
 		darkness = {
             allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.2
+				stability_factor = 0.2
+				civilian_intel_to_others = -20.0
+				navy_intel_to_others = -20.0
+				army_intel_to_others = -20.0
+				airforce_intel_to_others = -20.0
 			}
         }
 	}

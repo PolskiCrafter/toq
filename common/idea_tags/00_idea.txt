@@ -31,19 +31,25 @@ idea_categories = {
 		character_slot = minister_of_internal_defense
 		character_slot = minister_of_army
 	}
+
 	ToQ_Economy = {
-		slot = level_of_development
-		slot = private_property_rights
-		slot = level_of_poverty
 		slot = economy
 		slot = trade_laws
+		slot = taxation
+		slot = income_taxation
+		slot = economy_system
+		slot = level_of_development
+		slot = level_of_poverty
 	}
+
 	ToQ_Research_Production = {
 		slot = tank_manufacturer
 		slot = naval_manufacturer
 		slot = aircraft_manufacturer
-		slot = materiel_manufacturer
+		slot = army_manufacturer
 		slot = industrial_concern
+		slot = resources_company
+		slot = infrastructure_company
 
 		ledger = civilian
 		
@@ -67,15 +73,25 @@ idea_categories = {
 		cost = 150
 		removal_cost = 0
 	} 
+
 	ToQ_Civil_Rights = {
 		slot = freedom_of_speech
 		slot = assembly_rights
 		slot = union_rights
-		slot = lgbtq_rights
 		slot = working_hours
 		slot = gender_roles
+		slot = child_policy
+		slot = child_labour
+		slot = workplace_safety
 	}
-
+	ToQ_Minorities = {
+		slot = lgbtq_rights
+		slot = vores_policy
+		slot = hybrids_policy
+		slot = bug_laws
+		slot = other_miniorities
+		
+	}
 	ToQ_Science_And_Development = {
 		slot = education
 		slot = literacy
@@ -85,15 +101,44 @@ idea_categories = {
 		slot = ecology_laws
 		slot = drugs_and_alcohol_policies
 	}
+	ToQ_Social_Laws = {
+		slot = marriage
+		slot = forced_labour
+		slot = housing
+		slot = penal_system
+		slot = divorce
+		slot = automatons
+		slot = magic
+	}
+	ToQ_External_Politics = {
+		slot = expension_policy
+		slot = military_intervention
+		slot = diplomacy
+		slot = immigration
+		slot = emigration
+		slot = colony_administration
+		slot = foreign_aid
+	}
+	ToQ_Laws_Of_War = {
+		slot = anti_enemy_propaganda 
+		slot = institute_of_intelligence
+		slot = warcrimes
+		slot = partisant_treatment
+		slot = pow_treatment
+		slot = desertion_treatment
+		slot = draft_exemption
+		slot = non_core_animalpower_conscription
+	}
 	ToQ_Security_And_Army = {
+
 		slot = mobilization_laws
 		slot = conscription_requirement 
-		slot = officer_schooling
-		slot = army_quality
-		slot = anti_enemy_propaganda 
 		slot = structure_of_combat
+		slot = army_classification
 		slot = woman_in_the_army
-		slot = institute_of_intelligence
+		slot = army_quality
+		slot = officer_schooling
+		slot = army_training
 	}
 
 	ToQ_Military_Staff = {

@@ -1,0 +1,43 @@
+﻿l_english:
+#marriage
+abolished:0 "Abolished"
+monogamy:0 "Monogamy"
+polygamy:0 "Polygamy"
+opposite_sex_only:0 "Opposite Sex Only"
+hetero_poligamy:0 "Hetero Poligamy"
+religious_marriages:0 "Religious Marriages"
+state_marriages:0 "State Marriages"
+
+#forced labour
+slavery:0 "Slavery"
+contract_slavery:0 "Contract Slavery"
+undesirables:0 "Undesirables"
+penal_labour:0 "Penal Labour"
+forced_labour_banned:0 "Forced Labour Banned"
+
+#housing
+no_housing:0 "No Housing"
+private_housing:0 "Private Housing"
+mixed_housing:0 "Mixed Housing"
+nationalized_housing:0 "Nationalized Housing"
+communal_housing:0 "Communal Housing"
+
+#penal system
+capital_punishment:0 "Capital Punishment"
+incarceration:0 "Incarceration"
+rehabilitation:0 "Rehabilitation"
+no_penal_system:0 "No Penal Systemx"
+
+#divorce
+divorce_prohibited:0 "Divorce Prohibited"
+divorce_allowed:0 "Divorce Allowed"
+
+#automatons
+automatons_banned:0 "Automatons Banned"
+automaton_servitude:0 "Automaton Servitude"
+automaton_rights:0 "Automaton Rights"
+
+#magic
+magic_banned:0 "Magic Banned"
+magic_allowed:0 "Magic Allowed"
+

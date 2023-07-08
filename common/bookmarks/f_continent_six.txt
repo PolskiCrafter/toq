@@ -1,0 +1,27 @@
+bookmarks = {
+	bookmark = {
+		name = "continent_six_name"
+		desc = "continent_six_desc"
+		date = 1090.1.1.12
+		picture = "GFX_continent_six_selection"
+		default_country = "SIX"
+
+		default = yes
+		"SIX" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
+		"OOJ" = {
+			history = "silence_before_the_storm_AOK"
+			ideology = democratic
+		}
+
+		"---"={
+			history = "silence_before_the_storm_OTHER"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

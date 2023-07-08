@@ -1,0 +1,18 @@
+OOJ_Royal_Inf_01 = {
+	name = "Infantry Divisions"
+	for_countries = { OOJ }
+	division_types = { "infantry" }
+	fallback_name = "%d. Royal Guard"
+}
+OOJ_Militia_01 = {
+	name = "Garrison Divisions"
+	for_countries = { OOJ }
+	division_types = { "infantry"  }
+	fallback_name = "%d. Militia Group"
+}
+OOJ_Rookies_01 = {
+	name = "Rookie Divisions"
+	for_countries = { OOJ }
+	division_types = { "infantry"  }
+	fallback_name = "%d. Rookie Squad"
+}

@@ -6,10 +6,15 @@ state={
 		1205 1403 1903 2711 3629 3995 
 	}
 	history = {
-		owner = FOR
+		owner = RAO
+		add_core_of = RAO
+		buildings = {
+			infrastructure = 1
+		}
 	}
-buildings_max_level_factor=1.000
+	 
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
-        state_category = town
+	manpower=1
+	state_category = town
 }

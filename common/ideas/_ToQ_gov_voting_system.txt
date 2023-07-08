@@ -7,67 +7,75 @@ ideas = {
 		no_voting_rights = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.5
+				stability_factor = -0.2	# -20% Stability
+				political_power_gain = 1 # +1.0 Political Power
 			}
 		}
 		party_members_only = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.4
+				stability_factor = -0.1	# +10% Stability
+				political_power_gain = 0.75 	# +0.75 Political Power
 			}
 		}
 		chosen_only = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.3
+				stability_factor = 0.2	# 20% Stability
+				political_power_gain = 0.75 	# +0.75 Political Power
 			}
 		} 
 		elites_only = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.2
+				stability_factor = 0.05	# +5% Stability
+				political_power_gain = -0.25	# -0.25 Political Power
 			}
 		}
 		army_only = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.1
+				stability_factor = -0.05	# +5% Stability
+				army_org = 20
 			}
 		}
 		male_only = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0
+				stability_factor = 0.05	# +5% Stability
 			}
 		}
 		female_only = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				stability_factor = 0.05	# +5% Stability
 			}
 		}
 		wealth_vote = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.2
+				industrial_capacity_factory = 0.05 #+5% Factory output
+				industrial_capacity_dockyard = 0.05 #+5% Dockyard output
 			}
 		}
 		status_vote = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.3
+				stability_factor = 0.05	# +5% Stability
+				political_power_gain = 0.25	# 0.25 Political Power
 			}
 		}
 		citizens_only = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.4
+				stability_factor = -0.05	# +5% Stability
 			}
 		}
 		universal = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.5
+				stability_factor = -0.15	# -15% Stability
+				political_power_factor = -0.15 # -15% Political Power Factor
 			}
 		}
 

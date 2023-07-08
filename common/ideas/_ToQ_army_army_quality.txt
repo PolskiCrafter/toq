@@ -4,55 +4,48 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		tribal_army = {
+		awful_quality = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		medieval_army = {
+		bad_quality = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		early_gunpowder_army = {
+		lacking_quality = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		bouncy_wars_army = {
+		average_quality = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		great_war_army = {
+		good_quality = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		modern_army = {
+		best_quality = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		future_army = {
+		example_to_the_world = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
 			}
-        }
-		darkness_flood = {
-            allowed_to_remove = {always = no}
-			modifier = {
-				production_speed_industrial_complex_factor = -0.5
-			}
-        }
-		
+        }		
 	}
 }
 ################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

@@ -1,0 +1,28 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+	bug_laws = {
+		law = yes
+		use_list_view = yes
+
+		no_protection= {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		basic_protection = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+		fully_protected = {
+            allowed_to_remove = {always = no}
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+			}
+        }
+
+	}
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################

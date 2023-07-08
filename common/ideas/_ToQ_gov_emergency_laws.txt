@@ -7,37 +7,62 @@ ideas = {
 		none = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.5
+				stability_factor = 0.1
 			}
 		}
 		curfews = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.4
+				army_defence_factor = 0.1
+				max_dig_in_factor = 0.15
+				dig_in_speed_factor = 0.15
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+				stability_factor = -0.05
 			}
 		}
 		city_lockdowns = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.3
+				army_defence_factor = 0.15
+				max_dig_in_factor = 0.2
+				dig_in_speed_factor = 0.25
+				production_speed_bunker_factor = 0.3
+				production_speed_coastal_bunker_factor = 0.3
+				stability_factor = -0.1
 			}
 		}
 		suspend_habeas_corpus = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.2
+				army_defence_factor = 0.2
+				max_dig_in_factor = 0.25
+				dig_in_speed_factor = 0.35
+				production_speed_bunker_factor = 0.4
+				production_speed_coastal_bunker_factor = 0.4
+				stability_factor = -0.2
 			}
 		}
 		state_of_emergency = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0
+				army_defence_factor = 0.25
+				max_dig_in_factor = 0.3
+				dig_in_speed_factor = 0.45
+				production_speed_bunker_factor = 0.5
+				production_speed_coastal_bunker_factor = 0.5
+				stability_factor = -0.4
 			}
 		}
 		martial_law = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				army_defence_factor = 0.35
+				max_dig_in_factor = 0.4
+				dig_in_speed_factor = 0.55
+				production_speed_bunker_factor = 0.6
+				production_speed_coastal_bunker_factor = 0.6	
+				stability_factor = -0.6
 			}
 		}
 	}

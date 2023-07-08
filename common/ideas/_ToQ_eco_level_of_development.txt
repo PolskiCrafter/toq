@@ -8,67 +8,95 @@ ideas = {
 		tribal_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.5
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
 			}
 		}
 		underdeveloped_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.4
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3			
 			}
 		}
 		early_industrial_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.3
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				production_speed_buildings_factor = -0.2
 			}
 		}
 		full_steam_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.2
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
 			}
 		}
 		early_diesel_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = -0.1
+				consumer_goods_factor = 0.025
 			}
 		}
 		diesel_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
 			}
 		}
 		early_atom_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				consumer_goods_factor = 0.075
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				production_speed_buildings_factor = 0.2
 			}
 		}
 		atom_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.2
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.3
+				industrial_capacity_dockyard = 0.3
+				production_speed_buildings_factor = 0.3
 			}
 		}
 		early_post_scarcity_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.3
+				consumer_goods_factor = 0.15
+				stability_factor = 0.2
+				industrial_capacity_factory = 0.35
+				industrial_capacity_dockyard = 0.35
+				production_speed_buildings_factor = 0.35
 			}
 		}
 		posts_scarcity_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.4
+				consumer_goods_factor = 0.2
+				stability_factor = 0.4
+				industrial_capacity_factory = 0.4
+				industrial_capacity_dockyard = 0.4
+				production_speed_buildings_factor = 0.4
 			}
 		}
 		advanced_steam_age_economy = {
 			allowed_to_remove = {always = no}
 			modifier = {
-				production_speed_industrial_complex_factor = 0.5
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
 			}
 		}
 	}

@@ -1,0 +1,102 @@
+﻿l_english:
+#Taxation
+no_taxation:0 "No Taxation"
+low_taxation:0 "Low Taxation"
+medium_taxation:0 "Medium Taxation"
+high_taxation:0 "High Taxation"
+exploitative_taxation:0 "Exploitative Taxation"
+
+#Income Taxation 
+no_income_tax:0 "No Income Tax"
+elite_tax_exemption:0 "Elite Tax Exemption"
+tax_heaven:0 "Tax Heaven"
+low_income_weighted:0 "Low Income Weighted"
+flat_taxes:0 "Flat Taxes"
+high_income_weighted:0 "High Income Weighted"
+
+#Economy System
+interventionism:0 "Interventionism"
+interventionism_desc:0 "Lorem Ipsum"
+
+feudal_economy:0 "Feudal Economy"
+feudal_economy_desc:0 "Lorem Ipsum"
+
+collective_and_communal:0 "Collective and Communal"
+collective_and_communal_desc:0 "Lorem Ipsum"
+
+manufacturing_based:0 "Manufacturing Based Economy"
+manufacturing_based_desc:0 "Lorem Ipsum"
+
+centrally_planned_economy:0 "Centrally Planned Economy"
+centrally_planned_economy_desc:0 "Lorem Ipsum"
+
+market_socinalism:0 "Market Socinalism"
+market_socinalism_desc:0 "Lorem Ipsum"
+
+free_market:0 "Free Market"
+free_market_desc:0 "Lorem Ipsum"
+
+corporatism:0 "Corporatism"
+corporatism_desc:0 "Lorem Ipsum"
+
+etatism:0 "Etatism"
+etatism_desc:0 "Lorem Ipsum"
+
+#Level Of Developpment
+tribal_economy:0 "Tribal Economy"
+tribal_economy_desc:0 "Lorem Ipsum"
+
+underdeveloped_economy:0 "Underdeveloped Economy"
+underdeveloped_economy_desc:0 "Lorem Ipsum"
+
+early_industrial_age_economy:0 "Industrial Age Economy"
+early_industrial_age_economy_desc:0 "Lorem Ipsum"
+
+full_steam_age_economy:0 "Full Steam Age Economy"
+full_steam_age_economy_desc:0 "Lorem Ipsum"
+
+early_diesel_age_economy:0 "Early Diesel Age Economy"
+early_diesel_age_economy_desc:0 "Lorem Ipsum"
+
+diesel_age_economy:0 "Diesel Age Economy"
+diesel_age_economy_desc:0 "Lorem Ipsum"
+
+early_atom_economy:0 "Early Atom Age Economy"
+early_atom_economy_desc:0 "Lorem Ipsum"
+
+atom_age_economy:0 "Atom Age Economy"
+atom_age_economy_desc:0 "Lorem Ipsum"
+
+early_post_scarcity_age_economy:0 "Early Post Scarcity Age Economy"
+early_post_scarcity_age_economy_desc:0 "Lorem Ipsum"
+
+posts_scarcity_age_economy:0 "Post Scarcity Age Economy"
+posts_scarcity_age_economy_desc:0 "Lorem Ipsum"
+
+advanced_steam_age_economy:0 "Advanced Steam Age Economy"
+advanced_steam_age_economy_desc:0 "Lorem Ipsum"
+
+#Level Of Poverty
+zero_five:0 "§G0% - 5% §!"
+zero_five_desc:0 "Lorem Ipsum"
+
+five_twenty:0 "§76% -20%§!"
+five_twenty_desc:0 "Lorem Ipsum"
+
+twenty_thirty:0 "§621% -30%§!"
+twenty_thirty_desc:0 "Lorem Ipsum"
+
+thirty_fifty:0 "§Y31% - 50%§!"
+thirty_fifty_desc:0 "Lorem Ipsum"
+
+fifty_sixty:0 "§851% - 60%§!"
+fifty_sixty_desc:0 "Lorem Ipsum"
+
+sixty_seventy:0 "§960% - 70%§!"
+sixty_seventy_desc:0 "Lorem Ipsum"
+
+seventy_eighty:0 "§O71% - 80%§!" 
+seventy_eighty_desc:0 "Lorem Ipsum"
+
+eighty_plus:0 "§t> 80%§!"
+eighty_plus_desc:0 "Lorem Ipsum"

@@ -1,0 +1,18 @@
+state={
+	id=926
+	name="STATE_926"
+	provinces={
+		3152 
+	}
+	history = {
+		owner = OOJ
+		add_core_of = OOJ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=100
+	state_category = town
+}

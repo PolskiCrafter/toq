@@ -1,0 +1,46 @@
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
+ideas = {
+
+	income_taxation = {
+		law = yes
+		use_list_view = yes
+
+		no_income_tax = {
+			allowed_to_remove = {always = no}
+			modifier = {
+
+			}
+		}
+		elite_tax_exemption = {
+			allowed_to_remove = {always = no}
+			modifier = {
+		
+			}
+		}
+		tax_heaven = {
+			allowed_to_remove = {always = no}
+			modifier = {
+
+			}
+		}
+		low_income_weighted = {
+			allowed_to_remove = {always = no}
+			modifier = {
+
+			}
+		}
+		flat_taxes = {
+			allowed_to_remove = {always = no}
+			modifier = {
+			}
+		}
+		high_income_weighted = {
+			allowed_to_remove = {always = no}
+			modifier = {
+
+			}
+		}
+	}
+
+}
+################################################ Code Made by Jackal from the Tales Of Quaidan dev team ################################################
