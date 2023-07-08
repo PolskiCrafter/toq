@@ -4,7 +4,7 @@ no_taxation:0 "No Taxation"
 low_taxation:0 "Low Taxation"
 medium_taxation:0 "Medium Taxation"
 high_taxation:0 "High Taxation"
-exploitative_taxation:0 "Exploitative Taxation"
+explotative_taxation:0 "Exploitative Taxation"
 
 #Income Taxation 
 no_income_tax:0 "No Income Tax"
