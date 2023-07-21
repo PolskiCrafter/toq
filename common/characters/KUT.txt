@@ -6,7 +6,7 @@ characters = {
 		name = "Kitserade Sphepenhof XII Hohensbach"
 		portraits={
 			civilian={
-				large="gfx/leaders/KUT/portrait_KUT_Kitserade.dds"
+				#large="gfx/leaders/KUT/portrait_KUT_Kitserade.dds"
 			}
 		}
 		country_leader={

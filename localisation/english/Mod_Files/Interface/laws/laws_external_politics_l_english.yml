@@ -1,120 +1,51 @@
 ﻿l_english:
-#freedom of speech
-no_censorship:0 "No Censorship"
-no_censorship_desc:0 "Lorem Ipsum"
+#expension
+antimilitarist:0 "Antimilitarist"
+neutral:0 "Neutral"
+limited_expansionism:0 "Limited Expansionism"
+expansionism:0 "Expansionism"
+imperialism:0 "Imperialism"
 
-sex_vulgarism_and_radicalism:0 "Sex Vulgarism And Radicalism"
-sex_vulgarism_and_radicalism_desc:0 "Lorem Ipsum"
+#military intervention
+armed_neutrality:0 "Armed Neutrality"
+containment:0 "Containment"
+preemption:0 "Preemption"
+retaliation:0 "Retaliation"
+selective_engagement:0 "Selective Engagment"
+military_interventionism:0 "Military Interventionism"
+interdependence:0 "Interdependence"
 
-decency_check:0 "Decency Check"
-decency_check_desc:0 "Lorem Ipsum"
+#diplomacy
+diplomatic_isolation:0 "Diplomatic Isolation"
+collective_security:0 "Collective Security"
+limited_diplomacy:0 "Limited Diplomacy"
+open_diplomacy:0 "Open Diplomacy"
+global_diplomacy:0 "Global Diplomacy"
 
-light_censorship:0 "Light Censorship"
-light_censorship_desc:0 "Lorem Ipsum"
+#imigration
+closed_immigration_borders:0 "Closed Imigration Borders"
+strict_selection:0 "Strict Selectiona"
+specialists_only:0 "Specialists Only"
+open_doors:0 "Open Doors Policy"
+immigration_encouraged:0 "Immigration Encouraged"
 
-heavy_censorship:0 "Heavy Censorship"
-heavy_censorship_desc:0 "Lorem Ipsum"
+#emigration
+closed_borders:0 "Closed Emigration Borders"
+free_to_leave:0 "Free To Leave"
+non_citizen_only:0 "Non Citizen Only"
+exportation_of_non_citizens:0 "Exportation Of Non Citizens"
+exportation_of_non_desirables:0 "Exportation Of Non Desirables"
 
-only_state_media:0 "Only State Media"
-only_state_media_desc:0 "Lorem Ipsum"
+#colony administration
+direct_rule:0 "Direct Rule"
+indirect_rule:0 "Indirect Rule"
+administrative_integration:0 "Administrative Integration"
+limited_economic_exploitation:0 "Limited Economic Exploitation"
+decolonization_initiative:0 "Decolonization Initiative"
 
-only_religion:0 "Only Religious Institutions"
-only_religion_desc:0 "Lorem Ipsum"
-
-darkness:0 "Darkness"
-darkness_desc:0 "Lorem Ipsum"
-
-#assembly rights
-full:0 "Full"
-full_desc:0 "Lorem Ipsum"
-
-non_radical:0 "Non Radical"
-non_radical_desc:0 "Lorem Ipsum"
-
-state_approved_only:0 "State Approved Only"
-state_approved_only_desc:0 "Lorem Ipsum"
-
-assemblies_forbidden:0 "Assemblies Forbidden"
-assemblies_forbidden_desc:0 "Lorem Ipsum"
-
-#union rights
-unions_banned:0 "Unions Banned"
-unions_banned_desc:0 "Lorem Ipsum"
-
-state_controlled_unions:0 "State Controlled Unions"
-state_controlled_unions_desc:0 "Lorem Ipsum"
-
-non_radical_unions:0 "Non Radical Unions"
-non_radical_unions_desc:0 "Lorem Ipsum"
-
-free_unions:0 "Free Unions"
-free_unions_desc:0 "Lorem Ipsum"
-
-empowered_unions:0 "Empowered Unions"
-empowered_unions_desc:0 "Lorem Ipsum"
-
-unions_control:0 "Unions Control"
-unions_control_desc:0 "Lorem Ipsum"
-
-#working hours
-twenty_four_hours:0 "24h"
-twenty_four_hours_desc:0 "Lorem Ipsum"
-
-twenty_hours:0 "20h"
-twenty_hours_desc:0 "Lorem Ipsum"
-
-eighteen_hours:0 "18h"
-eighteen_hours_desc:0 "Lorem Ipsum"
-
-fourteen_hours:0 "14h"
-fourteen_hours_desc:0 "Lorem Ipsum"
-
-ten_hours:0 "10h"
-ten_hours_desc:0 "Lorem Ipsum"
-
-eight_hours:0 "8h"
-eight_hours_desc:0 "Lorem Ipsum"
-
-four_hours:0 "4h"
-four_hours_desc:0 "Lorem Ipsum"
-
-#gender roles
-matriarchal:0 "Matriarchal"
-matriarchal_desc:0 "Lorem Ipsum"
-
-women_leaning:0 "Woman Leaning"
-women_leaning_desc:0 "Lorem Ipsum"
-
-equal:0 "Equal"
-equal_desc:0 "Lorem Ipsum"
-
-male_leaning:0 "Male Leaning"
-male_leaning_desc:0 "Lorem Ipsum"
-
-patriarchal:0 "Patriarchal"
-patriarchal_desc:0 "Lorem Ipsum"
-
-abolishment_of_gender_roles:0 "Abolishment Of Gender Roles"
-abolishment_of_gender_roles_desc:0 "Lorem Ipsum"
-
-#child policy
-one_child:0 "On Child"
-two_children:0 "Two Children"
-abortion_allowed:0 "Abortion Allowed"
-abortion_prohibited:0 "Abortion Prohibited"
-children_encouraged:0 "Children Encouraged"
-expected_to_have_children:0 "Expected To Have Children"
-no_specific_children_policy:0 "No Specific Children Policy"
-
-#child labour
-child_soldiers:0 "Child Soldiers"
-child_labour_permitted:0 "Child Labour Permitted"
-parental_decision:0 "Parental Decision"
-children_protection:0 "Children Protection"
-
-#workplace safety
-no_workplace_safety_laws:0 "No Workplace Safety Laws"
-minor_restrictions:0 "Minor Restrictions"
-medium_restrictions:0 "Medium Restrictions"
-significant_restrictions:0 "Significant Restrictions"
-workplace_safety_first:0 "Workplace Safety First"
+#foreign aid
+no_foreign_aid:0 "No Foreign Aid"
+limited_foreign_aid:0 "Limited Foreign Aid"
+development_assitance:0 "Development Assitance"
+humanitarian_aid:0 "Humanitarian Aid"
+global_aid:0 "Global Aid"

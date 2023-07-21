@@ -13,39 +13,146 @@ set_technology = {
 }
 
 add_ideas = {
+	#conscription
 	limited_conscription
+	#economy
 	civilian_economy
-
-	diesel_age_economy
-	twenty_thirty
-	one_person_rule_king
+	#taxation
+	no_taxation
+	#incomet taxation
+	no_income_tax
+	#economy system
 	feudal_economy
-	none
+	#level of development
+	diesel_age_economy
+	#poverty
+	twenty_thirty
+
+
+	#power distribution
+	one_person_rule_king
+	#voting rights
 	no_voting_rights
+	#emergency laws
+	none
+	#surveilence
 	threats_to_status_quo
+	#police
 	regular_police_force
+	#religion
 	secularism
+	#dominant species
 	non_specific
+
+	#freedom of speech
 	decency_check
+	#assembly rights
 	state_approved_only
-	neutral_stance
+	#union rights
 	state_controlled_unions
+	#working hours
 	fourteen_hours
-	patriarchal
+	#gender roles
+	abolishment_of_gender_roles
+	#child policy
+	no_specific_children_policy
+	#child labour
+	children_protection
+	#workplace safety
+	medium_restrictions
+
+
+	#LGBTQ
+	tolerated
+	#vores
+	carnivore_preference
+	#hybrids
+	hybrids_allowed
+	#bug
+	basic_protection
+	#other minorities
+	minorities_integrated
+
+	#literacy
 	medium_literacy
+	#social assistance
 	basic_support_for_the_beggars
+	#healthcare
 	shaman_healthcare
-	religious_schools
+	#education
+	military_focused_education
+	#scientific base
 	underdeveloped_institution
+	#alcohol
 	light_alcohol_only
+	#ecology laws
 	largely_regulated
-	a_classification
-	early_gunpowder_army
+
+
+	#marriage laws
+	abolished
+	#forced labour
+	forced_labour_banned
+	#housing
+	communal_housing
+	#penal system
+	rehabilitation
+	#divorce
+	divorce_allowed
+	#automatons
+	automaton_servitude
+	#marriage laws
+	magic_allowed
+
+	#expension policy
 	neutral
-	nobility_only
-	no_intelligence_agency
-	politically_controlled
-	non_combat_roles
+	#military intervention
+	armed_neutrality
+	#diplomacy
+	limited_diplomacy
+	#immigration
+	open_doors
+	#emigration
+	free_to_leave
+	#colony administration
+	direct_rule
+	#foreign aid
+	no_foreign_aid
+
+
+	#propaganda
+	no_propaganda
+	# intelligence agency
+	large_agency
+	#warcrimes
+	last_resort
+	#partisant treatment
+	partisan_amnesty
+	#pow treatment
+	pow_protected
+	#desertion treatment
+	significant_crime
+	#draft exemption
+	no_exemption
+	#non core animalpower
+	integrated_animalpower
+
+
+	# conscription requirement
+	a_classification
+	#structure of combat
+	mercenary
+	# army calssficiation
+	early_gunpowder_army
+	#woman in the army
+	limited_woman_conscription
+	#army quality
+	average_quality
+	#officer schooling
+	medium_requirements
+	#army training
+	combat_schooling
+
 }
 
 

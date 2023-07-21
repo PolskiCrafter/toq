@@ -34,7 +34,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		military_nterventionism = {
+		military_interventionism = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5

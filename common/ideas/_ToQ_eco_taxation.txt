@@ -9,31 +9,35 @@ ideas = {
 		no_taxation = {
 			allowed_to_remove = {always = no}
 			modifier = {
-	
+				#gov support +10%
+				consumer_goods_factor = 0.05
 			}
 		}
 		low_taxation = {
 			allowed_to_remove = {always = no}
 			modifier = {
-			
+				#gov support -5%
 			}
 		}
 		medium_taxation = {
 			allowed_to_remove = {always = no}
 			modifier = {
-		
+				#gov support -10%
+				consumer_goods_factor = -0.025
 			}
 		}
 		high_taxation = {
 			allowed_to_remove = {always = no}
 			modifier = {
-	
+				#gov support -15%
+				consumer_goods_factor = -0.05
 			}
 		}
 		explotative_taxation = {
 			allowed_to_remove = {always = no}
 			modifier = {
-
+				#gov support -25%
+				consumer_goods_factor = -0.075
 			}
 		}
 	}

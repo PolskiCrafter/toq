@@ -8,36 +8,45 @@ ideas = {
 		no_income_tax = {
 			allowed_to_remove = {always = no}
 			modifier = {
-
+				#gov support +10%
 			}
 		}
 		elite_tax_exemption = {
 			allowed_to_remove = {always = no}
 			modifier = {
-		
+				#gov unity +10%
+				#gov support -10%
+				consumer_goods_factor = 0.05
 			}
 		}
 		tax_heaven = {
 			allowed_to_remove = {always = no}
 			modifier = {
-
+				#gov support -15%
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				# +10 relations
 			}
 		}
 		low_income_weighted = {
 			allowed_to_remove = {always = no}
 			modifier = {
-
+				#gov support -15%
+				stability_factor = -0.1
+				consumer_goods_factor = -0.02
 			}
 		}
 		flat_taxes = {
 			allowed_to_remove = {always = no}
 			modifier = {
+				consumer_goods_factor = -0.01
 			}
 		}
 		high_income_weighted = {
 			allowed_to_remove = {always = no}
 			modifier = {
-
+				consumer_goods_factor = -0.04
 			}
 		}
 	}

@@ -10,7 +10,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.5
 			}
         }
-		liomited_foreign_aid = {
+		limited_foreign_aid = {
             allowed_to_remove = {always = no}
 			modifier = {
 				production_speed_industrial_complex_factor = -0.5
