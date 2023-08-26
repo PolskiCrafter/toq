@@ -5,8 +5,8 @@ state={
 		1099 1759 1885 3257 4637 4645 
 	}
 	history = {
-		owner = SWE
-		add_core_of = SWE
+		owner = BHU
+		add_core_of = BHU
 	}
 	 
 	buildings_max_level_factor=1.000

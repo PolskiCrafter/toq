@@ -5,8 +5,8 @@ state={
 		512 1593 1920 2239 4507 
 	}
 	history = {
-		owner = GEN
-		add_core_of = GEN
+		owner = EIS
+		add_core_of = EIS
 		buildings = {
 			infrastructure = 1
 		}

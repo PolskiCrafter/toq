@@ -5,7 +5,7 @@ state={
 		275 1046 3887 3923 
 	}
 	history = {
-		owner = ACH
+		owner = SWE
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

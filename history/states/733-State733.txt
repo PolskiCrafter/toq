@@ -5,7 +5,7 @@ state={
 		1216 1889 2951 3615 4831 4853 4855 
 	}
 	history = {
-		owner = SIX
+		owner = TEL
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

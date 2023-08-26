@@ -1,4 +1,4 @@
-﻿oob = "BHD_1090"
+oob = "BHD_1090"
 capital = 1
 set_research_slots = 3
 set_stability = 0.5
@@ -20,7 +20,7 @@ add_ideas = {
 #Politics for 1090.1.1
 set_politics = {
 	ruling_party = democratic
-	last_election = "1089.9.18"
+	last_election = "1089.1.7"
 	election_frequency = 60
 	elections_allowed = yes
 }

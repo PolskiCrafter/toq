@@ -5,7 +5,7 @@ state={
 		827 1382 2301 2750 3296 4245 5018 
 	}
 	history = {
-		owner = ALA
+		owner = SPR
 	}
 	 
 	buildings_max_level_factor=1.000

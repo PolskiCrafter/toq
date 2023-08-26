@@ -5,8 +5,8 @@ state={
 		742 1220 1497 2090 3379 4027 
 	}
 	history = {
-		owner = DVE
-		add_core_of = DVE
+		owner = PES
+		add_core_of = PES
 		buildings = {
 			infrastructure = 1
 		}

@@ -5,7 +5,7 @@ state={
 		168 1538 2669 3275 
 	}
 	history = {
-		owner = ESN
+		owner = DVE
 		add_core_of = ESN
 		buildings = {
 			infrastructure = 1

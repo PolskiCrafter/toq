@@ -6,7 +6,7 @@ state={
 		730 1375 1680 3508 4171 
 	}
 	history = {
-		owner = SPR
+		owner = LEB
 	}
 	 
 	buildings_max_level_factor=1.000

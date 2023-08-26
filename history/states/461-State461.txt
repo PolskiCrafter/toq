@@ -5,8 +5,8 @@ state={
 		926 1140 1437 2316 3928 3934 
 	}
 	history = {
-		owner = DVE
-		add_core_of = DVE
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 1
 		}

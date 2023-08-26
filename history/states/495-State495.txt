@@ -5,7 +5,7 @@ state={
 		374 837 858 1104 2235 3726 3727 
 	}
 	history = {
-		owner = ERR
+		owner = OST
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

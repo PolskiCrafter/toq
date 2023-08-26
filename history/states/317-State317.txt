@@ -5,8 +5,8 @@ state={
 		831 1098 1183 1282 2197 3652 4606 
 	}
 	history = {
-		owner = EIB
-		add_core_of = EIB
+		owner = IRS
+		add_core_of = IRS
 		buildings = {
 			infrastructure = 1
 		}

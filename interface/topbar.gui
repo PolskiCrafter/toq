@@ -108,20 +108,20 @@ guiTypes = {
 		iconType ={
 			name ="pol_power_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x = 100 y = 5 }
+			position = { x = 106 y = 20 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType ={
 			name ="pol_power_icon"
 			spriteType = "GFX_pol_power_icon"
-			position = { x= 103 y = 3 }
+			position = { x= 105 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name ="pol_power"
-			position = { x= 120 y = 8 }
+			position = { x= 126	 y = 23 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -129,24 +129,51 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes
 		}
-		
+		instantTextBoxType = {
+			name = "industry_text"
+			position = { x= 80	 y = 1 }
+			font = "hoi_18mbs"
+			text = "Industry"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "politics_text"
+			position = { x= 230	 y = 1 }
+			font = "hoi_18mbs"
+			text = "Politics"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "military_text"
+			position = { x= 385	 y = 1 }
+			font = "hoi_18mbs"
+			text = "Military"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "logitstics_text"
+			position = { x= 540	 y = 1 }
+			font = "hoi_18mbs"
+			text = "Logistics"
+			format = center
+		}
 		iconType ={
 			name ="manpower_value_bg"
 			spriteType = "GFX_generic_box_96"
-			position = { x = 319 y = 5 }
+			position = { x = 410 y = 20 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType ={
 			name ="manpower_icon"
 			spriteType = "GFX_manpower_icon"
-			position = { x= 321 y = 3 }
+			position = { x= 410 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name ="manpower"
-			position = { x= 352 y = 8 }
+			position = { x= 441 y = 24 }
 			font = "hoi_18mbs"
 			text = "9999"
 			format = center
@@ -158,20 +185,20 @@ guiTypes = {
 		iconType ={
 			name ="sability_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x = 173 y = 5 }
+			position = { x = 261 y = 52 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="stability_icon"
 			spriteType = "GFX_stability_icon"
-			position = { x= 174 y = 5 }
+			position = { x= 261 y = 52 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name ="stability"
-			position = { x= 180 y = 8 }
+			position = { x= 267 y = 55 }
 			font = "hoi_18mbs"
 			text = "100%"
 			format = right
@@ -183,20 +210,20 @@ guiTypes = {
 		iconType ={
 			name ="war_support_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x = 246 y = 5 }
+			position = { x = 333 y = 52 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="war_support_icon"
 			spriteType = "GFX_war_support_icon"
-			position = { x= 247 y = 6 }
+			position = { x= 333 y = 53 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name ="war_support"
-			position = { x= 253 y = 8 }
+			position = { x= 337 y = 55 }
 			font = "hoi_18mbs"
 			text = "100%"
 			format = right
@@ -205,11 +232,45 @@ guiTypes = {
 			fixedsize = yes
 		}
 
+		# iconType ={
+		# 	name ="gov_unity_value_bg"
+		# 	spriteType = "GFX_generic_box_smallest"
+		# 	position = { x = 261 y = 21 }
+		# 	Orientation = "UPPER_LEFT"
+		# }
+		# instantTextBoxType = {
+		# 	name ="gov_unity"
+		# 	position = { x= 271 y = 24 }
+		# 	font = "hoi_18mbs"
+		# 	text = "[?ROOT.gov_unity]"
+		# 	format = right
+		# 	maxWidth = 57
+		# 	maxHeight = 24
+		# 	fixedsize = yes
+		# }
+
+		# iconType ={
+		# 	name ="gov_popularity_value_bg"
+		# 	spriteType = "GFX_generic_box_smallest"
+		# 	position = { x = 333 y = 21 }
+		# 	Orientation = "UPPER_LEFT"
+		# }
+		# instantTextBoxType = {
+		# 	name ="gov_popularity"
+		# 	position = { x= 343 y = 24 }
+		# 	font = "hoi_18mbs"
+		# 	text = "[?ROOT.gov_popularity|%0]"
+		# 	format = right
+		# 	maxWidth = 57
+		# 	maxHeight = 24
+		# 	fixedsize = yes
+		# }
+
 		containerWindowType = {
 			name = "land"
-			position = { x= 796 y = 5}
+			position = { x= 408 y = 50 }
 			clipping = no
-			size = { width=56 height=30 }
+			size = { width=53 height=30 }
 			Orientation = UPPER_LEFT
 
 			background = {
@@ -240,9 +301,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "navy"
-			position = { x= 854 y = 5}
+			position = { x= 459 y = 50 }
 			clipping = no
-			size = { width=56 height=30 }
+			size = { width=53 height=30 }
 			Orientation = UPPER_LEFT
 				
 			background = {
@@ -273,9 +334,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air"
-			position = { x= 912 y = 5}
+			position = { x= 510 y = 50 }
 			clipping = no
-			size = { width=56 height=30 }
+			size = { width=53 height=30 }
 			Orientation = UPPER_LEFT
 			
 			background = {
@@ -306,9 +367,9 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "cp"
-			position = { x= 732 y = 5}
+			position = { x= 507 y = 18 }
 			clipping = no
-			size = { width=62 height=30 }
+			size = { width=55 height=30 }
 			Orientation = UPPER_LEFT
 
 				background = {
@@ -340,20 +401,20 @@ guiTypes = {
 		iconType ={
 			name ="industrial_capacity_bg" 
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=418 y = 5 } 
+			position = { x=106 y = 48 } 
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="industrial_capacity_icon"
 			spriteType = "GFX_industrial_capacity_icon"
-			position = { x= 414 y = 3 } 
+			position = { x= 100 y = 47 } 
 			Orientation = "UPPER_LEFT"
 		}
         
 		instantTextBoxType = {
 			name ="industrial_capacity"
-			position = { x= 438 y = 8 } 
+			position = { x= 126 y = 52 } 
 			font = "hoi_18mbs"
 			text = "12/12/12"
 			format = center
@@ -367,20 +428,20 @@ guiTypes = {
 		iconType ={
 			name ="convoy_text_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=637 y=5 }
+			position = { x=645 y=18 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="convoys_icon"
 			spriteType = "GFX_topbar_convoys"
-			position = { x= 636 y = 9 }
+			position = {x=644 y=20 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name ="convoys_count"
-			position = { x= 662 y = 4 }
+			position = { x=669 y=18 }
 			font = "hoi_18mbs"
 			text = "0"
 			format = center
@@ -392,7 +453,7 @@ guiTypes = {
 		iconType = {
 			name ="convoys_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 660 y = 20 }
+			position = { x=669 y=34 }
 			frame = 50
 			alwaystransparent = yes
 		}
@@ -402,20 +463,20 @@ guiTypes = {
 		iconType ={
 			name ="fuel_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=491 y=5 }
+			position = { x=568 y=50 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="fuel_icon"
 			spriteType = "GFX_fuel_state"
-			position = { x= 490 y = 6 }
+			position = { x= 567 y = 52 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="fuel_value"
-			position = { x= 513 y = 4 }
+			position = { x= 589 y = 48 }
 			font = "hoi_18mbs"
 			text = "999d"
 			format = center
@@ -427,7 +488,7 @@ guiTypes = {
 		iconType = {
 			name ="fuel_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 514 y = 20 }
+			position = { x= 592 y = 66 }
 			frame = 50
 			alwaystransparent = yes
 		}
@@ -437,20 +498,20 @@ guiTypes = {
 		iconType ={
 			name ="supply_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=564 y=5 }
+			position = { x=645 y=50 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="supply_icon"
 			spriteType = "GFX_equipment_icon"
-			position = { x= 565 y = 8 }
+			position = { x= 647 y = 55 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="supply_value"
-			position = { x= 586 y = 4 }
+			position = { x= 669 y = 50 }
 			font = "hoi_18mbs"
 			text = "999d"
 			format = center
@@ -462,7 +523,7 @@ guiTypes = {
 		iconType = {
 			name ="supply_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 587 y = 20 }
+			position = { x= 669 y = 66 }
 			frame = 50
 			alwaystransparent = yes
 		}
@@ -510,21 +571,21 @@ guiTypes = {
 		iconType ={
 			name ="nuke_text_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=1020 y=5 }
+			position = { x=570 y=19 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="nuke_icon"
 			spriteType = "GFX_topbar_nuke"
-			position = { x=1021 y=8 }
+			position = { x=571 y=22 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
 		}
 		
 		instantTextBoxType = {
 			name ="nuke_count"
-			position = { x=1043 y=9 }
+			position = { x=588 y=23 }
 			font = "hoi_18mbs"
 			format = center
 			maxWidth = 44
@@ -688,7 +749,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "country_menu_window"
-			position = { x=217 y=36 }
+			position = { x= 835 y= 0 }
 			size = { width=100%% height=30 }
 			
 			iconType = {
@@ -799,7 +860,7 @@ guiTypes = {
 			# Here, several buttons are put in the container "after_intel_agency_button", to be easily moved if the player don't have the DLC requiered by "intel_agency_button".
 			containerWindowType = {
 				name = "after_intel_agency_button"
-				position = { x=56 y=0 }
+				position = { x=56 y= 0 }
 				
 				buttonType = {
 					name = "technology_button"
@@ -888,11 +949,16 @@ guiTypes = {
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
+				instantTextBoxType = {
+					name = "WIP_warning"
+					text = "<----- WIP gonna be moved"
+					position = { x = 410 y = 8 }
+				}	
 			}
 			
 			buttonType = {
 				name = "army_button"
-				position = { x = -275 y = 8 }
+				position = { x = -275 y = 45 }
 				quadTextureSprite ="GFX_armyoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "o"
@@ -902,7 +968,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "navy_button"
-				position = { x = -226 y = 8 }
+				position = { x = -226 y = 45 }
 				quadTextureSprite ="GFX_navyoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "p"
@@ -912,13 +978,14 @@ guiTypes = {
 			
 			buttonType = {
 				name = "air_button"
-				position = { x = -180 y = 8 }
+				position = { x = -180 y = 45 }
 				quadTextureSprite ="GFX_airoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "l"
 				clicksound = click_close
 				oversound = ui_menu_over
 			}
+
 		}
 		
 		#windowType = {

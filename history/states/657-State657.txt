@@ -5,7 +5,7 @@ state={
 		902 1191 1482 2451 2844 3251 4336 
 	}
 	history = {
-		owner = SIX
+		owner = CTA
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

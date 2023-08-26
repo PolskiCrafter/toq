@@ -5,7 +5,7 @@ state={
 		242 1641 2463 3747 3757 3773 
 	}
 	history = {
-		owner = CYR
+		owner = UKF
 	}
 	 
 	buildings_max_level_factor=1.000

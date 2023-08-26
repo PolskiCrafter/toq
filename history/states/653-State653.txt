@@ -6,7 +6,7 @@ state={
 		201 2351 2927 3377 3483 4614 4636 
 	}
 	history = {
-		owner = SIX
+		owner = UAN
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

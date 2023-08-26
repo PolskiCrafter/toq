@@ -5,10 +5,10 @@ state={
 		213 270 1434 2024 2390 3395 4992 
 	}
 	history = {
-		owner = SIX
+		owner = TOT
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	local_supplies=0.000 
 	manpower=1
 	state_category = town
 

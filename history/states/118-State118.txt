@@ -5,7 +5,7 @@ state={
 		580 1945 2049 4138 4158 
 	}
 	history = {
-		owner = TUR
+		owner = NOD
 	}
 	 
 	buildings_max_level_factor=1.000

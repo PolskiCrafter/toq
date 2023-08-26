@@ -5,7 +5,7 @@ state={
 		1188 1788 2683 4131 
 	}
 	history = {
-		owner = URA
+		owner = LIV
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

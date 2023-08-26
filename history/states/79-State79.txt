@@ -5,7 +5,7 @@ state={
 		966 2106 2746 2938 3591 4128 4146 
 	}
 	history = {
-		owner = LEB
+		owner = GUT
 	}
 	 
 	buildings_max_level_factor=1.000

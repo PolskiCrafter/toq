@@ -5,7 +5,7 @@ state={
 		101 297 375 695 4076 4085 
 	}
 	history = {
-		owner = FIV
+		owner = EMB
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

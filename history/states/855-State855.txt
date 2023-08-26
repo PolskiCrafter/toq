@@ -5,7 +5,7 @@ state={
 		1842 2117 2541 4960 4963 4969 
 	}
 	history = {
-		owner = SIX
+		owner = ORA
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

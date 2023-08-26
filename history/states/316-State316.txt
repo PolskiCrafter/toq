@@ -5,8 +5,8 @@ state={
 		1124 2152 2771 2996 4563 4592 4608 
 	}
 	history = {
-		owner = AAA
-		add_core_of = AAA
+		owner = IRS
+		add_core_of = IRS
 		buildings = {
 			infrastructure = 1
 		}

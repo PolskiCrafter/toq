@@ -5,8 +5,8 @@ state={
 		814 1286 4397 4423 
 	}
 	history = {
-		owner = GEN
-		add_core_of = GEN
+		owner = NOR
+		add_core_of = NOR
 		buildings = {
 			infrastructure = 1
 		}

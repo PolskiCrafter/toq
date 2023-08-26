@@ -6,8 +6,8 @@ state={
 		108 2151 2388 2793 3107 3891 3914 
 	}
 	history = {
-		owner = RAD
-		add_core_of = RAD
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 1
 		}

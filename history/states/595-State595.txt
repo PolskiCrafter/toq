@@ -5,7 +5,7 @@ state={
 		418 1791 1904 3097 3315 3469 4239 
 	}
 	history = {
-		owner = FIV
+		owner = SEZ
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

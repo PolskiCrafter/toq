@@ -5,8 +5,8 @@ state={
 		626 1115 1347 1802 3777 3781 
 	}
 	history = {
-		owner = SHH
-		add_core_of = SHH
+		owner = DHA
+		add_core_of = DHA
 		buildings = {
 			infrastructure = 1
 		}

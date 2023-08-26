@@ -7,6 +7,10 @@ KUT:0 "Kutuze Kingdom"
 KUT_ADJ:0 "Kutuzean"
 KUT_DEF:0 "the Kutuze Kingdom"
 
+SHH:0 "Kutuze Sh Protectorat"
+SHH_ADJ:0 "Kutuze"
+SHH_DEF:0 "the Kutuze Sh Protectorat"
+
 PRH:0 "Perhalia"
 PRH_ADJ:0 "Perhalian"
 PRH_DEF:0 "the Perhalia"
@@ -78,3 +82,15 @@ URA_DEF:0 "the Urag"
 LIV:0 "Reanimalica Liver"
 LIV_ADJ:0 "Reanimalican"
 LIV_DEF:0 "the Reanimalica Liver"
+
+KIN:0 "Kinal Reanimalic"
+KIN_ADJ:0 "Kinal"
+KIN_DEF:0 "the Kinal Reanimalic"
+
+NEL:0 "Nelevo"
+NEL_ADJ:0 "Nelevo"
+NEL_DEF:0 "the Nelevo"
+
+ALE:0 "Aleur"
+ALE_ADJ:0 "Aleur"
+ALE_DEF:0 "the Aleur"

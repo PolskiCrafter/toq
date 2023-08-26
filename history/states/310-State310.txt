@@ -5,8 +5,8 @@ state={
 		128 1585 2816 2912 3450 4657 
 	}
 	history = {
-		owner = AAA
-		add_core_of = AAA
+		owner = NIT
+		add_core_of = NIT
 		buildings = {
 			infrastructure = 1
 		}

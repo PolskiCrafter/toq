@@ -5,8 +5,8 @@ state={
 		781 1866 3321 
 	}
 	history = {
-		owner = KAT
-		add_core_of = KAT
+		owner = NIQ
+		add_core_of = NIQ
 	}
 	 
 	buildings_max_level_factor=1.000

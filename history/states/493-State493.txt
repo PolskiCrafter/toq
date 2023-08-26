@@ -5,7 +5,7 @@ state={
 		842 928 2303 3769 
 	}
 	history = {
-		owner = ERR
+		owner = GAI
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

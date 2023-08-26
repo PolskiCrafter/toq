@@ -5,8 +5,8 @@ state={
 		184 2347 4551 4559 4587 
 	}
 	history = {
-		owner = EIB
-		add_core_of = EIB
+		owner = UOE
+		add_core_of = UOE
 		buildings = {
 			infrastructure = 1
 		}

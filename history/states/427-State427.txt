@@ -5,7 +5,7 @@ state={
 		383 946 1206 3350 3698 3710 
 	}
 	history = {
-		owner = ORT
+		owner = DVE
 		add_core_of = ORT
 		buildings = {
 			infrastructure = 1

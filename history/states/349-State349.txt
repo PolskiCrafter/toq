@@ -5,8 +5,8 @@ state={
 		611 731 1125 4357 4390 
 	}
 	history = {
-		owner = BAG
-		add_core_of = BAG
+		owner = AAA
+		add_core_of = AAA
 	}
 	 
 	buildings_max_level_factor=1.000

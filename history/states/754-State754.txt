@@ -5,7 +5,7 @@ state={
 		230 1770 2599 3449 4787 4811 4834 
 	}
 	history = {
-		owner = SIX
+		owner = MIN
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

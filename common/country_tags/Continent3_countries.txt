@@ -1,8 +1,27 @@
-KAR = "countries/Kar.txt"
-VNO = "countries/Kingdom of Vnovnios.txt"
-SWE = "countries/Sewiiten Kingdom.txt"
-BAG = "countries/Bagred.txt"
+IRS = "countries/Irasaf.txt"
+NIT = "countries/Nitopla Colony.txt"
+YAN = "countries/Yanaha Colony.txt"
+BHU = "countries/Bhumeabasi Dominion.txt"
+YAM = "countries/Yamabu.txt"
+HBI = "countries/Halmaha Birealaua.txt"
+ESN = "countries/Esnic Kingdom.txt" 
 
+ALL = "countries/Al.txt"
+MAF = "countries/Maf.txt"
+
+AAA = "countries/Amobia Anima Liberation Army.txt"
+UAS = "countries/Uasengh.txt"
+GAN = "countries/Ganil.txt"
+UOE = "countries/Uoerh.txt"
+NOR = "countries/Norsag.txt"
+EIS = "countries/Eiseh.txt"
 GEN = "countries/Genzihch.txt"
 EIB = "countries/Eisab.txt"
-AAA = "countries/Amobia Anima Liberation Army.txt"
+SIZ = "countries/Size.txt"
+ISB = "countries/Isbue.txt"
+FTT = "countries/Free Trade Towns.txt"
+JUM = "countries/Jumeshi.txt"
+NIQ = "countries/Nqinqe.txt"
+
+
+

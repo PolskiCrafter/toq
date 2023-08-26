@@ -5,7 +5,7 @@ state={
 		1667 1690 1906 2226 2480 
 	}
 	history = {
-		owner = ERR
+		owner = OST
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

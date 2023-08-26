@@ -5,8 +5,8 @@ state={
 		2209 2714 3540 3836 3847 
 	}
 	history = {
-		owner = RAD
-		add_core_of = RAD
+		owner = NBV
+		add_core_of = NBV
 		buildings = {
 			infrastructure = 1
 		}

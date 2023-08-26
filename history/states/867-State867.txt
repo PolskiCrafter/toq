@@ -5,7 +5,7 @@ state={
 		488 848 2563 4803 
 	}
 	history = {
-		owner = SIX
+		owner = URA
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

@@ -5,7 +5,7 @@ state={
 		1231 1240 2287 2408 3267 3910 3935 
 	}
 	history = {
-		owner = ACH
+		owner = VNO
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

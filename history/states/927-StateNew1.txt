@@ -1,0 +1,14 @@
+state={
+	id=927
+	name="STATE_927"
+	provinces={
+		1989 
+	}
+	history = {
+		owner = MIL
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

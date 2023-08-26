@@ -5,8 +5,8 @@ state={
 		1716 2025 2421 3307 3313 4644 
 	}
 	history = {
-		owner = VNO
-		add_core_of = VNO
+		owner = ALL
+		add_core_of = ALL
 	}
 	 
 	buildings_max_level_factor=1.000

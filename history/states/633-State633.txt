@@ -5,7 +5,7 @@ state={
 		710 1636 2540 2784 4204 4211 4218 
 	}
 	history = {
-		owner = FIV
+		owner = ZAK
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

@@ -6,7 +6,8 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	history = {
-		owner = THR
+		owner = YAM
+		add_core_of = YAM
 	}
 	manpower=1
 	state_category = town

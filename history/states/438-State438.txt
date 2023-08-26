@@ -5,7 +5,7 @@ state={
 		207 744 3278 3695 3702 
 	}
 	history = {
-		owner = NOI
+		owner = DVE
 		add_core_of = NOI
 		buildings = {
 			infrastructure = 1

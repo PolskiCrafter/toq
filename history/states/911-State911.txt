@@ -6,7 +6,7 @@ state={
 		425 880 930 995 2689 2875 2993 
 	}
 	history = {
-		owner = SIX
+		owner = WIM
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

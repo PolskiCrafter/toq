@@ -5,8 +5,8 @@ state={
 		1720 1926 1975 2957 4573 4590 
 	}
 	history = {
-		owner = AAA
-		add_core_of = AAA
+		owner = EIB
+		add_core_of = EIB
 		buildings = {
 			infrastructure = 1
 		}

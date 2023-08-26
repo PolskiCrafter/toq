@@ -5,8 +5,8 @@ state={
 		587 2509 2932 4703 4709 4751 
 	}
 	history = {
-		owner = VNO
-		add_core_of = VNO
+		owner = YAN
+		add_core_of = YAN
 	}
 	 
 	buildings_max_level_factor=1.000

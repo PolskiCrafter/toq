@@ -5,8 +5,8 @@ state={
 		715 1383 1444 1645 2587 3400 
 	}
 	history = {
-		owner = SWE
-		add_core_of = SWE
+		owner = GAN
+		add_core_of = GAN
 	}
 	 
 	buildings_max_level_factor=1.000

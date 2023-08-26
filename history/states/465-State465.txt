@@ -5,8 +5,8 @@ state={
 		309 501 1317 2076 2783 3814 3837 
 	}
 	history = {
-		owner = RAD
-		add_core_of = RAD
+		owner = UKF
+		add_core_of = UKF
 		buildings = {
 			infrastructure = 1
 		}

@@ -5,7 +5,7 @@ state={
 		808 1330 1776 2722 3388 4285 
 	}
 	history = {
-		owner = FIV
+		owner = CLU
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

@@ -5,8 +5,8 @@ state={
 		662 1381 2225 2591 2626 3302 3993 
 	}
 	history = {
-		owner = RAO
-		add_core_of = RAO
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 1
 		}

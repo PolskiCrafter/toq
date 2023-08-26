@@ -5,8 +5,7 @@ state={
 		1334 1400 1877 4916 4942 
 	}
 	history = {
-		owner = KAR
-		add_core_of = KAR
+		owner = LIV
 	}
 	 
 	buildings_max_level_factor=1.000

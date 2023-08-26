@@ -3,6 +3,16 @@ capital = 926
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
+
+set_variable = {
+	var = gov_unity
+	value = 50
+}
+set_variable = {
+	var = gov_popularity
+	value = 50
+}
+
 set_convoys = 0
 set_technology = {
 	infantry_weapons = 1

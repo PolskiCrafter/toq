@@ -115,9 +115,18 @@ ALA = {
 	color_ui  = rgb { 164 125 144  }
 }
 
+NEL = {
+	color = rgb { 6 46 91 }
+	color_ui  = rgb { 6 46 91   }
+}
+ALE = {
+	color = rgb { 181 177 180 }
+	color_ui  = rgb { 181 177 180  }
+}
+
 NOD = {
-	color = rgb { 74 25 44 }
-	color_ui  = rgb { 74 25 44 }
+	color = rgb { 209 63 50 }
+	color_ui  = rgb { 209 63 50 }
 }
 
 UKF = {
@@ -125,15 +134,37 @@ UKF = {
 	color_ui  = rgb { 166 83 27 }
 }
 
-URA = {
-	color = rgb { 73 126 118 }
-	color_ui  = rgb { 73 126 118 }
-}
 
 LIV = {
-	color = rgb { 153 153 80 }
-	color_ui  = rgb { 153 153 80 }
+	color = rgb { 23 97 19 }
+	color_ui  = rgb { 23 97 19}
 }
+KIN = {
+	color = rgb { 0 190 211 }
+	color_ui  = rgb { 0 190 211 }
+}
+
+SWE = {
+	color = {4 9 86 }
+	color_ui = {4 9 86 }
+}
+RUP = {
+	color =  rgb {188 6 3}
+	color_ui  = rgb {188 6 3}
+}
+VNO = {
+	color = {61 42 60 }
+	color_ui = {61 42 60 }
+}
+KAR = {
+	color = {20 106 135 }
+	color_ui = {20 106 135 }
+}
+BAG = {
+	color = {105 189 101 }
+	color_ui = {105 189 101 }
+}
+
 ##############################################################
 ##############################################################
 ####################### CONTINENT TWO ########################
@@ -193,46 +224,487 @@ EMO = {
 ###################### CONTINENT THREE #######################
 ##############################################################
 ##############################################################
-KAR = {
-	color = {137 148 46 }
-	color_ui = {137 148 46 }
+IRS = {
+	color = rgb {33 186 173}
+	color_ui = rgb {33 186 173}
 }
-VNO = {
-	color = {173 187 106 }
-	color_ui = {173 187 106 }
+NIT = {
+	color = rgb {30 8 27}
+	color_ui = rgb {30 8 27}
 }
-SWE = {
-	color = {66 150 101 }
-	color_ui = {66 150 101 }
+YAN = {
+	color = rgb {135 49 0}
+	color_ui = rgb {135 49 0}
 }
-BAG = {
-	color = {105 189 101 }
-	color_ui = {105 189 101 }
+BHU = {
+	color = rgb {107 107 107}
+	color_ui = rgb {107 107 107}
 }
-KAT = {
-	color = {63 169 58}
-	color_ui = {63 169 58}
+YAM = {
+	color = rgb {29 112 47}
+	color_ui = rgb {29 112 47}
+}
+HBI = {
+	color = rgb {43 71 22}
+	color_ui = rgb {43 71 22}
 }
 
-
-GEN = {
-	color = rgb {211 218 69}
-	color_ui  = rgb {211 218 69}
-}
-EIB  = {
-	color = rgb {185 212 74}
-	color_ui  = rgb {185 212 74}
-}
 AAA = {
-	color = rgb {241 255 106}
-	color_ui  = rgb {241 255 106}
+	color = rgb {102 5 11}
+	color_ui  = rgb {102 5 11}
 }
 
+UAS = {
+	color = rgb {136 0 21}
+	color_ui  = rgb {136 0 21}
+}
+GAN = {
+	color = rgb {75 91 60}
+	color_ui  = rgb {75 91 60}
+}
+UOE = {
+	color = rgb {86 59 42}
+	color_ui  = rgb {86 59 42}
+}
+NOR = {
+	color = rgb {112 146 190}
+	color_ui  = rgb {112 146 190}
+}
+EIS= {
+	color = rgb {255 255 255}
+	color_ui  = rgb {255 255 255}
+}
+GEN = {
+	color = rgb {150 158 154}
+	color_ui  = rgb {150 158 154}
+}
+EIB = {
+	color = rgb {82 98 124}
+	color_ui  = rgb {82 98 124}
+}
+SIZ = {
+	color = rgb {1 46 119}
+	color_ui  = rgb {1 46 119}
+}
+ISB = {
+	color = rgb {232 219 187}
+	color_ui  = rgb {232 219 187}
+}
+FTT = {
+	color = rgb {64 0 64}
+	color_ui  = rgb {64 0 64}	
+}
+JUM = {
+	color = rgb {158 66 41}
+	color_ui  = rgb {158 66 41}	
+}
+NIQ = {
+	color = rgb {197 201 201}
+	color_ui  = rgb {197 201 201}	
+}
+ALL = {
+	color = rgb {11 38 53}
+	color_ui  = rgb {11 38 53}	
+}
+MAF = {
+	color = rgb {24 38 9}
+	color_ui  = rgb {24 38 9}	
+}
 ##############################################################
 ##############################################################
 ####################### CONTINENT FOUR #######################
 ##############################################################
 ##############################################################
+DVE = {
+	color =  rgb {196 186 255}
+	color_ui  = rgb {196 186 255}
+}
+
+PES = {
+	color =  rgb {45 25 19}
+	color_ui  = rgb {45 25 19}
+}
+
+USA = {
+	color =  rgb {28 47 188}
+	color_ui  = rgb {28 47 188}
+}
+
+NBV = {
+	color =  rgb {96 14 0}
+	color_ui  = rgb {96 14 0}
+}
+
+HLS = {
+	color =  rgb {165 221 239}
+	color_ui  = rgb {165 221 239}
+}
+
+ARP = {
+	color =  rgb {112 100 21}
+	color_ui  = rgb {112 100 21}
+}
+MEL = {
+	color =  rgb {1 54 68}
+	color_ui  = rgb {1 54 68}
+}
+OST = {
+	color =  rgb {226 202 15}
+	color_ui  = rgb {226 202 15}
+}
+GAI = {
+	color =  rgb {1 9 33}
+	color_ui  = rgb {1 9 33}
+}
+MUE = {
+	color =  rgb {70 150 146}
+	color_ui  = rgb {70 150 146}
+}
+IHU = {
+	color =  rgb {114 32 21}
+	color_ui  = rgb {114 32 21}
+}
+LET = {
+	color =  rgb {39 48 12}
+	color_ui  = rgb {39 48 12}
+}
+TIN = {
+	color =  rgb {135 132 137}
+	color_ui  = rgb {135 132 137}
+}
+ANR = {
+	color =  rgb {114 72 13}
+	color_ui  = rgb {114 72 13}
+}
+DON = {
+	color =  rgb {137 31 59}
+	color_ui  = rgb {137 31 59}
+}
+HEI = {
+	color =  rgb {35 118 127}
+	color_ui  = rgb {35 118 127}
+}
+XIA = {
+	color =  rgb {234 237 180}
+	color_ui  = rgb {234 237 180}
+}
+DAR = {
+	color =  rgb {7 7 7}
+	color_ui  = rgb {7 7 7}
+}
+DHA= {
+	color =  rgb {183 182 172}
+	color_ui  = rgb {183 182 172}
+}
+##############################################################
+##############################################################
+####################### CONTINENT FIVE #######################
+##############################################################
+##############################################################
+EMB = {
+	color =  rgb {247 13 26}
+	color_ui  = rgb {247 13 26}
+}
+ZAK = {
+	color =  rgb {2 237 61}
+	color_ui  = rgb {2 237 61}
+}
+SER = {
+	color =  rgb {255 255 0}
+	color_ui  = rgb {255 255 0}
+}
+DRI = {
+	color =  rgb {81 209 189}
+	color_ui  = rgb {81 209 189}
+}
+COR = {
+	color =  rgb {51 23 27}
+	color_ui  = rgb {51 23 27}
+}
+PIR = {
+	color =  rgb {113 116 130}
+	color_ui  = rgb {113 116 130}
+}
+URM = {
+	color =  rgb {122 48 211}
+	color_ui  = rgb {122 48 211}
+}
+EIU = {
+	color =  rgb {219 173 211}
+	color_ui  = rgb {219 173 211}
+}
+FOB = {
+	color =  rgb {178 113 16}
+	color_ui  = rgb {178 113 16}
+}
+QVA = {
+	color =  rgb {13 104 66}
+	color_ui  = rgb {13 104 66}
+}
+GNI = {
+	color =  rgb {20 56 43}
+	color_ui  = rgb {20 56 43}
+}
+UTI = {
+	color =  rgb {109 145 135}
+	color_ui  = rgb {109 145 135}
+}
+SEZ = {
+	color =  rgb {52 105 158}
+	color_ui  = rgb {52 105 158}
+}
+LEC = {
+	color =  rgb {84 125 196}
+	color_ui  = rgb {84 125 196}
+}
+CLU = {
+	color =  rgb {19 96 97}
+	color_ui  = rgb {19 96 97}
+}
+##############################################################
+##############################################################
+####################### CONTINENT  SIX #######################
+##############################################################
+##############################################################
+CRO = {
+	color =  rgb {81 130 13}
+	color_ui  = rgb {81 130 13}
+}
+URA = {
+	color = rgb { 73 126 118 }
+	color_ui  = rgb { 73 126 118 }
+}
+THK = {
+	color = rgb {78 111 32}
+	color_ui  = rgb {78 111 32}
+}
+NOH = {
+	color = rgb {168 1 32}
+	color_ui  = rgb {168 1 32}
+}
+
+ZEK = {
+	color =  rgb {73 170 64}
+	color_ui  = rgb {73 170 64}
+}
+BHD = {
+	color =  rgb {22 19 22}
+	color_ui  = rgb {22 19 22}
+}
+MIL = {
+	color =  rgb {189 193 187}
+	color_ui  = rgb {189 193 187}
+}
+ANI = {
+	color = rgb { 2 106 132}
+	color_ui  = rgb { 2 106 132 }
+}
+BUM = {
+	color = rgb { 76 32 61 }
+	color_ui  = rgb { 76 32 61 }
+}
+ZCE = {
+	color =  rgb {244 150 68}
+	color_ui  = rgb {244 150 68}
+}
+KAK = {
+	color = rgb { 25 82 117 }
+	color_ui  = rgb { 25 82 117 }
+}
+EBU = {
+	color = rgb { 196 35 102 }
+	color_ui  = rgb { 196 35 102 }
+}
+TRC = {
+	color = rgb { 247 222 30 }
+	color_ui  = rgb { 247 222 30 }
+}
+DOR = {
+	color = rgb { 64 232 76 }
+	color_ui  = rgb { 64 232 76 }
+}
+ORW = {
+	color = rgb {237 244 240}
+	color_ui  = rgb {237 244 240}
+}
+WIM = {
+	color = rgb { 202 187 206 }
+	color_ui  = rgb { 202 187 206 }
+}
+KSE = {
+	color = rgb { 63 69 1458 }
+	color_ui  = rgb { 63 69 145 }
+}
+ZIE = {
+	color = rgb { 160 54 58}
+	color_ui  = rgb { 160 54 58 }
+}
+IOU = {
+	color = rgb { 134 150 63 }
+	color_ui  = rgb { 134 150 63 }
+}
+HAM = {
+	color = rgb { 15 24 61 }
+	color_ui  = rgb { 15 24 61}
+}
+JUZ = {
+	color = rgb { 112 72 104 }
+	color_ui  = rgb { 112 72 104 }
+}
+LEW = {
+	color = rgb { 106 0 163 }
+	color_ui  = rgb { 106 0 163 }
+}
+
+ORN = {
+	color = rgb { 206 176 173 }
+	color_ui  = rgb { 206 176 173 }
+}
+APO = {
+	color = rgb { 244 116 90}
+	color_ui  = rgb { 244 116 90 }
+}
+TOT = {
+	color = rgb { 12 198 5}
+	color_ui  = rgb {12 198 5}
+}
+RAM = {
+	color = rgb { 29 38 130 }
+	color_ui  = rgb {29 38 130 }
+}
+ZUH = {
+	color = rgb { 224 201 219}
+	color_ui  = rgb { 224 201 219 }
+}
+ORA = {
+	color = rgb { 181 14 125 }
+	color_ui  = rgb { 181 14 125 }
+}
+AMY = {
+	color = rgb { 97 221 149 }
+	color_ui  = rgb { 97 221 149 }
+}
+DIN = {
+	color = rgb { 34 149 226 }
+	color_ui  = rgb { 34 149 226 }
+}
+BRA = {
+	color = rgb {198 185 127  }
+	color_ui  = rgb {198 185 127}
+}
+GNG = {
+	color = rgb { 92 168 161 }
+	color_ui  = rgb {92 168 161 }
+}
+#color
+ROO = {
+	color = rgb { 150 147 142 }
+	color_ui  = rgb {150 147 142 }
+}
+UAN= {
+	color = rgb { 29 198 111 }
+	color_ui  = rgb {29 198 111 }
+} 
+LUC= {
+	color = rgb { 155 110 239 }
+	color_ui  = rgb {155 110 239 }
+}
+NOS= {
+	color = rgb { 12 61 25 }
+	color_ui  = rgb {12 61 25 }
+}
+MAH= {
+	color = rgb { 123 113 127 }
+	color_ui  = rgb {123 113 127 }
+}
+MAC= {
+	color = rgb { 172 226 54 }
+	color_ui  = rgb { 172 226 54 }
+}
+KHE= {
+	color = rgb { 34 58 68 }
+	color_ui  = rgb {34 58 68 }
+}
+HII= {
+	color = rgb { 126 211 172 }
+	color_ui  = rgb {126 211 172 }
+}
+RUV= {
+	color = rgb { 130 125 80 }
+	color_ui  = rgb {130 125 80 }
+}
+DAN= {
+	color = rgb { 23 96 47 }
+	color_ui  = rgb {23 96 47 }
+}
+CTA= {
+	color = rgb { 89 33 22 }
+	color_ui  = rgb { 89 33 22 }
+}
+ZAR= {
+	color = rgb { 24 24 178}
+	color_ui  = rgb { 24 24 178 }
+}
+RYO= {
+	color = rgb { 226 213 127 }
+	color_ui  = rgb { 226 213 127 }
+}
+NOU= {
+	color = rgb { 48 219 185 }
+	color_ui  = rgb { 48 219 185 }
+}
+NOE= {
+	color = rgb { 82 37 145}
+	color_ui  = rgb {82 37 145 }
+}
+NAT= {
+	color = rgb { 122 204 97 }
+	color_ui  = rgb { 122 204 97}
+}
+#color
+TEL = {
+	color = rgb { 76 75 12 }
+	color_ui  = rgb { 76 75 12}
+}
+ALI = {
+	color = rgb { 155 134 31 }
+	color_ui  = rgb { 155 134 31}
+}
+ERM = {
+	color = rgb { 94 80 0}
+	color_ui  = rgb { 94 80 0}
+}
+MIN = {
+	color = rgb { 145 147 2}
+	color_ui  = rgb { 145 147 2}
+}
+NSI = {
+	color = rgb { 240 242 113}
+	color_ui  = rgb { 240 242 113}
+}
+RAG = {
+	color = rgb { 186 151 26 }
+	color_ui  = rgb { 186 151 26 }
+}
+
+
+
+
+##############################################################
+##############################################################
+####################### CONTINENT none #######################
+##############################################################
+##############################################################
+#DARKNESS = {
+#	color =  rgb {81 75 68}
+#	color_ui  = rgb {81 75 68}
+#}
+
+KAT = {
+	color = {63 169 58}
+	color_ui = {63 169 58}
+}
+
 ORT = {
 	color =  rgb {215 215 215}
 	color_ui  = rgb {215 215 215}
@@ -246,10 +718,7 @@ NOI = {
 	color_ui  = rgb {221 237 201}
 }
 
-DVE = {
-	color =  rgb {196 186 255}
-	color_ui  = rgb {196 186 255}
-}
+
 RAD = {
 	color =  rgb {255 101 93}
 	color_ui  = rgb {255 101 93}
@@ -259,18 +728,12 @@ RAO = {
 	color_ui  = rgb {94 189 123}
 }
 
-RUP = {
-	color =  rgb {180 255 72}
-	color_ui  = rgb {180 255 72}
-}
+
 ERR = {
 	color =  rgb {154 200 91}
 	color_ui  = rgb {154 200 91}
 }
-THK = {
-	color = rgb {78 111 32}
-	color_ui  = rgb {78 111 32}
-}
+
 
 SHH = {
 	color =  rgb {49 49 49}
