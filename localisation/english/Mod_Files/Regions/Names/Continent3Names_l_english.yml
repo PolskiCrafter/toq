@@ -15,10 +15,6 @@ BAG:0 "Bagred"
 BAG_ADJ:0 "Bagred"
 BAG_DEF:0 "the Bagred"
 
-GEN:0 "Genzihch"
-GEN_ADJ:0 "Genzihch"
-GEN_DEF:0 "the Genzihch"
-
 EIB:0 "Eisab"
 EIB_ADJ:0 "Eisab"
 EIB_DEF:0 "the Eisab"
@@ -26,3 +22,73 @@ EIB_DEF:0 "the Eisab"
 AAA:0 "Amobia Anima Liberation Army"
 AAA_ADJ:0 "AALA"
 AAA_DEF:0 "the Amobia Anima Liberation Army"
+
+UAS:0 "Uasengh"
+UAS_ADJ:0 "Uasengh"
+UAS_DEF:0 "the Uasengh"
+
+GAN:0 "Ganil"
+GAN_ADJ:0 "Ganil"
+GAN_DEF:0 "the Ganil"
+
+UOE:0 "Uoerh"
+UOE_ADJ:0 "Uoerh"
+UOE_DEF:0 "the Uoerh"
+
+NOR:0 "Norsag"
+NOR_ADJ:0 "Norsag"
+NOR_DEF:0 "the Norsag"
+
+EIS:0 "Eiseh"
+EIS_ADJ:0 "Eiseh"
+EIS_DEF:0 "the Eiseh"
+
+GEN:0 "Genzihch"
+GEN_ADJ:0 "Genzihch"
+GEN_DEF:0 "the Genzihch"
+
+SIZ:0 "Size"
+SIZ_ADJ:0 "Size"
+SIZ_DEF:0 "the Size"
+
+ISB:0 "Isbue"
+ISB_ADJ:0 "Isbue"
+ISB_DEF:0 "the Isbue"
+
+FTT:0 "Free Trade Towns"
+FTT_ADJ:0 "Free Trade Towns"
+FTT_DEF:0 "the Free Trade Towns"
+
+JUM:0 "Jumeshi"
+JUM_ADJ:0 "Jumeshi"
+JUM_DEF:0 "the Jumeshi"
+
+NIQ:0 "Nqinqe"
+NIQ_ADJ:0 "Nqinqe"
+NIQ_DEF:0 "the Nqinqe"
+
+
+
+IRS:0 "Irasaf"
+IRS_ADJ:0 "Irasaf"
+IRS_DEF:0 "the Irasaf"
+
+NIT:0 "Nitopla Colony"
+NIT_ADJ:0 "Nitopla Colony"
+NIT_DEF:0 "the Nitopla Colony"
+
+HBI:0 "Halmaha Birealaua"
+HBI_ADJ:0 "Halmaha Birealaua"
+HBI_DEF:0 "the Halmaha Birealaua"
+
+YAN:0 "Yanaha Colony"
+YAN_ADJ:0 "Yanaha Colony"
+YAN_DEF:0 "the Yanaha Colony"
+
+ALL:0 "Al"
+ALL_ADJ:0 "Al"
+ALL_DEF:0 "the Al"
+
+MAF:0 "Maf"
+MAF_ADJ:0 "Maf"
+MAF_DEF:0 "the Maf"
