@@ -22,4 +22,3 @@ DAR = "countries/Darkness.txt"
 DHA = "countries/Defence Holly Order of Atal Light.txt"
 
 ROT = "countries/Rota Empire.txt"
-PES = "countries/Pepro Sundeo.txt"

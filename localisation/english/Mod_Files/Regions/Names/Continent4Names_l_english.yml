@@ -44,3 +44,29 @@ ROT_DEF:0 "the Rota Empire"
 KAT:0 "Katarv"
 KAT_ADJ:0 "Katarv"
 KAT_DEF:0 "the Katarv"
+
+USA:1 "United States of Free Atylands"
+USA_ADJ:1 "Atylan"
+USA_DEF:1 "the United States of Free Atylands"
+
+PES:0 "Pepro Sundeo"
+
+NBV:0 "Nbveron Dominion"
+
+HLS:0 "Holly Light State"
+
+ARP:0 "Arpapnes"
+
+OST:0 "Order of Saint Tycuji"
+GAI:0 "Gaisa"
+MUE:0 "Muresoca"
+IHU:0 "Ihuridon"
+LET:0 "Letuinali"
+TIN:0 "Tintenui"
+ANR:0 "Aniresoc"
+DON:0 "Donorc"
+HEI:0 "Henicoppeti"
+XIA:0 "Xiawigu"
+
+DAR:0 "Darkness"
+DHA:0 "Defence Holly Order of Atal Light"
